@@ -7,7 +7,7 @@ export default function ExamList() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch("/parsed-exams/exams.json")
+    fetch(`${import.meta.env.BASE_URL}parsed-exams/exams.json`)
       .then(res => res.json())
       .then(setFiles)
       .catch(err => console.error("Error cargando exams.json:", err));

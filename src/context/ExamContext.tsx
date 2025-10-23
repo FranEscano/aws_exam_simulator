@@ -30,7 +30,7 @@ export const ExamProvider: React.FC<{ children: React.ReactNode }> = ({ children
   const [exam, setExam] = useState<ExamState | null>(null);
 
   const loadExam = async (file: string, mode: "test" | "study") => {
-    const res = await fetch(`/parsed-exams/${file}`);
+    const res = await fetch(`${import.meta.env.BASE_URL}parsed-exams/${file}`);
     const data = await res.json();
     setExam({ ...data, answers: {}, mode, startTime: Date.now() });
   };
