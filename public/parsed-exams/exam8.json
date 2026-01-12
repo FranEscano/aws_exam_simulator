@@ -25,7 +25,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "Security Groups act as virtual firewalls for Amazon RDS instances. They control inbound and outbound traffic by allowing or denying connections from specific IP address ranges or other security groups. IAM and KMS manage identities and encryption keys, SSL certificates are handled by ACM, and traffic distribution is done by load balancers.",
       "multiple": false
     },
     {
@@ -52,7 +52,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "The EC2 launch type for Amazon ECS provides full visibility and control over the underlying EC2 instances. This is required for compliance scenarios where customers must manage the operating system, patching, and infrastructure. Fargate abstracts the servers and does not provide this level of control.",
       "multiple": false
     },
     {
@@ -79,7 +79,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "AWS Organizations with Consolidated Billing allows multiple AWS accounts to be grouped together to share volume discounts, Reserved Instances, and Savings Plans. This reduces overall monthly costs compared to managing standalone accounts separately.",
       "multiple": false
     },
     {
@@ -106,7 +106,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "Inbound and outbound traffic to EC2 instances is controlled by Security Groups (instance-level firewall) and Network ACLs (subnet-level firewall). Reviewing both is required to fully understand what traffic is allowed or denied in a VPC.",
       "multiple": false
     },
     {
@@ -138,7 +138,7 @@
         "A",
         "D"
       ],
-      "explanation": "",
+      "explanation": "The AWS Business Support plan provides access to the full set of Trusted Advisor checks and includes access to the AWS Support API. Support Concierge and proactive technical account management are Enterprise-level features.",
       "multiple": true
     },
     {
@@ -165,7 +165,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "AWS Elastic Beanstalk automates application deployment, scaling, load balancing, and monitoring. Developers can focus on writing code without managing the underlying infrastructure.",
       "multiple": false
     },
     {
@@ -192,7 +192,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "Under the AWS Shared Responsibility Model, customers are responsible for managing and patching the operating system and application software running on EC2 instances, including databases installed on EC2.",
       "multiple": false
     },
     {
@@ -224,7 +224,7 @@
         "A",
         "E"
       ],
-      "explanation": "",
+      "explanation": "EC2 instances improve fault tolerance by allowing workloads to be distributed across multiple instances and Availability Zones. They can also be scaled much faster than traditional servers, enabling quicker response to changing demands.",
       "multiple": true
     },
     {
@@ -256,7 +256,7 @@
         "A",
         "C"
       ],
-      "explanation": "",
+      "explanation": "AWS uses a pay-as-you-go pricing model with no upfront costs and no long-term contracts. Customers only pay for the services they actually use.",
       "multiple": true
     },
     {
@@ -283,7 +283,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "AWS Control Tower provides the easiest way to set up and govern a secure, multi-account AWS environment using best practices and automated guardrails.",
       "multiple": false
     },
     {
@@ -310,7 +310,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "Amazon CloudWatch Alarms can monitor EC2 metrics such as CPU utilization and trigger notifications when a defined threshold (for example, 60%) is exceeded.",
       "multiple": false
     },
     {
@@ -337,7 +337,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "Amazon EBS is the recommended storage option for databases running on EC2 instances because it provides low-latency, persistent block storage optimized for frequently changing data.",
       "multiple": false
     },
     {
@@ -364,7 +364,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "Amazon CloudWatch is used to monitor applications and infrastructure by collecting metrics, logs, and events, making it essential for site reliability engineering.",
       "multiple": false
     },
     {
@@ -396,7 +396,7 @@
         "B",
         "E"
       ],
-      "explanation": "",
+      "explanation": "AWS Lambda pricing is based on the number of requests and the compute time consumed. There are no charges for idle time.",
       "multiple": true
     },
     {
@@ -428,7 +428,7 @@
         "A",
         "B"
       ],
-      "explanation": "",
+      "explanation": "IAM users are associated with permanent credentials and typically represent individual people or applications. IAM roles provide temporary credentials and are designed to be assumed by users, services, or applications when needed.",
       "multiple": true
     },
     {
@@ -460,7 +460,7 @@
         "C",
         "D"
       ],
-      "explanation": "",
+      "explanation": "Deleting unnecessary EBS snapshots reduces storage costs, and changing the volume type to a more cost-effective option can further reduce expenses.",
       "multiple": true
     },
     {
@@ -487,7 +487,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "Amazon GuardDuty continuously monitors AWS accounts and workloads for malicious activity and unauthorized behavior using machine learning and threat intelligence.",
       "multiple": false
     },
     {
@@ -514,7 +514,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "Amazon RDS supports relational databases that require joins, transactions, and complex queries, making it suitable for applications with structured schemas.",
       "multiple": false
     },
     {
@@ -541,7 +541,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "AWS Tagging allows customers to categorize, manage, and filter AWS resources using key-value pairs, improving cost allocation and organization.",
       "multiple": false
     },
     {
@@ -568,7 +568,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "Amazon Glacier is designed for long-term archival storage and does not provide immediate access to data. Retrieval times can range from minutes to hours.",
       "multiple": false
     },
     {
@@ -595,7 +595,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "AWS Batch allows customers to run large-scale batch computing jobs efficiently without managing the underlying infrastructure.",
       "multiple": false
     },
     {
@@ -622,7 +622,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "Deploying applications across multiple Availability Zones increases fault tolerance by ensuring the application can continue running if one AZ fails.",
       "multiple": false
     },
     {
@@ -654,7 +654,7 @@
         "C",
         "E"
       ],
-      "explanation": "",
+      "explanation": "The Business and Enterprise support plans provide 24/7 access to AWS Cloud Support Engineers via email and phone.",
       "multiple": true
     },
     {
@@ -686,7 +686,7 @@
         "B",
         "D"
       ],
-      "explanation": "",
+      "explanation": "IAM users and the root user require access key IDs and secret access keys for long-lived programmatic access. IAM roles use temporary credentials.",
       "multiple": true
     },
     {
@@ -713,7 +713,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "Loose coupling allows individual components or services to be modified or replaced without impacting other parts of the application, improving resilience and scalability.",
       "multiple": false
     },
     {
@@ -740,7 +740,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "Amazon EFS provides scalable, shared file storage with high throughput that can be accessed concurrently by multiple EC2 instances.",
       "multiple": false
     },
     {
@@ -767,7 +767,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "Cloud deployment models eliminate the need to run and maintain physical data centers by using cloud provider infrastructure.",
       "multiple": false
     },
     {
@@ -799,7 +799,7 @@
         "D",
         "E"
       ],
-      "explanation": "",
+      "explanation": "AWS Marketplace offers flexible pricing models and provides software solutions that can run on AWS or other cloud providers.",
       "multiple": true
     },
     {
@@ -826,7 +826,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "Amazon EBS volumes are automatically replicated within the same Availability Zone to protect against hardware failures, ensuring durability.",
       "multiple": false
     },
     {
@@ -853,7 +853,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "On-Demand EC2 instances are the most cost-effective choice for short-term, unpredictable workloads where availability is critical and interruptions cannot be tolerated.",
       "multiple": false
     },
     {
@@ -880,7 +880,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "Amazon CloudFront integrates with AWS Shield and AWS WAF to protect against network and application layer DDoS attacks.",
       "multiple": false
     },
     {
@@ -907,7 +907,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "AWS Key Management Service (KMS) is used to manage encryption keys when encrypting Amazon EBS volumes.",
       "multiple": false
     },
     {
@@ -939,7 +939,7 @@
         "D",
         "E"
       ],
-      "explanation": "",
+      "explanation": "Immediately rotating all access keys and securing the root account by changing credentials and enabling MFA reduces the risk of unauthorized access.",
       "multiple": true
     },
     {
@@ -971,7 +971,7 @@
         "A",
         "C"
       ],
-      "explanation": "",
+      "explanation": "Amazon ElastiCache provides in-memory data storage and improves application performance by reducing database load and latency.",
       "multiple": true
     },
     {
@@ -1003,7 +1003,7 @@
         "B",
         "E"
       ],
-      "explanation": "",
+      "explanation": "Using EC2 Auto Scaling and serverless computing allows customers to automatically scale resources up or down, taking full advantage of AWS elasticity.",
       "multiple": true
     },
     {
@@ -1035,7 +1035,7 @@
         "C",
         "E"
       ],
-      "explanation": "",
+      "explanation": "On-Demand instances remove the need to provision excess capacity and allow customers to scale compute resources up or down based on demand.",
       "multiple": true
     },
     {
@@ -1062,7 +1062,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "An Availability Zone is a distinct location within an AWS Region, designed to be isolated from failures in other Availability Zones.",
       "multiple": false
     },
     {
@@ -1089,7 +1089,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "AWS supports disaster recovery by allowing infrastructure to be deployed across multiple Regions, providing geographic isolation.",
       "multiple": false
     },
     {
@@ -1121,7 +1121,7 @@
         "B",
         "C"
       ],
-      "explanation": "",
+      "explanation": "Customers are responsible for properly configuring AWS services to meet PCI DSS requirements and restricting access to sensitive cardholder data.",
       "multiple": true
     },
     {
@@ -1148,7 +1148,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "Amazon S3 offers virtually unlimited storage capacity, allowing customers to store massive amounts of data without worrying about capacity limits.",
       "multiple": false
     },
     {
@@ -1175,7 +1175,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "The Performance Efficiency pillar focuses on selecting the right compute, storage, and database resources to meet workload requirements.",
       "multiple": false
     },
     {
@@ -1202,7 +1202,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "Amazon CloudFront is a global content delivery network (CDN) that delivers content with low latency and high transfer speeds.",
       "multiple": false
     },
     {
@@ -1229,7 +1229,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "Customers must request approval from AWS support before conducting penetration testing to ensure compliance with AWS policies.",
       "multiple": false
     },
     {
@@ -1256,7 +1256,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "The AWS Cost and Usage Report provides the most detailed and granular view of AWS billing data available.",
       "multiple": false
     },
     {
@@ -1283,7 +1283,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "Availability Zones consist of one or more discrete data centers with redundant power, networking, and connectivity housed in separate facilities.",
       "multiple": false
     },
     {
@@ -1310,7 +1310,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "Provisioning resources across at least two Availability Zones is the minimum requirement to achieve high availability.",
       "multiple": false
     },
     {
@@ -1337,7 +1337,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "Multiple AWS Regions form part of AWSs global infrastructure, allowing customers to deploy applications worldwide.",
       "multiple": false
     },
     {
@@ -1364,7 +1364,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "Amazon EC2 allows customers to manually launch instances and select instance types based on specific resource requirements.",
       "multiple": false
     },
     {
@@ -1391,7 +1391,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "Designing applications to tolerate failure of individual components is a key principle of building highly available architectures on AWS.",
       "multiple": false
     },
     {
@@ -1423,7 +1423,7 @@
         "C",
         "D"
       ],
-      "explanation": "",
+      "explanation": "Elasticity allows AWS to scale resources based on demand, and pay-as-you-go pricing ensures customers only pay for what they use, making AWS cost-effective for dynamic workloads.",
       "multiple": false
     }
   ]

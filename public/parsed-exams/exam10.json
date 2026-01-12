@@ -30,7 +30,7 @@
         "B",
         "E"
       ],
-      "explanation": "",
+      "explanation": "An Amazon RDS cluster can be launched either through the AWS Management Console (a web-based interface) or programmatically using AWS CloudFormation templates. CloudFormation allows infrastructure to be defined as code, while the console allows manual creation. AWS Concierge and S3 are not used to create RDS resources.",
       "multiple": false
     },
     {
@@ -57,7 +57,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "Three-year, All Upfront, Standard Reserved Instances provide the largest discount compared to On-Demand pricing because the customer commits for the longest term and pays everything in advance, reducing AWS risk and cost.",
       "multiple": false
     },
     {
@@ -89,7 +89,7 @@
         "D",
         "E"
       ],
-      "explanation": "",
+      "explanation": "CloudWatch Logs supports real-time log monitoring and allows customers to configure how long logs are retained. These features make it useful for troubleshooting, auditing, and compliance.",
       "multiple": false
     },
     {
@@ -116,7 +116,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "AWS Lambda is a fully managed compute service where AWS handles the servers, operating system, and scaling. EC2 requires customers to manage the instances, and Aurora is a database service, not compute.",
       "multiple": false
     },
     {
@@ -143,7 +143,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "AWS Lambda enables serverless computing, where developers run code without provisioning or managing servers, greatly reducing the physical compute footprint.",
       "multiple": false
     },
     {
@@ -170,7 +170,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "Customers are responsible for patching the operating systems and software running on their Amazon EC2 instances. AWS manages the underlying physical infrastructure and networking.",
       "multiple": false
     },
     {
@@ -197,7 +197,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "Configuration management is a shared responsibility. AWS configures and maintains the infrastructure, while customers configure their applications, operating systems, and security settings.",
       "multiple": false
     },
     {
@@ -224,7 +224,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "Amazon Macie automatically discovers, classifies, and protects sensitive data such as PII stored in Amazon S3.",
       "multiple": false
     },
     {
@@ -256,7 +256,7 @@
         "B",
         "E"
       ],
-      "explanation": "",
+      "explanation": "AWS uses a pay-as-you-go pricing model and charges are variable, meaning customers only pay for what they use rather than committing to fixed long-term contracts.",
       "multiple": false
     },
     {
@@ -288,7 +288,7 @@
         "A",
         "C"
       ],
-      "explanation": "",
+      "explanation": "Customers are responsible for encrypting their data and training their users. AWS is responsible for physical data center security and hardware disposal.",
       "multiple": false
     },
     {
@@ -315,7 +315,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "AWS Organizations with consolidated billing allows multiple accounts to share volume discounts, Reserved Instances, and Savings Plans without moving resources.",
       "multiple": false
     },
     {
@@ -342,7 +342,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "A 3-year All Upfront Reserved Instance provides the highest discount because it represents the longest and most financially committed usage.",
       "multiple": false
     },
     {
@@ -374,7 +374,7 @@
         "B",
         "E"
       ],
-      "explanation": "",
+      "explanation": "Amazon RDS and Amazon EFS are designed for frequently accessed and constantly changing data. Glacier and Snowball are for archival or data transfer, and Redshift is for analytics.",
       "multiple": false
     },
     {
@@ -401,7 +401,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "AWS Config tracks configuration changes of AWS resources over time, enabling auditing and compliance monitoring.",
       "multiple": false
     },
     {
@@ -428,7 +428,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "Loosely coupled components allow applications to be more resilient, scalable, and easier to maintain because failures in one component do not impact others.",
       "multiple": false
     },
     {
@@ -460,7 +460,7 @@
         "A",
         "C"
       ],
-      "explanation": "",
+      "explanation": "The Business Support plan provides 24/7 access to AWS support and allows unlimited support cases and contacts.",
       "multiple": false
     },
     {
@@ -487,7 +487,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "Amazon Route 53 is AWS’s managed DNS service used to route users to applications and resources.",
       "multiple": false
     },
     {
@@ -514,7 +514,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "Dedicated Hosts provide physical servers dedicated to a single customer, meeting licensing and compliance requirements that require physical isolation.",
       "multiple": false
     },
     {
@@ -541,7 +541,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "Convertible Reserved Instances allow customers to change instance attributes (such as type or family) as long as the new reservation is equal or greater in value.",
       "multiple": false
     },
     {
@@ -568,7 +568,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "Amazon ElastiCache stores frequently accessed data in memory, reducing the load on primary databases and improving performance.",
       "multiple": false
     },
     {
@@ -600,7 +600,7 @@
         "A",
         "D"
       ],
-      "explanation": "",
+      "explanation": "Spot Instances are ideal for fault-tolerant and non-production workloads because they are low cost but can be interrupted by AWS.",
       "multiple": false
     },
     {
@@ -633,7 +633,7 @@
         "C",
         "D"
       ],
-      "explanation": "",
+      "explanation": "Cost allocation tags help track spending, while the AWS Simple Monthly Calculator and the TCO Calculator help estimate AWS costs.",
       "multiple": false
     },
     {
@@ -660,7 +660,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "EC2 Auto Scaling automatically increases or decreases the number of EC2 instances based on demand.",
       "multiple": false
     },
     {
@@ -687,7 +687,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "The Enterprise support plan includes Infrastructure Event Management to help during large-scale operational events.",
       "multiple": false
     },
     {
@@ -714,7 +714,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "IAM access keys are used for programmatic access to AWS services via APIs, SDKs, or the AWS CLI.",
       "multiple": false
     },
     {
@@ -741,7 +741,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "Amazon Athena allows users to run SQL queries directly against data stored in Amazon S3 without managing servers.",
       "multiple": false
     },
     {
@@ -768,7 +768,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "AWS allows programmatic provisioning through APIs, CloudFormation, and SDKs, drastically reducing provisioning time.",
       "multiple": false
     },
     {
@@ -800,7 +800,7 @@
         "C",
         "E"
       ],
-      "explanation": "",
+      "explanation": "CloudTrail records API activity and CloudWatch monitors metrics and logs, together providing insight into account activity.",
       "multiple": false
     },
     {
@@ -832,7 +832,7 @@
         "B",
         "E"
       ],
-      "explanation": "",
+      "explanation": "Amazon S3 is an object storage service that is highly durable and designed to store massive amounts of data reliably.",
       "multiple": false
     },
     {
@@ -859,7 +859,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "The AWS TCO Calculator compares on-premises infrastructure costs with AWS to estimate potential savings.",
       "multiple": false
     },
     {
@@ -886,7 +886,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "AWS Lambda is the core AWS serverless computing platform.",
       "multiple": false
     },
     {
@@ -913,7 +913,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "Cost allocation tags let companies categorize and track AWS spending at a detailed level.",
       "multiple": false
     },
     {
@@ -940,7 +940,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "AWS Trusted Advisor analyzes your AWS environment to identify cost-saving, security, and performance improvements.",
       "multiple": false
     },
     {
@@ -967,7 +967,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "Using AWS with on-premises systems is known as a hybrid architecture.",
       "multiple": false
     },
     {
@@ -994,7 +994,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "Auto Scaling automatically adjusts compute capacity based on workload demand.",
       "multiple": false
     },
     {
@@ -1021,7 +1021,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "Amazon DynamoDB is AWS’s fully managed NoSQL database service.",
       "multiple": false
     },
     {
@@ -1048,7 +1048,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "AWS Regions are geographical areas that contain multiple Availability Zones.",
       "multiple": false
     },
     {
@@ -1075,7 +1075,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "Using many instances in parallel follows cloud principles of scalability and distributed processing.",
       "multiple": false
     },
     {
@@ -1107,7 +1107,7 @@
         "A",
         "B"
       ],
-      "explanation": "",
+      "explanation": "Microsoft SQL Server can run either on EC2 (self-managed) or using Amazon RDS for SQL Server (managed).",
       "multiple": false
     },
     {
@@ -1134,7 +1134,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "IAM access keys are used by the AWS CLI and SDKs to authenticate API requests.",
       "multiple": false
     },
     {
@@ -1161,7 +1161,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "Customers are responsible for configuring networking and routing of their application traffic.",
       "multiple": false
     },
     {
@@ -1188,7 +1188,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "Only the Enterprise Support plan includes a dedicated Technical Account Manager.",
       "multiple": false
     },
     {
@@ -1215,7 +1215,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "Amazon Rekognition automatically detects objects in images, saving time compared to manual tagging.",
       "multiple": false
     },
     {
@@ -1242,7 +1242,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "Amazon Auto Scaling automatically adjusts the number of resources without manual capacity planning.",
       "multiple": false
     },
     {
@@ -1269,7 +1269,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "Amazon RDS manages the underlying operating system, including patching and maintenance.",
       "multiple": false
     },
     {
@@ -1296,7 +1296,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "Decoupling components increases fault tolerance so that failures in one component do not impact others.",
       "multiple": false
     },
     {
@@ -1323,7 +1323,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "AWS Partner Network Consulting Partners provide expertise to design and build AWS solutions.",
       "multiple": false
     },
     {
@@ -1350,7 +1350,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "Amazon S3 stores objects and provides features like versioning and lifecycle management.",
       "multiple": false
     },
     {
@@ -1377,7 +1377,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "Distributing across multiple Availability Zones designs for failure by preventing a single point of failure.",
       "multiple": false
     },
     {
@@ -1404,7 +1404,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "AWS Organizations allows multiple AWS accounts to be centrally managed and billed together.",
       "multiple": false
     }
   ]

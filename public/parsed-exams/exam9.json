@@ -25,7 +25,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "AWS Quick Starts provide automated reference architectures and deployment templates that allow customers to quickly deploy popular solutions following AWS best practices.",
       "multiple": false
     },
     {
@@ -52,7 +52,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "Amazon RDS is a managed service that automates common administrative tasks such as backups, patching, monitoring, and failover, reducing operational overhead.",
       "multiple": false
     },
     {
@@ -79,7 +79,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "Running a customer-managed relational database requires full control of the OS and database software, which is provided by Amazon EC2.",
       "multiple": false
     },
     {
@@ -106,7 +106,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "Placing instances in multiple Availability Zones protects against failure of a single data center, increasing availability.",
       "multiple": false
     },
     {
@@ -133,7 +133,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "IAM policies control who can access AWS resources such as S3 buckets and what actions they are allowed to perform.",
       "multiple": false
     },
     {
@@ -161,7 +161,7 @@
         "A",
         "D"
       ],
-      "explanation": "",
+      "explanation": "AWS VPN provides encrypted connections over the internet, and AWS Direct Connect provides a dedicated private connection between on-premises infrastructure and AWS.",
       "multiple": false
     },
     {
@@ -188,7 +188,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "Amazon CloudWatch collects and tracks metrics such as CPU utilization, disk usage, and network activity for AWS resources.",
       "multiple": false
     },
     {
@@ -215,7 +215,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "AWS is responsible for the security of the cloud, including the physical infrastructure and underlying hardware such as EC2 host firmware.",
       "multiple": false
     },
     {
@@ -242,7 +242,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "AWS provides free access to a large amount of documentation, whitepapers, forums, blogs, and security best-practice guides. These resources are always available at no cost.",
       "multiple": false
     },
     {
@@ -269,7 +269,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "Amazon S3 is designed for storing and serving static files and can be used to host static websites at very low cost with high durability and availability.",
       "multiple": false
     },
     {
@@ -296,7 +296,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "AWS is solely responsible for managing and operating edge locations, which are part of AWS global infrastructure used for services like CloudFront.",
       "multiple": false
     },
     {
@@ -328,7 +328,7 @@
         "B",
         "C"
       ],
-      "explanation": "",
+      "explanation": "Performance efficiency and Security are two of the core pillars of the AWS Well-Architected Framework. They guide how workloads should be built and operated in AWS.",
       "multiple": false
     },
     {
@@ -355,7 +355,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "AWS Trusted Advisor analyzes AWS environments and provides security recommendations, including identifying security groups that allow unrestricted access.",
       "multiple": false
     },
     {
@@ -387,7 +387,7 @@
         "C",
         "E"
       ],
-      "explanation": "",
+      "explanation": "Loose coupling allows components to fail independently, and designing for scalability ensures the system can grow as demand increases—both are key cloud design principles.",
       "multiple": false
     },
     {
@@ -414,7 +414,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "Elasticity allows applications to automatically grow or shrink resources based on demand, which is a core benefit of cloud computing.",
       "multiple": false
     },
     {
@@ -441,7 +441,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "AWS Systems Manager allows you to automate patching across many EC2 instances according to a schedule, making it the most efficient and scalable approach.",
       "multiple": false
     },
     {
@@ -468,7 +468,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "The AWS SDK allows developers to programmatically access and interact with AWS services from their application code.",
       "multiple": false
     },
     {
@@ -495,7 +495,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "Elastic computing allows customers to only pay for what they use and scale resources as needed, which significantly reduces total cost of ownership.",
       "multiple": false
     },
     {
@@ -522,7 +522,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "AWS lets companies focus on business value instead of managing infrastructure, allowing them to spend more time on revenue-generating activities.",
       "multiple": false
     },
     {
@@ -554,7 +554,7 @@
         "A",
         "D"
       ],
-      "explanation": "",
+      "explanation": "Fault tolerance and Performance are two of the categories used by AWS Trusted Advisor to analyze and optimize AWS environments.",
       "multiple": false
     },
     {
@@ -581,7 +581,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "Amazon CloudWatch is a monitoring service that stores metrics and allows customers to create alarms and notifications based on thresholds.",
       "multiple": false
     },
     {
@@ -613,7 +613,7 @@
         "B",
         "D"
       ],
-      "explanation": "",
+      "explanation": "Customers are responsible for encrypting their own data and configuring network controls such as Network ACLs, while AWS manages the physical infrastructure.",
       "multiple": false
     },
     {
@@ -640,7 +640,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "Patch management is a shared responsibility because AWS patches the infrastructure while customers patch the operating systems and applications they manage.",
       "multiple": false
     },
     {
@@ -667,7 +667,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "AWS Billing and Cost Management provides tools to view, pay, and monitor AWS bills and budgets.",
       "multiple": false
     },
     {
@@ -694,7 +694,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "AWS passes its operational efficiencies to customers in the form of frequent price reductions due to its massive economies of scale.",
       "multiple": false
     },
     {
@@ -721,7 +721,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "Consolidated billing allows multiple AWS accounts to combine usage and receive volume discounts across the organization.",
       "multiple": false
     },
     {
@@ -753,7 +753,7 @@
         "C",
         "E"
       ],
-      "explanation": "",
+      "explanation": "AWS Storage Gateway and AWS Direct Connect both extend on-premises environments into AWS, enabling hybrid cloud architectures.",
       "multiple": false
     },
     {
@@ -780,7 +780,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "Elastic Load Balancing automatically scales to handle incoming web traffic and distributes it across multiple targets.",
       "multiple": false
     },
     {
@@ -807,7 +807,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "Amazon S3 provides virtually unlimited, highly durable object storage, making it ideal for storing large volumes of data.",
       "multiple": false
     },
     {
@@ -834,7 +834,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "Availability Zones provide physically separate data centers that allow applications to remain available even if one zone fails.",
       "multiple": false
     },
     {
@@ -866,7 +866,7 @@
         "A",
         "E"
       ],
-      "explanation": "",
+      "explanation": "AWS WAF blocks malicious web requests, and Network ACLs control inbound and outbound traffic at the subnet level to enhance network security.",
       "multiple": false
     },
     {
@@ -893,7 +893,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "Loosely coupled components allow systems to be more resilient, scalable, and easier to maintain in the cloud.",
       "multiple": false
     },
     {
@@ -920,7 +920,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "AWS CloudTrail logs all API calls and user activity, providing full auditing and risk monitoring.",
       "multiple": false
     },
     {
@@ -947,7 +947,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "AWS Artifact provides access to compliance reports, certifications, and audit documentation.",
       "multiple": false
     },
     {
@@ -979,7 +979,7 @@
         "A",
         "C"
       ],
-      "explanation": "",
+      "explanation": "AWS reduces both total cost of ownership (TCO) and operational expenditure (OPEX) by eliminating the need for customers to manage physical infrastructure.",
       "multiple": false
     },
     {
@@ -1006,7 +1006,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "Amazon S3 can host static websites by serving HTML, CSS, and JavaScript files directly from a bucket.",
       "multiple": false
     },
     {
@@ -1038,7 +1038,7 @@
         "A",
         "C"
       ],
-      "explanation": "",
+      "explanation": "AWS Regions and CloudFront edge locations reduce latency by serving users from locations closer to them geographically.",
       "multiple": false
     },
     {
@@ -1070,7 +1070,7 @@
         "B",
         "D"
       ],
-      "explanation": "",
+      "explanation": "Regions and Availability Zones are the primary building blocks of the AWS global infrastructure.",
       "multiple": false
     },
     {
@@ -1097,7 +1097,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "Customers are responsible for encrypting their data, while AWS handles physical and environmental security.",
       "multiple": false
     },
     {
@@ -1124,7 +1124,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "AWS Organizations allows multiple AWS accounts to be linked together for centralized billing and management.",
       "multiple": false
     },
     {
@@ -1151,7 +1151,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "AWS TCO comparisons include the cost of physical data center security, which is removed when migrating to AWS.",
       "multiple": false
     },
     {
@@ -1178,7 +1178,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "AWS Managed Services takes care of all of your patching and backup activities to help keep your resources current and secure. When updates or patches are released by OS vendors, AWS Managed Services applies them in a timely and consistent manner to minimize the impact on your business Critical security patches are applied immediately, while others are applied based on the patch schedule you request. Backups of Stacks are automated using Amazon Elastic Block Store (EBS) and RDS snapshots, and can be restored in the event of a failure or outage, ensuring business continuity",
+      "explanation": "AWS managed services handle operating system patching and maintenance, reducing administrative overhead for customers.",
       "multiple": false
     },
     {
@@ -1210,7 +1210,7 @@
         "A",
         "B"
       ],
-      "explanation": "",
+      "explanation": "Amazon Route 53 and Virtual Private Gateway both work in hybrid cloud architectures connecting AWS and on-premises networks.",
       "multiple": false
     },
     {
@@ -1237,7 +1237,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "Elastic Load Balancing distributes incoming traffic across multiple EC2 instances to improve availability and reliability.",
       "multiple": false
     },
     {
@@ -1264,7 +1264,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "Amazon DynamoDB is a fully managed, high-performance NoSQL database service.",
       "multiple": false
     },
     {
@@ -1291,7 +1291,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "AWS Artifact provides customers with access to AWS compliance reports and certifications.",
       "multiple": false
     },
     {
@@ -1323,7 +1323,7 @@
         "A",
         "D"
       ],
-      "explanation": "",
+      "explanation": "Amazon Route 53 and CloudFront are global services, meaning they are not tied to a specific AWS Region.",
       "multiple": false
     },
     {
@@ -1350,7 +1350,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "IAM groups allow administrators to apply policies to many users at once, simplifying permission management.",
       "multiple": false
     },
     {
@@ -1377,7 +1377,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "Using multiple Availability Zones is a core design principle to achieve high availability in cloud architectures.",
       "multiple": false
     },
     {
@@ -1404,7 +1404,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "AWS Organizations allows multiple accounts to combine their usage, qualifying them for volume discounts.",
       "multiple": false
     }
   ]
