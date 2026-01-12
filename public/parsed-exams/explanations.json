@@ -1,52 +1,66 @@
 [
-  { "id": 1, "explanation": "Cost allocation tags allow companies to label AWS resources and track, group, and report AWS costs by project, department, or environment." },
-  { "id": 2, "explanation": "Amazon S3 is an object storage service that provides real-time access to data, along with versioning and lifecycle management for stored objects." },
-  { "id": 3, "explanation": "AWS Professional Services provides paid consulting and hands-on help to accelerate cloud adoption and help customers design and implement AWS solutions." },
-  { "id": 4, "explanation": "AWS Partner Network Consulting Partners are third-party companies that help customers design, build, and migrate workloads to AWS when they lack in-house expertise." },
-  { "id": 5, "explanation": "Distributing workloads across multiple Availability Zones follows the design for failure principle, ensuring the application continues to run even if one zone fails." },
-  { "id": 6, "explanation": "Amazon EC2 allows you to install and manage SQL Server directly, and Amazon RDS for SQL Server provides a managed SQL Server database. Aurora and Redshift do not support SQL Server." },
-  { "id": 7, "explanation": "AWS Trusted Advisor analyzes your AWS environment and provides recommendations to improve cost optimization, performance, security, and fault tolerance." },
-  { "id": 8, "explanation": "Dedicated Hosts allow customers to use existing server-bound licenses by giving them physical control over the underlying EC2 host." },
-  { "id": 9, "explanation": "Elasticity allows scaling based on demand, and pay-as-you-go pricing ensures you only pay for what you use, making AWS cost-effective for dynamic workloads." },
-  { "id": 10, "explanation": "AWS CloudTrail records API calls and user activity across AWS, making it ideal for security auditing and tracking who did what in an account." },
-  { "id": 11, "explanation": "Amazon S3 is an object storage service and is highly durable, storing data redundantly across multiple devices and facilities." },
-  { "id": 12, "explanation": "Amazon Route 53 provides DNS for hybrid environments, and a Virtual Private Gateway connects on-premises networks securely to AWS." },
-  { "id": 13, "explanation": "AWS TCO includes costs such as data center security, which are part of running on-premises infrastructure but handled by AWS in the cloud." },
-  { "id": 14, "explanation": "Using EC2 with EBS allows instances to be stopped and restarted while preserving data, making it ideal for databases that need nightly shutdowns." },
-  { "id": 15, "explanation": "A Region is a geographic area that contains multiple Availability Zones." },
-  { "id": 16, "explanation": "Cost allocation tags, the AWS Simple Monthly Calculator, and the AWS TCO Calculator help estimate and forecast AWS costs." },
-  { "id": 17, "explanation": "Consolidated billing provides one bill for multiple accounts and allows combined usage to qualify for volume discounts." },
-  { "id": 18, "explanation": "Three-year, All Upfront, Standard Reserved Instances provide the highest savings compared to On-Demand pricing." },
-  { "id": 19, "explanation": "AWS has lower variable costs and lower upfront costs because customers only pay for what they use and do not buy hardware." },
-  { "id": 20, "explanation": "Edge locations improve performance by reducing latency, serving content closer to end users." },
-  { "id": 21, "explanation": "IAM policies control which users or roles can access specific Amazon S3 buckets and objects." },
-  { "id": 22, "explanation": "AWS provides forums, blogs, documentation, and whitepapers for free to help customers learn and troubleshoot." },
-  { "id": 23, "explanation": "Convertible Reserved Instances allow customers to change instance attributes as long as the new reservation has equal or greater value." },
-  { "id": 24, "explanation": "Elastic computing reduces TCO by scaling resources up and down based on demand, avoiding over-provisioning." },
-  { "id": 25, "explanation": "Elastic Load Balancing automatically distributes traffic and scales to handle increases in web traffic." },
-  { "id": 26, "explanation": "AWS Artifact provides access to compliance and audit reports such as SOC 1." },
-  { "id": 27, "explanation": "Customers are responsible for encrypting their own data and configuring network ACLs under the shared responsibility model." },
-  { "id": 28, "explanation": "Highly available architectures are designed so that no single component failure can bring down the entire system." },
-  { "id": 29, "explanation": "Applications should be loosely coupled so components can scale and fail independently." },
-  { "id": 30, "explanation": "AWS supports Multi-Factor Authentication (MFA) and strong password policies to secure IAM users." },
-  { "id": 31, "explanation": "Amazon RDS and Amazon EFS support frequent read/write operations for constantly changing data." },
-  { "id": 32, "explanation": "Amazon RDS reduces administrative overhead by handling backups, patching, and maintenance automatically." },
-  { "id": 33, "explanation": "Amazon Aurora is a MySQL-compatible relational database designed for high performance and easy scaling." },
-  { "id": 34, "explanation": "An Availability Zone consists of one or more data centers connected by low-latency, high-speed networks." },
-  { "id": 35, "explanation": "Awareness and training are shared responsibilities between AWS and the customer." },
-  { "id": 36, "explanation": "High availability requires running resources in at least two Availability Zones." },
-  { "id": 37, "explanation": "AWS lets companies focus on their business instead of managing and maintaining physical infrastructure." },
-  { "id": 38, "explanation": "Amazon S3 is low-cost, highly durable storage that allows immediate retrieval of backups." },
-  { "id": 39, "explanation": "Access keys allow IAM users to authenticate and use AWS through the CLI and SDKs." },
-  { "id": 40, "explanation": "Amazon DynamoDB is a fast, fully managed NoSQL database service." },
-  { "id": 41, "explanation": "Agility means quickly obtaining new compute resources, which AWS enables." },
-  { "id": 42, "explanation": "AWS Organizations allows centralized management and billing of multiple AWS accounts." },
-  { "id": 43, "explanation": "Using many instances in parallel follows AWS best practices for scalability and resilience." },
-  { "id": 44, "explanation": "AWS is solely responsible for physical security of its data centers." },
-  { "id": 45, "explanation": "Global reach allows AWS to serve users worldwide with low latency." },
-  { "id": 46, "explanation": "Customers must patch and manage their EC2 instances, while AWS manages the underlying infrastructure." },
-  { "id": 47, "explanation": "AWS Organizations consolidated billing combines usage across accounts to qualify for volume discounts." },
-  { "id": 48, "explanation": "CloudWatch Logs supports real-time monitoring and configurable log retention." },
-  { "id": 49, "explanation": "Amazon Route 53 is AWS’s managed DNS service." },
-  { "id": 50, "explanation": "Customers choose a Region based on low latency to users and data sovereignty or compliance requirements." }
+  {
+    "id": 7,
+    "explanation": "Amazon RDS Cross-Region Read Replicas allow a database to be asynchronously replicated to another AWS Region, enabling global redundancy and disaster recovery capabilities."
+  },
+  {
+    "id": 10,
+    "explanation": "Under the shared responsibility model, AWS secures the physical infrastructure, while customers are responsible for configuring the operating system, network settings, and firewall rules for their EC2 instances."
+  },
+  {
+    "id": 15,
+    "explanation": "AWS is responsible for managing and patching the underlying infrastructure, including the firmware on the physical hosts that run EC2 instances."
+  },
+  {
+    "id": 20,
+    "explanation": "Decoupling components ensures that failures in one part of the application do not cascade to others, improving fault tolerance and resilience."
+  },
+  {
+    "id": 23,
+    "explanation": "AWS Budgets allows customers to set custom cost and usage budgets and receive alerts when usage or spending exceeds defined thresholds."
+  },
+  {
+    "id": 25,
+    "explanation": "Only the Enterprise Support plan includes a designated Technical Account Manager (TAM), who provides proactive guidance and architectural reviews."
+  },
+  {
+    "id": 26,
+    "explanation": "A core reliability principle of the AWS Well-Architected Framework is the ability to recover from failure by automatically restoring services and resources."
+  },
+  {
+    "id": 28,
+    "explanation": "The AWS Cloud allows customers to scale resources up or down on demand, eliminating the need to predict future capacity requirements."
+  },
+  {
+    "id": 29,
+    "explanation": "AWS Lambda is a fully managed compute service that runs code without requiring customers to provision or manage servers."
+  },
+  {
+    "id": 31,
+    "explanation": "The AWS Software Development Kit (SDK) allows developers to programmatically interact with AWS services from application code."
+  },
+  {
+    "id": 38,
+    "explanation": "AWS pricing is based on a pay-as-you-go model with variable costs, meaning customers pay only for what they use and can scale usage up or down."
+  },
+  {
+    "id": 43,
+    "explanation": "Amazon EC2 allows customers to install, configure, and manage their own database software, making it suitable for self-managed databases."
+  },
+  {
+    "id": 44,
+    "explanation": "Enterprise Support includes a Technical Account Manager (TAM) who provides proactive guidance, architectural best practices, and support planning."
+  },
+  {
+    "id": 48,
+    "explanation": "Both Business and Enterprise Support plans provide access to the full set of AWS Trusted Advisor checks, including security, performance, and cost optimization."
+  },
+  {
+    "id": 49,
+    "explanation": "AWS WAF and Amazon CloudFront integrate with AWS Shield to help protect applications against Distributed Denial of Service (DDoS) attacks."
+  },
+  {
+    "id": 50,
+    "explanation": "When calculating cloud TCO on AWS, compute, storage, and data transfer costs must be included because these are the primary usage-based billing components."
+  }
 ]

@@ -25,7 +25,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "Amazon’s massive economies of scale allow AWS to reduce costs as it grows, and these savings are passed on to customers through regular price reductions.",
       "multiple": false
     },
     {
@@ -57,7 +57,7 @@
         "C",
         "E"
       ],
-      "explanation": "AWS offers a solution that uses AWS CloudTrail to log account activity, Amazon Kinesis to compute and stream metrics in real-time, and Amazon DynamoDB to durably store the computed data. Metrics are calculated for create, modify, and delete API calls for more than 60 supported AWS services. The solution also features a dashboard that visualizes your account activity in real-time.",
+      "explanation": "AWS CloudTrail records all API activity in an AWS account, while Amazon CloudWatch collects and monitors metrics and logs, allowing visibility into account activity.",
       "multiple": false
     },
     {
@@ -89,7 +89,7 @@
         "A",
         "C"
       ],
-      "explanation": "",
+      "explanation": "AWS managed services such as RDS automatically handle tasks like patching database software and backing up databases, freeing up IT resources.",
       "multiple": false
     },
     {
@@ -116,7 +116,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "Spot Instances are ideal for workloads that can be interrupted, such as batch jobs or background processing, because they provide very low cost unused capacity.",
       "multiple": false
     },
     {
@@ -143,7 +143,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "This is to achieve High Availability for any web application (in this case SwiftCode) deployed in AWS. The following features will be present: High availability across multiple instances/multiple availability zones. Auto Scaling of instances (scale up and scale down) based on number of requests coming in Additional Security to the instances/database that are in production No impact to end users during newer version of code deployment No Impact during patching the instances",
+      "explanation": "Availability Zones allow applications to run across physically separate data centers, providing high availability and fault tolerance.",
       "multiple": false
     },
     {
@@ -170,7 +170,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "The Business Support plan is the minimum plan that includes Infrastructure Event Management without additional charges.",
       "multiple": false
     },
     {
@@ -197,7 +197,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "You can host a static website on Amazon Simple Storage Service (Amazon S3). On a static website, individual webpages include static content. They might also contain client-side scripts. By contrast, a dynamic website relies on server-side processing, including server-side scripts such as PHP, JSP, or ASP.NET. Amazon S3 does not support server-side scripting.",
+      "explanation": "Amazon S3 can host static websites by serving HTML, CSS, JavaScript, and image files directly from storage without requiring a web server.",
       "multiple": false
     },
     {
@@ -224,7 +224,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "AWS allows customers to programmatically provision resources through APIs, CLI, and infrastructure as code tools, reducing provisioning time from weeks to minutes.",
       "multiple": false
     },
     {
@@ -256,7 +256,7 @@
         "B",
         "D"
       ],
-      "explanation": "CloudFront delivers your content through a worldwide network of data centers called edge locations. When a user requests content that you're serving with CloudFront, the user is routed to the edge location that provides the lowest latency (time delay), so that content is delivered with the best possible performance.",
+      "explanation": "Edge locations deliver content closer to users and cache responses to reduce load on origin servers, improving performance and reducing traffic.",
       "multiple": false
     },
     {
@@ -283,7 +283,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "To allow users to perform S3 actions on the bucket from the VPC endpoints or IP addresses, you must explicitly grant those user-level permissions. You can grant user-level permissions on either an AWS Identity and Access Management (IAM) policy or another statement in the bucket policy.",
+      "explanation": "IAM policies define which users or roles can access an S3 bucket and what actions they can perform.",
       "multiple": false
     },
     {
@@ -310,7 +310,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "Elasticity means that a system can automatically grow or shrink to handle increases in users, traffic, or data without performance degradation.",
       "multiple": false
     },
     {
@@ -337,7 +337,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "In EC2, the AWS IaaS offering, everything from the hypervisor layer down is AWS's responsibility. A customer's poorly coded applications, misconfigured operating systems, or insecure firewall settings will not affect the hypervisor, it will only affect the customer's virtual machines running on that hypervisor.",
+      "explanation": "AWS is responsible for securing the EC2 hypervisor and underlying infrastructure, while customers manage what runs on top of it.",
       "multiple": false
     },
     {
@@ -364,7 +364,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "On-Demand Capacity Reservations are priced exactly the same as their equivalent (On-Demand) instance usage. If a Capacity Reservation is fully utilized, you only pay for instance usage and nothing towards the Capacity Reservation If a Capacity Reservation is partially utilized, you pay for the instance usage and for the unused portion of the Capacity Reservation.",
+      "explanation": "On-Demand pricing charges only for the compute time actually used, with no long-term commitment.",
       "multiple": false
     },
     {
@@ -391,7 +391,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "Quick Starts are built by AWS solutions architects and partners to help you deploy popular technologies on AWS, based on AWS best practices for security and high availability. These accelerators reduce hundreds of manual procedures into just a few steps, so you can build your production environment quickly and start using it immediately.",
+      "explanation": "AWS Quick Starts provide pre-built reference deployments that allow customers to rapidly deploy popular IT solutions following AWS best practices.",
       "multiple": false
     },
     {
@@ -418,7 +418,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "AWS provides a set of fully managed services that you can use to build and run serverless applications. Serverless applications don't require provisioning, maintaining, and administering servers for backend components such as compute, databases, storage, stream processing, message queueing, and more. You also no longer need to worry about ensuring application fault tolerance and availability. Instead, AWS handles all of these capabilities for you. Serverless platform includes: AWS lambda, Amazon S3, DynamoDB, API gateway, Amazon SNS, AWS step functions, Amazon kinesis and developing tools and services.",
+      "explanation": "AWS Lambda is a serverless compute service where AWS manages the servers and scaling, allowing customers to run code without provisioning infrastructure.",
       "multiple": false
     },
     {
@@ -445,7 +445,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "AWS provides a set of fully managed services that you can use to build and run serverless applications. Serverless applications don't require provisioning, maintaining, and administering servers for backend components such as compute, databases, storage, stream processing, message queueing, and more. You also no longer need to worry about ensuring application fault tolerance and availability. Instead, AWS handles all of these capabilities for you. Serverless platform includes: AWS lambda, Amazon S3, DynamoDB, API gateway, Amazon SNS, AWS step functions, Amazon kinesis and developing tools and services.",
+      "explanation": "Services like AWS Step Functions, Amazon DynamoDB, and Amazon SNS are fully managed and part of AWS’s serverless platform.",
       "multiple": false
     },
     {
@@ -472,7 +472,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "Patch management is a shared responsibility because AWS patches the infrastructure, while customers patch the operating systems and applications they run.",
       "multiple": false
     },
     {
@@ -504,7 +504,7 @@
         "B",
         "D"
       ],
-      "explanation": "",
+      "explanation": "Edge locations are used by CloudFront to deliver content closer to users and cache responses to reduce traffic to the origin.",
       "multiple": false
     },
     {
@@ -531,7 +531,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "AWS Auto Scaling monitors your applications and automatically adjusts capacity to maintain steady, predictable performance at the lowest possible cost. Using AWS Auto Scaling, it's easy to setup application scaling for multiple resources across multiple services in minutes. - The service provides a simple, powerful user interface that lets you build scaling plans for resources including Amazon EC2 instances and Spot Fleets, Amazon ECS tasks, Amazon DynamoDB tables and indexes, and Amazon Aurora Replicas. AWS Auto Scaling makes scaling simple with recommendations that allow you to optimize performance, costs, or balance between them. If you're already using Amazon EC2 Auto Scaling to dynamically scale your Amazon EC2 instances, you can now combine it with AWS Auto Scaling to scale additional resources for other AWS services. With AWS Auto Scaling, your applications always have the right resources at the right time.",
+      "explanation": "Auto Scaling automatically adjusts compute capacity up or down based on demand.",
       "multiple": false
     },
     {
@@ -563,7 +563,7 @@
         "A",
         "D"
       ],
-      "explanation": "",
+      "explanation": "Amazon Route 53 and Amazon CloudFront are global services that operate across all AWS Regions.",
       "multiple": false
     },
     {
@@ -590,7 +590,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "AWS Artifact is your go-to, central resource for compliance-related information that matters to you. It provides on-demand access to AWS' security and compliance reports and select online agreements. Reports available in AWS Artifact include our Service Organization Control (SOC) reports, Payment Card Industry (PCI) reports, and certifications from accreditation bodies across geographies and compliance verticals that validate the implementation and operating effectiveness of AWS security controls. Agreements available in AWS Artifact include the Business Associate Addendum (BAA) and the Nondisclosure Agreement (NDA).",
+      "explanation": "AWS Artifact provides on-demand access to AWS compliance reports, certifications, and agreements.",
       "multiple": false
     },
     {
@@ -622,7 +622,7 @@
         "A",
         "C"
       ],
-      "explanation": "",
+      "explanation": "Customers are responsible for encrypting their data and ensuring that users are trained to use AWS services securely.",
       "multiple": false
     },
     {
@@ -649,7 +649,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "Amazon EC2 allows customers to manually launch and manage compute instances based on their resource requirements.",
       "multiple": false
     },
     {
@@ -676,7 +676,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "Reserved Instances offer the lowest cost for long-term, predictable, non-interruptible workloads over a one- or three-year term.",
       "multiple": false
     },
     {
@@ -708,7 +708,7 @@
         "A",
         "C"
       ],
-      "explanation": "",
+      "explanation": "AWS reduces total cost of ownership and operational expenses by eliminating the need to purchase and maintain physical infrastructure.",
       "multiple": false
     },
     {
@@ -735,7 +735,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "AWS is fully responsible for physical and environmental security of data centers.",
       "multiple": false
     },
     {
@@ -763,7 +763,7 @@
         "A",
         "D"
       ],
-      "explanation": "",
+      "explanation": "AWS VPN and AWS Direct Connect both provide secure connectivity between an on-premises data center and an Amazon VPC.",
       "multiple": false
     },
     {
@@ -790,7 +790,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "AWS Lambda enables serverless architectures by allowing developers to run code without managing servers.",
       "multiple": false
     },
     {
@@ -817,7 +817,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "The AWS Personal Health Dashboard provides alerts and information about AWS events that could affect a specific customer’s resources.",
       "multiple": false
     },
     {
@@ -849,7 +849,7 @@
         "A",
         "D"
       ],
-      "explanation": "",
+      "explanation": "AWS Trusted Advisor categories include Fault Tolerance and Performance, among others.",
       "multiple": false
     },
     {
@@ -872,7 +872,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "With Amazon EC2, customers are responsible for operating system configuration, security patching, and networking.",
       "multiple": false
     },
     {
@@ -899,7 +899,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "Moving to AWS shifts spending from upfront capital expenses to variable operational expenses based on usage.",
       "multiple": false
     },
     {
@@ -926,7 +926,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "The AWS Simple Monthly Calculator helps estimate and forecast the costs of running workloads on AWS.",
       "multiple": false
     },
     {
@@ -953,7 +953,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "The Business Support plan is the minimum support tier that includes phone access to AWS technical support.",
       "multiple": false
     },
     {
@@ -980,7 +980,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "AWS is solely responsible for managing edge locations and the global infrastructure.",
       "multiple": false
     },
     {
@@ -1007,7 +1007,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "IAM Groups allow administrators to assign a set of permissions to multiple users at once.",
       "multiple": false
     },
     {
@@ -1039,7 +1039,7 @@
         "B",
         "C"
       ],
-      "explanation": "",
+      "explanation": "Elasticity and agility allow AWS customers to scale resources quickly and adapt to changing business needs.",
       "multiple": false
     },
     {
@@ -1066,7 +1066,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "AWS Directory Service enables integration with corporate directories to provide single sign-on to the AWS Management Console.",
       "multiple": false
     },
     {
@@ -1093,7 +1093,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "Availability Zones are multiple, isolated locations within a Region that are connected by low-latency networks.",
       "multiple": false
     },
     {
@@ -1125,7 +1125,7 @@
         "A",
         "B"
       ],
-      "explanation": "",
+      "explanation": "The AWS Compliance Program ensures AWS maintains compliance documentation and frameworks for customer use.",
       "multiple": false
     },
     {
@@ -1152,7 +1152,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "AWS Artifact provides customers with on-demand access to AWS compliance and audit reports.",
       "multiple": false
     },
     {
@@ -1179,7 +1179,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "Customers fully inherit user and access management controls from AWS as part of the shared responsibility model.",
       "multiple": false
     },
     {
@@ -1211,7 +1211,7 @@
         "C",
         "D"
       ],
-      "explanation": "",
+      "explanation": "When comparing TCO, storage hardware and physical servers must be included as major infrastructure costs.",
       "multiple": false
     },
     {
@@ -1243,7 +1243,7 @@
         "B",
         "C"
       ],
-      "explanation": "",
+      "explanation": "Customers manage their own network access control lists and must encrypt their data in transit and at rest.",
       "multiple": false
     },
     {
@@ -1275,7 +1275,7 @@
         "A",
         "B"
       ],
-      "explanation": "",
+      "explanation": "Elasticity is shown by scaling EC2 instances and resizing RDS databases based on changing demand.",
       "multiple": false
     },
     {
@@ -1302,7 +1302,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "Spot Instances are ideal when workloads are flexible and can tolerate interruptions.",
       "multiple": false
     },
     {
@@ -1334,7 +1334,7 @@
         "B",
         "C"
       ],
-      "explanation": "",
+      "explanation": "Power consumption and labor costs for maintaining hardware are key factors in a TCO analysis.",
       "multiple": false
     },
     {
@@ -1361,7 +1361,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "AWS Lambda charges based on the number of requests and the amount of compute time consumed.",
       "multiple": false
     },
     {
@@ -1388,7 +1388,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "Security groups act as virtual firewalls that control inbound and outbound traffic for EC2 instances.",
       "multiple": false
     },
     {
@@ -1415,7 +1415,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "Multi-site active-active disaster recovery runs systems in multiple locations simultaneously, minimizing downtime.",
       "multiple": false
     }
   ]
