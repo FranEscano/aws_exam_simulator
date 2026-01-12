@@ -25,7 +25,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "An Availability Zone is made up of one or more discrete data centers with redundant power, networking, and connectivity, all linked by low-latency connections. Regions are geographical areas that contain multiple Availability Zones.",
       "multiple": false
     },
     {
@@ -52,7 +52,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "On-Demand EC2 pricing lets customers pay only for the compute time they actually use, with no long-term commitment or upfront payment. This provides flexibility and cost control.",
       "multiple": false
     },
     {
@@ -84,7 +84,7 @@
         "B",
         "D"
       ],
-      "explanation": "",
+      "explanation": "AWS Professional Services and AWS Partner Network (APN) help organizations assess, plan, and execute cloud migrations. Trusted Advisor and Systems Manager are operational tools, not migration-assessment services.",
       "multiple": false
     },
     {
@@ -111,7 +111,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "Edge locations are designed to reduce latency and improve performance by caching and delivering content closer to end users.",
       "multiple": false
     },
     {
@@ -143,7 +143,7 @@
         "A",
         "C"
       ],
-      "explanation": "",
+      "explanation": "Customers can interact with AWS using the Command Line Interface (CLI) and Software Development Kits (SDKs), which allow programmatic access to AWS services.",
       "multiple": false
     },
     {
@@ -170,7 +170,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "One of AWS’s main value propositions is that customers do not need long-term contracts. They can scale resources up or down and pay only for what they use.",
       "multiple": false
     },
     {
@@ -197,7 +197,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "Reserved Instances provide the best cost savings for workloads that run continuously over a long period, such as three years of non-interruptible workloads.",
       "multiple": false
     },
     {
@@ -224,7 +224,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "AWS Config tracks, records, and audits configuration changes to AWS resources, allowing customers to review how their infrastructure has changed over time.",
       "multiple": false
     },
     {
@@ -251,7 +251,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "AWS’s global reach allows customers to deploy resources in multiple geographic locations, enabling low latency for users around the world.",
       "multiple": false
     },
     {
@@ -278,7 +278,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "AWS Organizations with consolidated billing allows Reserved Instance discounts to be shared across multiple AWS accounts.",
       "multiple": false
     },
     {
@@ -310,7 +310,7 @@
         "C",
         "D"
       ],
-      "explanation": "",
+      "explanation": "AWS makes it easy to build highly available architectures and to scale resources up or down automatically as application demand changes.",
       "multiple": false
     },
     {
@@ -337,7 +337,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "With Amazon EC2, the customer is responsible for the operating system, patching, and network configuration, while AWS manages the underlying infrastructure.",
       "multiple": false
     },
     {
@@ -369,7 +369,7 @@
         "D",
         "E"
       ],
-      "explanation": "",
+      "explanation": "IAM security is strengthened by enforcing strong passwords and using Multi-Factor Authentication (MFA), which adds an extra layer of protection.",
       "multiple": false
     },
     {
@@ -396,7 +396,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "AWS Storage Gateway allows on-premises applications to use AWS cloud storage as if it were local, providing a hybrid storage solution.",
       "multiple": false
     },
     {
@@ -423,7 +423,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "AWS Marketplace is a digital catalog where customers can find, test, buy, and deploy software from independent vendors that runs on AWS.",
       "multiple": false
     },
     {
@@ -450,7 +450,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "AWS Regions are a core part of the AWS Global Infrastructure, allowing customers to deploy resources in different geographic locations.",
       "multiple": false
     },
     {
@@ -477,7 +477,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "Spot Instances use unused EC2 capacity and their price changes based on supply and demand, often providing significant discounts.",
       "multiple": false
     },
     {
@@ -509,7 +509,7 @@
         "B",
         "D"
       ],
-      "explanation": "",
+      "explanation": "A VPN connection and AWS Direct Connect both provide secure network connectivity between on-premises environments and a VPC in AWS.",
       "multiple": false
     },
     {
@@ -536,7 +536,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "AWS Trusted Advisor automatically checks for security risks such as overly permissive security groups, making it the simplest way to identify open ports.",
       "multiple": false
     },
     {
@@ -568,7 +568,7 @@
         "B",
         "C"
       ],
-      "explanation": "",
+      "explanation": "AWS provides security checks through Trusted Advisor and supports data encryption to help protect data at rest and in transit.",
       "multiple": false
     },
     {
@@ -600,7 +600,7 @@
         "A",
         "D"
       ],
-      "explanation": "",
+      "explanation": "AWS WAF and Amazon CloudFront include built-in protection against DDoS attacks by filtering and absorbing malicious traffic.",
       "multiple": false
     },
     {
@@ -627,7 +627,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "An Amazon Machine Image (AMI) is a pre-configured template used to launch EC2 instances with specific operating systems and software.",
       "multiple": false
     },
     {
@@ -654,7 +654,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "Elasticity allows a system to automatically scale resources as demand increases or decreases, maintaining performance.",
       "multiple": false
     },
     {
@@ -681,7 +681,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "Elasticity removes the need to guess future capacity because AWS resources automatically scale based on demand.",
       "multiple": false
     },
     {
@@ -708,7 +708,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "AWS Artifact provides on-demand access to AWS compliance and security documentation such as audit reports.",
       "multiple": false
     },
     {
@@ -735,7 +735,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "AWS uses a pay-as-you-go model with no large upfront costs and benefits from economies of scale, resulting in lower variable and upfront costs.",
       "multiple": false
     },
     {
@@ -762,7 +762,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "Amazon CloudFront delivers content through edge locations, improving speed and reducing latency for users accessing static websites.",
       "multiple": false
     },
     {
@@ -789,7 +789,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "Auto Scaling groups distribute instances across multiple Availability Zones and replace unhealthy instances automatically, improving availability.",
       "multiple": false
     },
     {
@@ -816,7 +816,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "IAM policies define which users and roles can access specific S3 buckets and objects.",
       "multiple": false
     },
     {
@@ -843,7 +843,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "The AWS Simple Monthly Calculator helps estimate and forecast the cost of running workloads in AWS.",
       "multiple": false
     },
     {
@@ -870,7 +870,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "AWS Artifact is the central service for accessing compliance reports such as SOC 1.",
       "multiple": false
     },
     {
@@ -897,7 +897,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "AWS is responsible for securing the underlying infrastructure, including the EC2 hypervisor.",
       "multiple": false
     },
     {
@@ -929,7 +929,7 @@
         "B",
         "E"
       ],
-      "explanation": "",
+      "explanation": "Customers are responsible for patching their operating systems and configuring security groups under the shared responsibility model.",
       "multiple": false
     },
     {
@@ -956,7 +956,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "Amazon Redshift is a fully managed, scalable data warehouse service designed for analytics workloads.",
       "multiple": false
     },
     {
@@ -988,7 +988,7 @@
         "B",
         "D"
       ],
-      "explanation": "",
+      "explanation": "AWS Direct Connect and AWS Storage Gateway allow companies to extend their on-premises infrastructure into AWS.",
       "multiple": false
     },
     {
@@ -1020,7 +1020,7 @@
         "B",
         "C"
       ],
-      "explanation": "",
+      "explanation": "AWS removes the need to guess capacity and allows faster deployment of resources, increasing speed to market.",
       "multiple": false
     },
     {
@@ -1047,7 +1047,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "Because infrastructure can be provisioned in minutes, users can focus on building and deploying applications instead of waiting for hardware.",
       "multiple": false
     },
     {
@@ -1079,7 +1079,7 @@
         "B",
         "C"
       ],
-      "explanation": "",
+      "explanation": "AWS OpsWorks and AWS CodeDeploy can deploy applications to on-premises servers as well as to AWS environments.",
       "multiple": false
     },
     {
@@ -1106,7 +1106,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "Agility means being able to get new compute resources quickly, allowing organizations to respond faster to business needs.",
       "multiple": false
     },
     {
@@ -1133,7 +1133,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "AWS Shield provides always-on DDoS detection and automatic mitigation to protect AWS workloads.",
       "multiple": false
     },
     {
@@ -1165,7 +1165,7 @@
         "A",
         "D"
       ],
-      "explanation": "",
+      "explanation": "Consolidated billing provides one bill for multiple accounts and combines usage to qualify for volume discounts.",
       "multiple": true
     },
     {
@@ -1192,7 +1192,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "Using EC2 with Amazon EBS allows the instance to be stopped at night while preserving the database data on the EBS volume, saving costs.",
       "multiple": false
     }
   ]

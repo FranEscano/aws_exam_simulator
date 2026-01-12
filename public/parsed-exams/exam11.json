@@ -25,7 +25,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "AWS reduces Total Cost of Ownership by allowing companies to avoid large upfront capital investments in hardware and instead pay only for what they use as operational expense.",
       "multiple": false
     },
     {
@@ -57,7 +57,7 @@
         "B",
         "E"
       ],
-      "explanation": "",
+      "explanation": "AWS Online Tech Talks and AWS Classroom Training provide instructor-led learning. Blogs, forums, and Trusted Advisor are not instructor-led training resources.",
       "multiple": false
     },
     {
@@ -89,7 +89,7 @@
         "C",
         "E"
       ],
-      "explanation": "",
+      "explanation": "Multi-Factor Authentication (MFA) adds an extra security layer to console logins, and strong password policies prevent weak or easily guessed passwords.",
       "multiple": false
     },
     {
@@ -121,7 +121,7 @@
         "C",
         "D"
       ],
-      "explanation": "",
+      "explanation": "Security Groups and Subnets are core networking and security components that are configured directly inside Amazon VPC.",
       "multiple": false
     },
     {
@@ -148,7 +148,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "AWS is fully responsible for physical security of data centers, including buildings, hardware, and environmental controls.",
       "multiple": false
     },
     {
@@ -180,7 +180,7 @@
         "A",
         "D"
       ],
-      "explanation": "",
+      "explanation": "Consolidated billing provides one bill for multiple accounts and combines usage across accounts to qualify for volume-based discounts.",
       "multiple": false
     },
     {
@@ -212,7 +212,7 @@
         "A",
         "C"
       ],
-      "explanation": "",
+      "explanation": "AWS managed database services handle database patching and automated backups, reducing operational work for customer IT teams.",
       "multiple": false
     },
     {
@@ -239,7 +239,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "To use another AWS Region, customers simply deploy resources in that Region. No contracts, downloads, or moving Availability Zones are required.",
       "multiple": false
     },
     {
@@ -266,7 +266,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "Elastic Load Balancers automatically handle changing traffic patterns by scaling and distributing traffic across multiple targets.",
       "multiple": false
     },
     {
@@ -293,7 +293,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "The Business Support plan is the lowest plan that offers 1-hour response time for production system issues.",
       "multiple": false
     },
     {
@@ -320,7 +320,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "Amazon S3 is the lowest-cost durable storage for data that must be immediately retrievable, unlike Glacier which is for archival.",
       "multiple": false
     },
     {
@@ -347,7 +347,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "AWS Professional Services helps customers accelerate cloud adoption through paid consulting and specialized engagements.",
       "multiple": false
     },
     {
@@ -374,7 +374,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "The Business Support plan provides 24/7 phone, email, and chat support with response times under one hour for production issues at a lower cost than Enterprise.",
       "multiple": false
     },
     {
@@ -401,7 +401,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "AWS Config tracks and records configuration changes, making it ideal for auditing change management.",
       "multiple": false
     },
     {
@@ -433,7 +433,7 @@
         "B",
         "C"
       ],
-      "explanation": "",
+      "explanation": "Trusted Advisor provides cost optimization recommendations and highlights security risks caused by misconfigured permissions.",
       "multiple": false
     },
     {
@@ -460,7 +460,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "Amazon RDS is AWS’s fully managed relational database hosting service.",
       "multiple": false
     },
     {
@@ -487,7 +487,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "IAM users are associated with access keys used by the AWS CLI and SDKs for programmatic access.",
       "multiple": false
     },
     {
@@ -514,7 +514,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "Customers are responsible for encrypting their data at rest, while AWS handles physical security and hardware.",
       "multiple": false
     },
     {
@@ -541,7 +541,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "Amazon EFS provides scalable, shared file storage for Linux systems in AWS and on-premises.",
       "multiple": false
     },
     {
@@ -573,7 +573,7 @@
         "A",
         "C"
       ],
-      "explanation": "",
+      "explanation": "Programmatic access requires an access key ID and a secret access key.",
       "multiple": false
     },
     {
@@ -600,7 +600,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "Security awareness is shared between AWS and the customer because both must ensure staff understand security responsibilities.",
       "multiple": false
     },
     {
@@ -627,7 +627,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "EC2 Instance Store is ephemeral storage that is deleted when the instance is stopped or terminated.",
       "multiple": false
     },
     {
@@ -654,7 +654,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "Consolidated billing allows multiple accounts to combine usage and qualify for volume pricing discounts.",
       "multiple": false
     },
     {
@@ -681,7 +681,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "Step Functions, DynamoDB, and SNS are serverless services that do not require managing servers.",
       "multiple": false
     },
     {
@@ -708,7 +708,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "Dedicated Hosts allow customers to bring existing server-bound software licenses to AWS.",
       "multiple": false
     },
     {
@@ -740,7 +740,7 @@
         "B",
         "E"
       ],
-      "explanation": "",
+      "explanation": "Least privilege IAM access and enabling MFA are fundamental best practices for securing AWS accounts.",
       "multiple": false
     },
     {
@@ -767,7 +767,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "AWS CloudFormation lets customers define and manage infrastructure using code templates.",
       "multiple": false
     },
     {
@@ -794,7 +794,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "Using multiple Availability Zones increases availability by allowing the application to continue running even if one zone fails.",
       "multiple": false
     },
     {
@@ -821,7 +821,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "Amazon Aurora is a MySQL-compatible, highly scalable managed relational database.",
       "multiple": false
     },
     {
@@ -848,7 +848,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "Loose coupling allows components to operate independently, improving scalability and fault tolerance.",
       "multiple": false
     },
     {
@@ -875,7 +875,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "Only Enterprise Support includes access to the AWS Concierge team.",
       "multiple": false
     },
     {
@@ -902,7 +902,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "Moving to AWS shifts costs from upfront capital expense (capex) to variable operational expense (opex).",
       "multiple": false
     },
     {
@@ -929,7 +929,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "Dedicated Hosts provide physical isolation, which must be considered when calculating TCO for compliance or licensing needs.",
       "multiple": false
     },
     {
@@ -956,7 +956,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "Amazon Glacier is designed for long-term, low-cost archival storage of backups.",
       "multiple": false
     },
     {
@@ -983,7 +983,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "The Business Support plan is the lowest plan that provides phone access to technical support.",
       "multiple": false
     },
     {
@@ -1010,7 +1010,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "Spot Instances offer up to 90% discounts because AWS can reclaim them when capacity is needed.",
       "multiple": false
     },
     {
@@ -1042,7 +1042,7 @@
         "B",
         "E"
       ],
-      "explanation": "",
+      "explanation": "Amazon S3 stores the video files and CloudFront delivers them globally with low latency.",
       "multiple": false
     },
     {
@@ -1074,7 +1074,7 @@
         "B",
         "D"
       ],
-      "explanation": "",
+      "explanation": "Edge locations deliver content closer to users and cache responses to reduce load and latency.",
       "multiple": false
     },
     {
@@ -1101,7 +1101,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "The AWS TCO Calculator estimates cost savings when migrating from on-premises to AWS.",
       "multiple": false
     },
     {
@@ -1128,7 +1128,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "The AWS Personal Health Dashboard shows personalized alerts about AWS services that affect your resources.",
       "multiple": false
     },
     {
@@ -1155,7 +1155,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "Moving to AWS lets businesses focus on core activities instead of managing physical infrastructure.",
       "multiple": false
     },
     {
@@ -1182,7 +1182,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "Basic Support users can receive help through AWS Discussion Forums and documentation.",
       "multiple": false
     },
     {
@@ -1209,7 +1209,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "Using multiple AWS Regions protects against disasters that affect an entire geographic area.",
       "multiple": false
     },
     {
@@ -1236,7 +1236,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "Backing up EBS volumes is the customer’s responsibility under the shared responsibility model.",
       "multiple": false
     },
     {
@@ -1263,7 +1263,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "Spot Instances are ideal for interruptible, non-critical jobs that can tolerate being stopped.",
       "multiple": false
     },
     {
@@ -1295,7 +1295,7 @@
         "A",
         "C"
       ],
-      "explanation": "",
+      "explanation": "Customers choose Regions based on latency to users and legal or data sovereignty requirements.",
       "multiple": false
     },
     {
@@ -1322,7 +1322,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "The AWS Personal Health Dashboard provides alerts when AWS events impact your resources.",
       "multiple": false
     },
     {
@@ -1349,7 +1349,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "Multi-site active-active keeps systems running in multiple locations simultaneously, giving the lowest downtime risk.",
       "multiple": false
     },
     {
@@ -1376,7 +1376,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "AWS CodeCommit is a managed Git-based source control service for software versioning.",
       "multiple": false
     },
     {
@@ -1408,7 +1408,7 @@
         "B",
         "D"
       ],
-      "explanation": "",
+      "explanation": "Using MFA and enforcing strong password policies significantly increases AWS account security.",
       "multiple": false
     }
   ]

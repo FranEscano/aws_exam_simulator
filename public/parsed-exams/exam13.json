@@ -25,11 +25,11 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "Cost allocation tags allow companies to label AWS resources and track, group, and report AWS costs by project, department, or environment.",
       "multiple": false
     },
     {
-      "id": 1,
+      "id": 2,
       "question": "Which service stores objects, provides real-time access to those objects, and offers versioning and lifecycle capabilities?",
       "options": [
         {
@@ -52,11 +52,11 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "Amazon S3 is an object storage service that provides real-time access to data, along with versioning and lifecycle management for stored objects.",
       "multiple": false
     },
     {
-      "id": 1,
+      "id": 3,
       "question": "What AWS team assists customers with accelerating cloud adoption through paid engagements in any of several specialty practice area ?",
       "options": [
         {
@@ -79,11 +79,11 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "AWS Professional Services provides paid consulting and hands-on help to accelerate cloud adoption and help customers design and implement AWS solutions.",
       "multiple": false
     },
     {
-      "id": 1,
+      "id": 4,
       "question": "A customer would like to design and build a new workload on AWS Cloud but does not have the AWS-related software technical expertise in-house. <br/>Which of the following AWS programs can a customer take advantage of to achieve that outcome?",
       "options": [
         {
@@ -106,11 +106,11 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "AWS Partner Network Consulting Partners are third-party companies that help customers design, build, and migrate workloads to AWS when they lack in-house expertise.",
       "multiple": false
     },
     {
-      "id": 1,
+      "id": 5,
       "question": "Distributing workloads across multiple Availability Zones supports which cloud architecture design principle?",
       "options": [
         {
@@ -133,11 +133,11 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "Distributing workloads across multiple Availability Zones follows the design for failure principle, ensuring the application continues to run even if one zone fails.",
       "multiple": false
     },
     {
-      "id": 1,
+      "id": 6,
       "question": "Which AWS services can host a Microsoft SQL Server database? (Select TWO)",
       "options": [
         {
@@ -165,11 +165,11 @@
         "A",
         "B"
       ],
-      "explanation": "",
+      "explanation": "Amazon EC2 allows you to install and manage SQL Server directly, and Amazon RDS for SQL Server provides a managed SQL Server database. Aurora and Redshift do not support SQL Server.",
       "multiple": false
     },
     {
-      "id": 1,
+      "id": 7,
       "question": "Which of the following inspects AWS environments to find opportunities that can save money for users and also improve system performance ?",
       "options": [
         {
@@ -192,11 +192,11 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "AWS Trusted Advisor analyzes your AWS environment and provides recommendations to improve cost optimization, performance, security, and fault tolerance.",
       "multiple": false
     },
     {
-      "id": 1,
+      "id": 8,
       "question": "Which of the following Amazon EC2 pricing models allow customers to use existing server-bound software license ?",
       "options": [
         {
@@ -219,11 +219,11 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "Dedicated Hosts allow customers to use existing server-bound licenses by giving them physical control over the underlying EC2 host.",
       "multiple": false
     },
     {
-      "id": 1,
+      "id": 9,
       "question": "Which AWS characteristics make AWS cost effective for a workload with dynamic user demand? (Select TWO)",
       "options": [
         {
@@ -251,11 +251,11 @@
         "C",
         "D"
       ],
-      "explanation": "",
+      "explanation": "Elasticity allows scaling based on demand, and pay-as-you-go pricing ensures you only pay for what you use, making AWS cost-effective for dynamic workloads.",
       "multiple": false
     },
     {
-      "id": 1,
+      "id": 10,
       "question": "Which service enables risk auditing by continuously monitoring and logging account activity, including user actions in the AWS Management Console and AWS SDKs?",
       "options": [
         {
@@ -278,11 +278,11 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "AWS CloudTrail records API calls and user activity across AWS, making it ideal for security auditing and tracking who did what in an account.",
       "multiple": false
     },
     {
-      "id": 1,
+      "id": 11,
       "question": "Which of the following are characteristics of Amazon S3? (Select TWO.)",
       "options": [
         {
@@ -310,11 +310,11 @@
         "B",
         "E"
       ],
-      "explanation": "",
+      "explanation": "Amazon S3 is an object storage service and is highly durable, storing data redundantly across multiple devices and facilities.",
       "multiple": false
     },
     {
-      "id": 1,
+      "id": 12,
       "question": "Which services can be used across hybrid AWS Cloud architectures? (Select TWO.)",
       "options": [
         {
@@ -342,11 +342,11 @@
         "A",
         "B"
       ],
-      "explanation": "<https://aws.amazon.com/cloudwatch/> You can also use CloudWatch in hybrid cloud architectures by using the CloudWatch Agent or API to monitor your on-premises resources",
+      "explanation": "Amazon Route 53 provides DNS for hybrid environments, and a Virtual Private Gateway connects on-premises networks securely to AWS.",
       "multiple": false
     },
     {
-      "id": 1,
+      "id": 13,
       "question": "What costs are included when comparing AWS Total Cost of Ownership (TCO) with on-premises TCO?",
       "options": [
         {
@@ -369,11 +369,11 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "AWS TCO includes costs such as data center security, which are part of running on-premises infrastructure but handled by AWS in the cloud.",
       "multiple": false
     },
     {
-      "id": 1,
+      "id": 14,
       "question": "A company is considering using AWS for a self-hosted database that requires a nightly shutdown for maintenance and cost-saving purposes. <br/> Which service should the company use?",
       "options": [
         {
@@ -396,11 +396,11 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "Using EC2 with EBS allows instances to be stopped and restarted while preserving data, making it ideal for databases that need nightly shutdowns.",
       "multiple": false
     },
     {
-      "id": 1,
+      "id": 15,
       "question": "Which of the following is a correct relationship between regions, Availability Zones, and edge locations?",
       "options": [
         {
@@ -423,11 +423,11 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "A Region is a geographic area that contains multiple Availability Zones.",
       "multiple": false
     },
     {
-      "id": 1,
+      "id": 16,
       "question": "Which AWS tools assist with estimating costs? (Select three.)",
       "options": [
         {
@@ -455,11 +455,11 @@
         "B",
         "CD"
       ],
-      "explanation": "",
+      "explanation": "Cost allocation tags, the AWS Simple Monthly Calculator, and the AWS TCO Calculator help estimate and forecast AWS costs.",
       "multiple": false
     },
     {
-      "id": 1,
+      "id": 17,
       "question": "Which of the following are advantages of AWS consolidated billing? (Select TWO.)",
       "options": [
         {
@@ -487,11 +487,11 @@
         "A",
         "D"
       ],
-      "explanation": "",
+      "explanation": "Consolidated billing provides one bill for multiple accounts and allows combined usage to qualify for volume discounts.",
       "multiple": false
     },
     {
-      "id": 1,
+      "id": 18,
       "question": "Which of the following Reserved Instance (RI) pricing models provides the highest average savings compared to On-Demand pricing?",
       "options": [
         {
@@ -514,11 +514,11 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "Three-year, All Upfront, Standard Reserved Instances provide the highest savings compared to On-Demand pricing.",
       "multiple": false
     },
     {
-      "id": 1,
+      "id": 19,
       "question": "Compared with costs in traditional and virtualized data centers, AWS has:",
       "options": [
         {
@@ -541,11 +541,11 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "AWS has lower variable costs and lower upfront costs because customers only pay for what they use and do not buy hardware.",
       "multiple": false
     },
     {
-      "id": 1,
+      "id": 20,
       "question": "A characteristic of edge locations is that they:",
       "options": [
         {
@@ -568,11 +568,11 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "Edge locations improve performance by reducing latency, serving content closer to end users.",
       "multiple": false
     },
     {
-      "id": 1,
+      "id": 21,
       "question": "Which of the following can limit Amazon Storage Service (Amazon S3) bucket access to specific users?",
       "options": [
         {
@@ -595,11 +595,11 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "IAM policies control which users or roles can access specific Amazon S3 buckets and objects.",
       "multiple": false
     },
     {
-      "id": 1,
+      "id": 22,
       "question": "Which of the following security-related actions are available at no cost?",
       "options": [
         {
@@ -622,11 +622,11 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "AWS provides forums, blogs, documentation, and whitepapers for free to help customers learn and troubleshoot.",
       "multiple": false
     },
     {
-      "id": 1,
+      "id": 23,
       "question": "Which of the Reserved Instance (RI) pricing models can change the attributes of the RI as long as the exchange results in the creation of RIs of equal or greater value?",
       "options": [
         {
@@ -649,11 +649,11 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "Convertible Reserved Instances allow customers to change instance attributes as long as the new reservation has equal or greater value.",
       "multiple": false
     },
     {
-      "id": 1,
+      "id": 24,
       "question": "Which AWS feature will reduce the customer's total cost of ownership (TCO)?",
       "options": [
         {
@@ -676,11 +676,11 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "Elastic computing reduces TCO by scaling resources up and down based on demand, avoiding over-provisioning.",
       "multiple": false
     },
     {
-      "id": 1,
+      "id": 25,
       "question": "Which of the following services will automatically scale with an expected increase in web traffic?",
       "options": [
         {
@@ -703,11 +703,11 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "Elastic Load Balancing automatically distributes traffic and scales to handle increases in web traffic.",
       "multiple": false
     },
     {
-      "id": 1,
+      "id": 26,
       "question": "Where are AWS compliance documents, such as an SOC 1 report, located?",
       "options": [
         {
@@ -730,11 +730,11 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "AWS Artifact provides access to compliance and audit reports such as SOC 1.",
       "multiple": false
     },
     {
-      "id": 1,
+      "id": 27,
       "question": "Under the AWS shared responsibility model, which of the following activities are the customer's responsibility? (Select TWO.)",
       "options": [
         {
@@ -762,11 +762,11 @@
         "B",
         "D"
       ],
-      "explanation": "",
+      "explanation": "Customers are responsible for encrypting their own data and configuring network ACLs under the shared responsibility model.",
       "multiple": false
     },
     {
-      "id": 1,
+      "id": 28,
       "question": "Which is a recommended pattern for designing a highly available architecture on AWS?",
       "options": [
         {
@@ -789,11 +789,11 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "Highly available architectures are designed so that no single component failure can bring down the entire system.",
       "multiple": false
     },
     {
-      "id": 1,
+      "id": 29,
       "question": "According to best practices, how should an application be designed to run in the AWS Cloud?",
       "options": [
         {
@@ -816,11 +816,11 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "Applications should be loosely coupled so components can scale and fail independently.",
       "multiple": false
     },
     {
-      "id": 1,
+      "id": 30,
       "question": "AWS supports which of the following methods to add security to Identity and Access Management (IAM) users? (Select TWO.)",
       "options": [
         {
@@ -848,11 +848,11 @@
         "D",
         "E"
       ],
-      "explanation": "",
+      "explanation": "AWS supports Multi-Factor Authentication (MFA) and strong password policies to secure IAM users.",
       "multiple": false
     },
     {
-      "id": 1,
+      "id": 31,
       "question": "Which AWS services should be used for read/write of constantly changing data? (Select TWO.)",
       "options": [
         {
@@ -880,11 +880,11 @@
         "B",
         "E"
       ],
-      "explanation": "",
+      "explanation": "Amazon RDS and Amazon EFS support frequent read/write operations for constantly changing data.",
       "multiple": false
     },
     {
-      "id": 1,
+      "id": 32,
       "question": "What is one of the advantages of the Amazon Relational Database Service (Amazon RDS)?",
       "options": [
         {
@@ -907,11 +907,11 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "In the main RDS page though, Lower administrative burden is listed as part of the benefits. <https://aws.amazon.com/rds/>",
+      "explanation": "Amazon RDS reduces administrative overhead by handling backups, patching, and maintenance automatically.",
       "multiple": false
     },
     {
-      "id": 1,
+      "id": 33,
       "question": "A customer needs to run a MySQL database that easily scales.<br/>Which AWS service should they use?",
       "options": [
         {
@@ -934,11 +934,11 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "Amazon Aurora is a MySQL-compatible relational database designed for high performance and easy scaling.",
       "multiple": false
     },
     {
-      "id": 1,
+      "id": 34,
       "question": "Which of the following components of the AWS Global Infrastructure consists of one or more discrete data centers interconnected through low latency links?",
       "options": [
         {
@@ -961,11 +961,11 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "An Availability Zone consists of one or more data centers connected by low-latency, high-speed networks.",
       "multiple": false
     },
     {
-      "id": 1,
+      "id": 35,
       "question": "Which of the following is a shared control between the customer and AWS?",
       "options": [
         {
@@ -988,11 +988,11 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "Awareness and training are shared responsibilities between AWS and the customer.",
       "multiple": false
     },
     {
-      "id": 1,
+      "id": 36,
       "question": "How many Availability Zones should compute resources be provisioned across to achieve high availability?",
       "options": [
         {
@@ -1015,11 +1015,11 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "High availability requires running resources in at least two Availability Zones.",
       "multiple": false
     },
     {
-      "id": 1,
+      "id": 37,
       "question": "One of the advantages to moving infrastructure from an on-premises data center to the AWS Cloud is:",
       "options": [
         {
@@ -1042,11 +1042,11 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "AWS lets companies focus on their business instead of managing and maintaining physical infrastructure.",
       "multiple": false
     },
     {
-      "id": 1,
+      "id": 38,
       "question": "What is the lowest-cost, durable storage option for retaining database backups for immediate retrieval?",
       "options": [
         {
@@ -1069,11 +1069,11 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "Amazon S3 is low-cost, highly durable storage that allows immediate retrieval of backups.",
       "multiple": false
     },
     {
-      "id": 1,
+      "id": 39,
       "question": "Which AWS IAM feature allows developers to access AWS services through the AWS CLI?",
       "options": [
         {
@@ -1096,11 +1096,11 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "Access keys allow IAM users to authenticate and use AWS through the CLI and SDKs.",
       "multiple": false
     },
     {
-      "id": 1,
+      "id": 40,
       "question": "Which of the following is a fast and reliable NoSQL database service?",
       "options": [
         {
@@ -1123,11 +1123,11 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "Amazon DynamoDB is a fast, fully managed NoSQL database service.",
       "multiple": false
     },
     {
-      "id": 1,
+      "id": 41,
       "question": "What is an example of agility in the AWS Cloud?",
       "options": [
         {
@@ -1150,11 +1150,11 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "Agility means quickly obtaining new compute resources, which AWS enables.",
       "multiple": false
     },
     {
-      "id": 1,
+      "id": 42,
       "question": "Which service should a customer use to consolidate and centrally manage multiple AWS accounts?",
       "options": [
         {
@@ -1177,11 +1177,11 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "AWS Organizations allows centralized management and billing of multiple AWS accounts.",
       "multiple": false
     },
     {
-      "id": 1,
+      "id": 43,
       "question": "What approach to transcoding a large number of individual video files adheres to AWS architecture principles?",
       "options": [
         {
@@ -1204,11 +1204,11 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "Using many instances in parallel follows AWS best practices for scalability and resilience.",
       "multiple": false
     },
     {
-      "id": 1,
+      "id": 44,
       "question": "For which auditing process does AWS have sole responsibility?",
       "options": [
         {
@@ -1231,11 +1231,11 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "AWS is solely responsible for physical security of its data centers.",
       "multiple": false
     },
     {
-      "id": 1,
+      "id": 45,
       "question": "Which feature of the AWS Cloud will support an international company's requirement for low latency to all of its customers?",
       "options": [
         {
@@ -1258,11 +1258,11 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "Global Reach will support an international company using Cloud-Front.",
+      "explanation": "Global reach allows AWS to serve users worldwide with low latency.",
       "multiple": false
     },
     {
-      "id": 1,
+      "id": 46,
       "question": "Which of the following is the customer's responsibility under the AWS shared responsibility model?",
       "options": [
         {
@@ -1285,11 +1285,11 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "Customers must patch and manage their EC2 instances, while AWS manages the underlying infrastructure.",
       "multiple": false
     },
     {
-      "id": 1,
+      "id": 47,
       "question": "A customer is using multiple AWS accounts with separate billing. <br/>How can the customer take advantage of volume discounts with minimal impact to the AWS resources?",
       "options": [
         {
@@ -1312,11 +1312,11 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "AWS Organizations consolidated billing combines usage across accounts to qualify for volume discounts.",
       "multiple": false
     },
     {
-      "id": 1,
+      "id": 48,
       "question": "Which of the following are features of Amazon CloudWatch Logs? (Select TWO.)",
       "options": [
         {
@@ -1344,11 +1344,11 @@
         "D",
         "E"
       ],
-      "explanation": "",
+      "explanation": "CloudWatch Logs supports real-time monitoring and configurable log retention.",
       "multiple": false
     },
     {
-      "id": 1,
+      "id": 49,
       "question": "Which of the following is an AWS managed Domain Name System (DNS) web service?",
       "options": [
         {
@@ -1371,11 +1371,11 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "Amazon Route 53 is AWS’s managed DNS service.",
       "multiple": false
     },
     {
-      "id": 1,
+      "id": 50,
       "question": "A customer is deploying a new application and needs to choose an AWS Region. <br/>Which of the following factors could influence the customer's decision? (Select TWO.)",
       "options": [
         {
@@ -1403,7 +1403,7 @@
         "A",
         "C"
       ],
-      "explanation": "",
+      "explanation": "Customers choose a Region based on low latency to users and data sovereignty or compliance requirements.",
       "multiple": false
     }
   ]
