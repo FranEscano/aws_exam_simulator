@@ -52,7 +52,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "When comparing AWS with on-premises Total Cost of Ownership (TCO), costs such as data center security, facilities, power, cooling, and physical infrastructure must be included because they are required to run on-premises environments.",
       "multiple": false
     },
     {
@@ -79,7 +79,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "Under the shared responsibility model, AWS is responsible for the security of the cloud, including managing and maintaining the global network infrastructure that runs AWS services.",
       "multiple": false
     },
     {
@@ -133,7 +133,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "AWS Trusted Advisor analyzes AWS environments and identifies security groups that allow unrestricted access to specific ports, helping customers improve their security posture.",
       "multiple": false
     },
     {
@@ -187,7 +187,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "All Upfront Reserved Instances for a 3-year term provide the largest discount compared to On-Demand pricing because the customer commits to long-term usage and pays everything in advance.",
       "multiple": false
     },
     {
@@ -359,7 +359,7 @@
         "A",
         "B"
       ],
-      "explanation": "",
+      "explanation": "Designing for automated failure recovery and deploying across multiple Availability Zones are key reliability principles that ensure applications can recover from failures and remain available.",
       "multiple": false
     },
     {
@@ -390,7 +390,7 @@
       "correctAnswers": [
         "AE"
       ],
-      "explanation": "",
+      "explanation": "When an AWS account is suspected to be compromised, the customer should rotate all credentials to prevent further unauthorized access and contact AWS Support for immediate assistance.",
       "multiple": false
     },
     {
@@ -417,7 +417,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "High availability means designing systems so that applications remain accessible even when individual components fail, typically by using redundancy across Availability Zones.",
       "multiple": false
     },
     {
@@ -529,7 +529,7 @@
       "correctAnswers": [
         "AE"
       ],
-      "explanation": "",
+      "explanation": "Reserved Instances provide discounted pricing compared to On-Demand and allow customers to reserve capacity in a specific Availability Zone, ensuring capacity is available when needed.",
       "multiple": false
     },
     {
@@ -610,7 +610,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "Amazon EC2 On-Demand instances running Amazon Linux are billed per second, so the customer is charged for the exact duration the instance ran, including seconds.",
       "multiple": false
     },
     {
@@ -642,7 +642,7 @@
         "A",
         "B"
       ],
-      "explanation": "",
+      "explanation": "AWS Lambda provides serverless compute, and Amazon ECS provides container-based compute resources, making both services part of AWS compute offerings.",
       "multiple": false
     },
     {
@@ -701,7 +701,7 @@
         "B",
         "D"
       ],
-      "explanation": "",
+      "explanation": "AWS Direct Connect provides dedicated network connectivity to AWS, and AWS Storage Gateway enables on-premises systems to integrate with AWS storage services, extending on-premises architectures into the cloud.",
       "multiple": false
     },
     {
@@ -760,7 +760,7 @@
         "A",
         "B"
       ],
-      "explanation": "",
+      "explanation": "Amazon CloudFront uses AWS edge locations to deliver content with low latency, and AWS Shield uses the same edge network to help protect applications from DDoS attacks.",
       "multiple": false
     },
     {
@@ -814,7 +814,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "The AWS Total Cost of Ownership (TCO) Calculator compares the cost of running workloads on-premises with running them on AWS to estimate potential savings.",
       "multiple": false
     },
     {
@@ -846,7 +846,7 @@
         "A",
         "B"
       ],
-      "explanation": "",
+      "explanation": "AWS Marketplace allows customers to quickly launch third-party software with 1-Click and pay for it using flexible hourly or monthly licensing instead of managing separate vendor contracts.",
       "multiple": false
     },
     {
@@ -905,7 +905,7 @@
         "B",
         "E"
       ],
-      "explanation": "",
+      "explanation": "Under the shared responsibility model, customers are responsible for patching their operating systems and configuring security groups that control network access to their resources.",
       "multiple": false
     },
     {
@@ -959,7 +959,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "AWS Trusted Advisor checks security group rules and identifies those that allow unrestricted access, helping customers detect and fix security risks.",
       "multiple": false
     },
     {
@@ -1040,7 +1040,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "Elasticity allows AWS customers to automatically scale resources up or down to match changing workload demands, ensuring efficient use of resources.",
       "multiple": false
     },
     {
@@ -1067,7 +1067,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "If AWS-owned IP addresses are involved in a DDoS attack, the issue should first be reported to the AWS Abuse team so they can investigate and mitigate the activity.",
       "multiple": false
     },
     {
@@ -1099,7 +1099,7 @@
         "A",
         "C"
       ],
-      "explanation": "",
+      "explanation": "AWS allows customers to avoid upfront commitments and provision resources on demand, giving flexibility and reducing the need for long-term infrastructure investments.",
       "multiple": false
     },
     {
@@ -1293,7 +1293,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "Amazon VPC provides network isolation, routing, and network ACLs that control inbound and outbound traffic for Amazon EC2 instances.",
       "multiple": false
     },
     {
@@ -1320,7 +1320,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "Deploying web servers in multiple AWS Regions increases availability by reducing the impact of regional outages and allowing users to be served from different locations.",
       "multiple": false
     },
     {
@@ -1347,7 +1347,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "The pay-as-you-go model reduces capital expenditures because customers do not need to buy and maintain physical infrastructure up front.",
       "multiple": false
     },
     {
@@ -1374,7 +1374,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "AWS is responsible for the physical security of its global infrastructure, including data centers, buildings, and hardware under the shared responsibility model.",
       "multiple": false
     },
     {

@@ -1,66 +1,138 @@
 [
   {
-    "id": 7,
-    "explanation": "Amazon RDS Cross-Region Read Replicas allow a database to be asynchronously replicated to another AWS Region, enabling global redundancy and disaster recovery capabilities."
+    "id": 1,
+    "explanation": "Under the shared responsibility model, customers are responsible for security in the cloud, which includes configuring firewalls such as security groups and network ACLs. AWS is responsible for the physical security and global infrastructure, while firewall configuration is managed by the customer."
   },
   {
-    "id": 10,
-    "explanation": "Under the shared responsibility model, AWS secures the physical infrastructure, while customers are responsible for configuring the operating system, network settings, and firewall rules for their EC2 instances."
+    "id": 2,
+    "explanation": "With the AWS Basic Support plan, users do not receive direct technical support from AWS engineers. Instead, they can get help by using the AWS Discussion Forums, documentation, and other self-service resources."
+  },
+  {
+    "id": 3,
+    "explanation": "The AWS Well-Architected Framework consists of several pillars, including Performance Efficiency and Security. These pillars represent best practices for designing and operating reliable, secure, and efficient systems in the cloud."
+  },
+  {
+    "id": 4,
+    "explanation": "All Upfront payment provides the largest discount because the customer commits to the full reservation term and pays the entire amount in advance, which reduces financial risk for AWS."
+  },
+  {
+    "id": 5,
+    "explanation": "Deploying an application across multiple Availability Zones improves availability because the application can continue operating even if one Availability Zone experiences a failure."
+  },
+  {
+    "id": 6,
+    "explanation": "The AWS Simple Monthly Calculator (now part of the AWS Pricing Calculator) allows users to estimate the cost of running applications on AWS based on selected services and usage."
+  },
+  {
+    "id": 7,
+    "explanation": "A VPN connection and AWS Direct Connect both provide connectivity between on-premises infrastructure and AWS. A VPN offers encrypted communication over the internet, while Direct Connect provides a dedicated private connection."
+  },
+  {
+    "id": 9,
+    "explanation": "Treating infrastructure as code allows users to define and provision AWS resources using templates and scripts, enabling automated, repeatable, and consistent infrastructure deployment."
+  },
+  {
+    "id": 13,
+    "explanation": "Amazon Redshift is a fully managed data warehouse service provided by AWS, making it a database service, while the other options are storage, archiving, or data transfer services."
+  },
+  {
+    "id": 14,
+    "explanation": "AWS Trusted Advisor automatically analyzes security group configurations and reports any that allow unrestricted access, making it the simplest way to identify risky open ports."
   },
   {
     "id": 15,
-    "explanation": "AWS is responsible for managing and patching the underlying infrastructure, including the firmware on the physical hosts that run EC2 instances."
+    "explanation": "AWS makes it easier to design highly available architectures using multiple Availability Zones and also allows applications to scale up or down quickly to meet changing demand."
+  },
+  {
+    "id": 17,
+    "explanation": "Using separate AWS accounts for production and non-production workloads allows costs to be isolated and tracked independently, making it easier to manage budgets and billing."
   },
   {
     "id": 20,
-    "explanation": "Decoupling components ensures that failures in one part of the application do not cascade to others, improving fault tolerance and resilience."
+    "explanation": "AWS provides increased agility by allowing rapid provisioning of resources, and it replaces capital expenses with variable usage-based costs, which are immediate financial benefits of moving to the cloud."
   },
   {
     "id": 23,
-    "explanation": "AWS Budgets allows customers to set custom cost and usage budgets and receive alerts when usage or spending exceeds defined thresholds."
+    "explanation": "Deploying applications in multiple AWS Regions allows them to run in geographically isolated locations, improving fault tolerance and global reach."
   },
   {
-    "id": 25,
-    "explanation": "Only the Enterprise Support plan includes a designated Technical Account Manager (TAM), who provides proactive guidance and architectural reviews."
+    "id": 24,
+    "explanation": "High availability refers to designing systems that continue operating even when one or more components fail, ensuring minimal downtime."
   },
   {
-    "id": 26,
-    "explanation": "A core reliability principle of the AWS Well-Architected Framework is the ability to recover from failure by automatically restoring services and resources."
+    "id": 27,
+    "explanation": "To use the AWS CLI, users must generate an access key and secret access key, which are used to authenticate API requests to AWS."
   },
   {
     "id": 28,
-    "explanation": "The AWS Cloud allows customers to scale resources up or down on demand, eliminating the need to predict future capacity requirements."
+    "explanation": "AWS Key Management Service (KMS) is used to create and manage encryption keys that protect data, including encrypting Amazon EBS volumes."
   },
   {
     "id": 29,
-    "explanation": "AWS Lambda is a fully managed compute service that runs code without requiring customers to provision or manage servers."
+    "explanation": "AWS Lambda charges are based on the number of requests and the amount of time the function runs, measured in milliseconds, after the free tier is exceeded."
   },
   {
-    "id": 31,
-    "explanation": "The AWS Software Development Kit (SDK) allows developers to programmatically interact with AWS services from application code."
+    "id": 30,
+    "explanation": "There are more edge locations than AWS Regions because edge locations are used for content delivery around the world, and each Region contains multiple Availability Zones."
+  },
+  {
+    "id": 32,
+    "explanation": "By moving to AWS, companies no longer need to purchase and maintain physical hardware for new applications, reducing capital expenses related to servers and infrastructure."
+  },
+  {
+    "id": 33,
+    "explanation": "AWS Marketplace allows users to sell their own solutions to other AWS customers and to purchase third-party software that runs on AWS."
+  },
+  {
+    "id": 34,
+    "explanation": "A hybrid cloud architecture means that some resources remain on-premises while others are deployed in the AWS Cloud, allowing integration between both environments."
+  },
+  {
+    "id": 35,
+    "explanation": "AWS Config records and tracks configuration changes to AWS resources over time, making it possible to see how a resource has changed."
+  },
+  {
+    "id": 37,
+    "explanation": "Backing up Amazon EBS volumes is the customer's responsibility because data protection and backup management are part of security in the cloud."
   },
   {
     "id": 38,
-    "explanation": "AWS pricing is based on a pay-as-you-go model with variable costs, meaning customers pay only for what they use and can scale usage up or down."
+    "explanation": "AWS allows customers to avoid guessing capacity requirements and launch resources quickly, increasing speed to market and improving efficiency."
+  },
+  {
+    "id": 39,
+    "explanation": "When calculating TCO, the cost of purchasing server hardware and the cost of operating and maintaining infrastructure must be considered for on-premises environments."
+  },
+  {
+    "id": 40,
+    "explanation": "Consolidated billing in AWS Organizations allows multiple accounts to share usage tiers and volume discounts, reducing overall costs."
+  },
+  {
+    "id": 41,
+    "explanation": "Customers are responsible for application security, including securing their code and data, while AWS manages the underlying infrastructure."
+  },
+  {
+    "id": 42,
+    "explanation": "Edge locations deliver content closer to users, reducing latency and improving the global user experience."
   },
   {
     "id": 43,
-    "explanation": "Amazon EC2 allows customers to install, configure, and manage their own database software, making it suitable for self-managed databases."
+    "explanation": "AWS allows users to provision infrastructure quickly without waiting for physical hardware, increasing workforce productivity."
   },
   {
     "id": 44,
-    "explanation": "Enterprise Support includes a Technical Account Manager (TAM) who provides proactive guidance, architectural best practices, and support planning."
+    "explanation": "AWS Organizations provides a centralized and automated way to create and manage multiple AWS accounts."
+  },
+  {
+    "id": 46,
+    "explanation": "The AWS Abuse team handles reports of AWS resources being used for malicious or abusive activities so they can investigate and mitigate them."
   },
   {
     "id": 48,
-    "explanation": "Both Business and Enterprise Support plans provide access to the full set of AWS Trusted Advisor checks, including security, performance, and cost optimization."
-  },
-  {
-    "id": 49,
-    "explanation": "AWS WAF and Amazon CloudFront integrate with AWS Shield to help protect applications against Distributed Denial of Service (DDoS) attacks."
+    "explanation": "High availability is a best practice in cloud design because it ensures applications remain accessible even when components fail."
   },
   {
     "id": 50,
-    "explanation": "When calculating cloud TCO on AWS, compute, storage, and data transfer costs must be included because these are the primary usage-based billing components."
+    "explanation": "AWS Database Migration Service (AWS DMS) helps migrate databases to AWS quickly and securely with minimal downtime."
   }
 ]
