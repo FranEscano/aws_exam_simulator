@@ -25,7 +25,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "AWS Marketplace is a digital catalog that lets customers find, purchase, and deploy third-party software that runs on AWS. Solutions can be launched directly into an AWS account without manual installation.",
       "multiple": false
     },
     {
@@ -52,7 +52,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "Amazon VPC lets you create an isolated virtual network inside AWS where you can define IP ranges, subnets, route tables, and gateways.",
       "multiple": false
     },
     {
@@ -79,7 +79,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "Under the shared responsibility model, AWS is responsible for the security of the cloud, including physical data centers, hardware, and networking equipment.",
       "multiple": false
     },
     {
@@ -106,7 +106,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "CloudFront uses edge locations, which are geographically distributed endpoints that cache and deliver content closer to users for lower latency.",
       "multiple": false
     },
     {
@@ -133,7 +133,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "Multi-Factor Authentication (MFA) adds an extra security layer by requiring users to provide a second form of authentication in addition to their password.",
       "multiple": false
     },
     {
@@ -160,7 +160,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "AWS CloudTrail records all API calls and identifies which user or role performed an action, such as terminating an EC2 instance.",
       "multiple": false
     },
     {
@@ -187,7 +187,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "Amazon SNS is used to send notifications and alerts triggered by CloudWatch alarms via email, SMS, or other endpoints.",
       "multiple": false
     },
     {
@@ -214,7 +214,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "The AWS Acceptable Use Policy defines prohibited activities such as abuse, illegal usage, and security violations.",
       "multiple": false
     },
     {
@@ -241,7 +241,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "AWS does not require minimum spend commitments or long-term contracts. You replace large upfront expenses with low variable payments that only apply to what you use. With AWS you are not bound to multi-year agreements or complicated licensing models.",
+      "explanation": "AWS replaces large upfront capital expenses with pay-as-you-go pricing, allowing customers to pay only for what they use.",
       "multiple": false
     },
     {
@@ -273,7 +273,7 @@
         "A",
         "C"
       ],
-      "explanation": "",
+      "explanation": "Auto Scaling and multiple Availability Zones improve fault tolerance by automatically replacing failed instances and distributing workloads across isolated data centers.",
       "multiple": true
     },
     {
@@ -300,7 +300,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "Use load balancing for offloading encryption termination (TLS) to improve performance and to manage and route traffic effectively. Distribute traffic across multiple resources or services to allow your workload to take advantage of the elasticity that AWS provides.",
+      "explanation": "Distributing compute load across multiple resources improves resilience, scalability, and performance, which aligns with AWS best practices.",
       "multiple": false
     },
     {
@@ -332,7 +332,7 @@
         "A",
         "B"
       ],
-      "explanation": "",
+      "explanation": "IAM best practices include enforcing password rotation and preventing password reuse to reduce the risk of compromised credentials.",
       "multiple": true
     },
     {
@@ -364,7 +364,7 @@
         "C",
         "D"
       ],
-      "explanation": "",
+      "explanation": "AWS Professional Services and AWS Partner Network (APN) partners provide expert, hands-on help for planning and executing cloud migrations.",
       "multiple": true
     },
     {
@@ -391,7 +391,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "The Concierge team assists AWS Enterprise Support customers with billing, account, and invoicing issues.",
       "multiple": false
     },
     {
@@ -418,7 +418,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "An application running across multiple Availability Zones is considered highly available because it can survive failures in a single data center.",
       "multiple": false
     },
     {
@@ -445,7 +445,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "Availability Zones are separate data centers within the same Region, allowing high availability while meeting geographic or regulatory constraints.",
       "multiple": false
     },
     {
@@ -472,7 +472,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "The AWS Pricing Calculator estimates the cost of running workloads on AWS and allows comparisons with on-premises environments.",
       "multiple": false
     },
     {
@@ -499,7 +499,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "Disabling Reserved Instance sharing ensures that the Reserved Instance discount applies only to the account that purchased it.",
       "multiple": false
     },
     {
@@ -526,7 +526,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "The AWS Abuse team handles reports of malicious or illegal activity, such as intrusion attempts originating from AWS resources.",
       "multiple": false
     },
     {
@@ -558,7 +558,7 @@
         "B",
         "D"
       ],
-      "explanation": "",
+      "explanation": "AWS Global Accelerator and Amazon CloudFront route users to the closest AWS edge locations, providing low latency and fast content delivery worldwide.",
       "multiple": true
     },
     {
@@ -585,7 +585,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "AWS Lambda is serverless because AWS manages all servers and infrastructure while users only upload and run code.",
       "multiple": false
     },
     {
@@ -617,7 +617,7 @@
         "B",
         "D"
       ],
-      "explanation": "",
+      "explanation": "Subnets and Internet Gateways are core VPC components that define network segmentation and internet connectivity.",
       "multiple": true
     },
     {
@@ -644,7 +644,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "AWS Budgets allow customers to define spending limits and receive alerts to prevent overspending.",
       "multiple": false
     },
     {
@@ -676,7 +676,7 @@
         "C",
         "E"
       ],
-      "explanation": "",
+      "explanation": "MFA and password policies strengthen login security by requiring additional authentication factors and strong passwords.",
       "multiple": true
     },
     {
@@ -708,7 +708,7 @@
         "A",
         "C"
       ],
-      "explanation": "",
+      "explanation": "Trusted Advisor provides security checks such as public S3 bucket permissions and whether the root user has MFA enabled.",
       "multiple": true
     },
     {
@@ -735,7 +735,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "AWS KMS is used to create, manage, and control cryptographic keys for encrypting and decrypting data.",
       "multiple": false
     },
     {
@@ -767,7 +767,7 @@
         "B",
         "C"
       ],
-      "explanation": "",
+      "explanation": "Trusted Advisor identifies cost-saving opportunities and security risks based on how AWS resources are configured.",
       "multiple": true
     },
     {
@@ -799,7 +799,7 @@
         "A",
         "C"
       ],
-      "explanation": "",
+      "explanation": "AWS manages the physical infrastructure and server capacity planning, removing these responsibilities from customers.",
       "multiple": true
     },
     {
@@ -826,7 +826,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "Using Multi-AZ deployments increases fault tolerance, which is part of the Reliability pillar of the Well-Architected Framework.",
       "multiple": false
     },
     {
@@ -858,7 +858,7 @@
         "A",
         "D"
       ],
-      "explanation": "",
+      "explanation": "AWS VPN and Direct Connect provide secure network connections between on-premises environments and AWS.",
       "multiple": true
     },
     {
@@ -885,7 +885,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "AWS Billing and Cost Management lets users view invoices, track usage, and manage budgets.",
       "multiple": false
     },
     {
@@ -912,7 +912,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "Availability Zones are independent data centers with redundant power, networking, and connectivity within a Region.",
       "multiple": false
     },
     {
@@ -939,7 +939,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "VPC Flow Logs is a feature that enables you to capture information about the IP traffic going to and from network interfaces in your VPC. Flow log data can be published to Amazon CloudWatch Logs or Amazon S3. After you've created a flow log, you can retrieve and view its data in the chosen destination.",
+      "explanation": "VPC Flow Logs capture network traffic information for troubleshooting, security analysis, and auditing.",
       "multiple": false
     },
     {
@@ -966,7 +966,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "Auto Scaling automatically adjusts capacity based on demand, removing the need for manual capacity planning.",
       "multiple": false
     },
     {
@@ -993,7 +993,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "The Concierge team is only available to Enterprise Support customers and provides billing and account assistance.",
       "multiple": false
     },
     {
@@ -1020,7 +1020,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "Amazon RDS makes it easy to set up, operate, and scale a relational database in the cloud. It provides cost-efficient and resizable capacity while automating time-consuming administration tasks, such as hardware provisioning, database setup, patching, and backups. It frees you to focus on your applications, so you can give them the fast performance, high availability, security, and compatibility that they need.",
+      "explanation": "Amazon RDS is a managed database service that automates patching, backups, and maintenance.",
       "multiple": false
     },
     {
@@ -1047,7 +1047,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "To use a new AWS Region, customers simply deploy resources there; no contract or setup is required.",
       "multiple": false
     },
     {
@@ -1074,7 +1074,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "Dedicated Hosts provide physical servers allocated to a single customer, meeting compliance and licensing requirements.",
       "multiple": false
     },
     {
@@ -1106,7 +1106,7 @@
         "C",
         "E"
       ],
-      "explanation": "",
+      "explanation": "AWS KMS and AWS CloudHSM both generate and manage encryption keys used to protect sensitive data.",
       "multiple": true
     },
     {
@@ -1133,7 +1133,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "The AWS TCO Calculator estimates the cost difference between on-premises infrastructure and AWS after migration.",
       "multiple": false
     },
     {
@@ -1165,7 +1165,7 @@
         "B",
         "D"
       ],
-      "explanation": "",
+      "explanation": "AWS Professional Services and APN partners help assess, plan, and execute cloud migrations.",
       "multiple": true
     },
     {
@@ -1192,7 +1192,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "The AWS CloudHSM service helps you meet corporate, contractual, and regulatory compliance requirements for data security by using dedicated Hardware Security Module (HSM) instances within the AWS cloud. AWS and AWS Marketplace partners offer a variety of solutions for protecting sensitive data within the AWS platform, but for some applications and data subject to contractual or regulatory mandates for managing cryptographic keys, additional protection may be necessary. CloudHSM complements existing data protection solutions and allows you to protect your encryption keys within HSMs that are designed and validated to government standards for secure key management. CloudHSM allows you to securely generate, store, and manage cryptographic keys used for data encryption in a way that keys are accessible only by you.",
+      "explanation": "AWS CloudHSM provides dedicated hardware security modules for customers with strict compliance requirements.",
       "multiple": false
     },
     {
@@ -1224,7 +1224,7 @@
         "B",
         "E"
       ],
-      "explanation": "",
+      "explanation": "Customers are responsible for securing EC2 operating systems and configuring network security controls such as security groups and ACLs.",
       "multiple": true
     },
     {
@@ -1251,7 +1251,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "An easy-to-use service for deploying and scaling web applications and web services developed in a number of programming languages. You can configure event notifications for your Elastic Beanstalk environment so that notable events can be automatically published to an SNS topic, then pushed to topic subscribers. As an example, you may use this event-driven architecture to coordinate your continuous integration pipeline (such as Jenkins CI). That way, whenever an environment is created, Elastic Beanstalk publishes this event to an SNS topic, which triggers a subscribing Lambda function, which then kicks off a CI job against your newly created Elastic Beanstalk environment.",
+      "explanation": "AWS Lambda runs code in response to events, making it ideal for event-driven architectures.",
       "multiple": false
     },
     {
@@ -1278,7 +1278,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "AWS allows customers to use services without long-term contracts, enabling flexible, pay-as-you-go pricing.",
       "multiple": false
     },
     {
@@ -1305,7 +1305,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "S3 cross-region replication supports buckets owned by the same or different AWS accounts.",
       "multiple": false
     },
     {
@@ -1328,7 +1328,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "Under the shared responsibility model, customers are responsible for managing their application software.",
       "multiple": false
     },
     {
@@ -1355,7 +1355,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "Agility allows companies to quickly experiment, deploy, and iterate new features without long provisioning cycles.",
       "multiple": false
     },
     {
@@ -1387,7 +1387,7 @@
         "A",
         "D"
       ],
-      "explanation": "",
+      "explanation": "Cost and Usage Reports and billing alerts help customers monitor spending and detect unexpected charges.",
       "multiple": true
     },
     {
@@ -1414,7 +1414,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "Amazon Route 53 allows customers to register and manage DNS domain names and route internet traffic.",
       "multiple": false
     }
   ]
