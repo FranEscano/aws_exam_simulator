@@ -25,7 +25,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "Amazon GuardDuty is a threat detection service that continuously monitors AWS accounts and workloads for malicious or unauthorized activity, such as compromised instances or suspicious API calls.",
       "multiple": false
     },
     {
@@ -52,7 +52,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "AWS Marketplace provides a digital catalog of third-party software, including ecommerce platforms, that can be quickly deployed and tested on AWS before committing to long-term use.",
       "multiple": false
     },
     {
@@ -79,7 +79,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "Amazon DynamoDB is a fully managed NoSQL key-value and document database designed for high performance, scalability, and low-latency access.",
       "multiple": false
     },
     {
@@ -106,7 +106,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "Amazon CloudWatch can be used to create billing alarms that notify users when estimated charges exceed defined thresholds.",
       "multiple": false
     },
     {
@@ -133,7 +133,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "Under the shared responsibility model, AWS is responsible for maintaining and securing the physical infrastructure, including hardware and facilities, while customers manage their applications and operating systems.",
       "multiple": false
     },
     {
@@ -160,7 +160,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "Amazon CloudFront is a content delivery network (CDN) that caches content at global edge locations, reducing latency for users around the world.",
       "multiple": false
     },
     {
@@ -192,7 +192,7 @@
         "A",
         "D"
       ],
-      "explanation": "",
+      "explanation": "IAM best practices include enforcing strong password policies and rotating access keys regularly to reduce the risk of compromised credentials.",
       "multiple": false
     },
     {
@@ -219,7 +219,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "<https://docs.aws.amazon.com/vpc/latest/userguide/flow-logs.html>",
+      "explanation": "VPC Flow Logs capture information about the IP traffic going to and from network interfaces in a VPC, enabling network monitoring and troubleshooting.",
       "multiple": false
     },
     {
@@ -246,7 +246,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "AWS Global Accelerator uses the AWS global network to optimize the path from your users to your applications, improving the performance of your traffic by as much as 60%. AWS Global Accelerator continually monitors the health of your application endpoints and redirects traffic to healthy endpoints in less than 30 seconds.",
+      "explanation": "AWS Global Accelerator continuously monitors endpoint health and routes traffic to the closest healthy endpoint using the AWS global network, improving availability and performance.",
       "multiple": false
     },
     {
@@ -278,7 +278,7 @@
         "A",
         "C"
       ],
-      "explanation": "",
+      "explanation": "AWS Config provides an inventory and configuration history of resources, while AWS CloudTrail logs API calls, enabling traceability and reliable change management.",
       "multiple": false
     },
     {
@@ -305,7 +305,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "Amazon CloudWatch can trigger alarms and notifications when root user sign-in events occur, improving security monitoring.",
       "multiple": false
     },
     {
@@ -332,7 +332,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "Designing loosely coupled components ensures that failures or changes in one part of an application do not affect other parts, improving resilience and scalability.",
       "multiple": false
     },
     {
@@ -364,7 +364,7 @@
         "A",
         "D"
       ],
-      "explanation": "",
+      "explanation": "AWS Snowball transfers large amounts of physical data to AWS, while AWS Database Migration Service (DMS) migrates databases from on-premises to AWS.",
       "multiple": false
     },
     {
@@ -391,7 +391,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "Distributing workloads across multiple EC2 instances allows the job to be processed in parallel, enabling horizontal scaling to handle increasing data volumes.",
       "multiple": false
     },
     {
@@ -418,7 +418,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "AWS Organizations allows multiple AWS accounts to be centrally governed and billed together, enabling consolidated payments and centralized policies.",
       "multiple": false
     },
     {
@@ -445,7 +445,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "Elasticity allows AWS resources such as EC2 instances to scale in or out automatically based on demand.",
       "multiple": false
     },
     {
@@ -472,7 +472,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "Amazon EC2 Auto Scaling automatically adjusts the number of running instances to match changes in traffic and workload demand.",
       "multiple": false
     },
     {
@@ -499,7 +499,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "AWS VPN provides encrypted connections over the public internet between on-premises networks and AWS resources.",
       "multiple": false
     },
     {
@@ -526,7 +526,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "AWS Cost Explorer analyzes historical spending and forecasts future AWS costs based on usage trends.",
       "multiple": false
     },
     {
@@ -553,7 +553,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "Amazon CloudFront employs a global network of edge locations and regional edge caches that cache copies of your content close to your viewers. Amazon CloudFront ensures that end-user requests are served by the closest edge location. As a result, viewer requests travel a short distance, improving performance for your viewers. For files not cached at the edge locations and the regional edge caches, Amazon CloudFront keeps persistent connections with your origin servers so that those files can be fetched from the origin servers as quickly as possible.",
+      "explanation": "Amazon CloudFront caches static content at edge locations around the world, reducing latency for global users.",
       "multiple": false
     },
     {
@@ -580,7 +580,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "AWS Regions are part of the global infrastructure and consist of multiple Availability Zones in a specific geographic area.",
       "multiple": false
     },
     {
@@ -607,7 +607,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "Amazon CloudWatch monitors metrics such as CPU utilization, allowing users to determine if EC2 instances have sufficient capacity.",
       "multiple": false
     },
     {
@@ -634,7 +634,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "Elastic Load Balancers are designed to handle changing traffic patterns and distribute requests across multiple targets for reliability and performance.",
       "multiple": false
     },
     {
@@ -666,7 +666,7 @@
         "C",
         "E"
       ],
-      "explanation": "",
+      "explanation": "Customers are responsible for managing their application configurations and defining security group rules, while AWS manages the underlying infrastructure.",
       "multiple": false
     },
     {
@@ -693,7 +693,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "Loose coupling minimizes dependencies between components, preventing failures in one part of the system from impacting others.",
       "multiple": false
     },
     {
@@ -724,7 +724,7 @@
       "correctAnswers": [
         "AE"
       ],
-      "explanation": "<https://aws.amazon.com/waf/> <https://docs.aws.amazon.com/vpc/latest/userguide/vpc-network-acls.html>",
+      "explanation": "AWS WAF blocks malicious or unwanted web requests, while Network ACLs control traffic at the subnet level, enhancing network security.",
       "multiple": false
     },
     {
@@ -751,7 +751,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "Amazon EFS provides a scalable, shared file system that can be mounted by multiple EC2 instances simultaneously.",
       "multiple": false
     },
     {
@@ -783,7 +783,7 @@
         "B",
         "C"
       ],
-      "explanation": "",
+      "explanation": "AWS is responsible for protecting its network against threats like IP spoofing and for managing patching of managed services such as Amazon RDS.",
       "multiple": false
     },
     {
@@ -810,7 +810,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "Elasticity allows AWS to automatically adjust compute resources to maintain consistent application performance.",
       "multiple": false
     },
     {
@@ -837,7 +837,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "Economies of scale allow AWS to reduce prices over time as its global infrastructure and customer base grow.",
       "multiple": false
     },
     {
@@ -864,7 +864,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "S3 Block Public Access ensures that no objects in an S3 bucket can be made public, helping meet compliance requirements.",
       "multiple": false
     },
     {
@@ -891,7 +891,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "Billing issues can be resolved by opening a billing support case with AWS Support directly from the Management Console.",
       "multiple": false
     },
     {
@@ -918,7 +918,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "The AWS Simple Monthly Calculator estimates monthly AWS costs based on expected service usage.",
       "multiple": false
     },
     {
@@ -945,7 +945,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "In Amazon RDS, the customer is responsible for managing and patching the database engine and configuration, including OS-level concerns relevant to the database.",
       "multiple": false
     },
     {
@@ -977,7 +977,7 @@
         "A",
         "B"
       ],
-      "explanation": "",
+      "explanation": "Amazon EC2 and Amazon DynamoDB can be configured to scale automatically using AWS Auto Scaling based on demand.",
       "multiple": false
     },
     {
@@ -1009,7 +1009,7 @@
         "B",
         "D"
       ],
-      "explanation": "",
+      "explanation": "AWS Global Accelerator improves application availability and reduces latency by routing users through the AWS global network to the closest healthy endpoint.",
       "multiple": false
     },
     {
@@ -1036,7 +1036,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "AWS Support handles billing issues, account reactivation, and other account-related problems.",
       "multiple": false
     },
     {
@@ -1063,7 +1063,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "In a traditional computing environment, you provision capacity based on an estimate of a theoretical maximum peak. This can result in periods where expensive resources are sitting idle or occasions of insufficient capacity. With cloud computing, you can access as much or as little capacity as you need and dynamically scale to meet actual demand, while only paying for what you use.",
+      "explanation": "Dynamic and predictive scaling allows cloud resources to grow or shrink automatically based on real usage, avoiding overprovisioning.",
       "multiple": false
     },
     {
@@ -1090,7 +1090,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "Paying only for the resources actually used allows customers to optimize costs when moving to the AWS Cloud.",
       "multiple": false
     },
     {
@@ -1117,7 +1117,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "For Amazon EC2, the customer is responsible for patching and securing the guest operating system.",
       "multiple": false
     },
     {
@@ -1149,7 +1149,7 @@
         "B",
         "C"
       ],
-      "explanation": "",
+      "explanation": "AWS Cost Management tools allow users to analyze spending by service and account and set budgets with alerts when thresholds are exceeded.",
       "multiple": false
     },
     {
@@ -1176,7 +1176,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "Customers are responsible for securing and patching the guest operating system on their EC2 instances.",
       "multiple": false
     },
     {
@@ -1203,7 +1203,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "<https://docs.aws.amazon.com/IAM/latest/UserGuide/console_controlling-access.html> <https://aws.amazon.com/iam/>",
+      "explanation": "AWS Identity and Access Management (IAM) enables the creation and management of users, groups, and permissions at no additional cost.",
       "multiple": false
     },
     {
@@ -1230,7 +1230,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "AWS Artifact provides on-demand access to compliance reports, agreements, and security documentation.",
       "multiple": false
     },
     {
@@ -1257,7 +1257,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "Amazon Polly converts written text into natural-sounding speech using deep learning technologies.",
       "multiple": false
     },
     {
@@ -1284,7 +1284,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "Highly available systems are designed with the assumption that components will fail, allowing for fault-tolerant architectures.",
       "multiple": false
     },
     {
@@ -1311,7 +1311,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "<https://aws.amazon.com/premiumsupport/technology/trusted-advisor/best-practice-checklist/> #Security",
+      "explanation": "AWS Trusted Advisor provides security check reports that highlight risks and best practice violations.",
       "multiple": false
     },
     {
@@ -1338,7 +1338,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "Dedicated Hosts allow customers to use per-core or per-socket software licenses by providing dedicated physical servers.",
       "multiple": false
     },
     {
@@ -1365,7 +1365,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "When your web traffic is geo-dispersed, it's not always feasible and certainly not cost effective to replicate your entire infrastructure across the globe. A CDN provides you the ability to utilize its global network of edge locations to deliver a cached copy of web content such as videos, webpages, images and so on to your customers. To reduce response time, the CDN utilizes the nearest edge location to the customer or originating request location in order to reduce the response time. Throughput is dramatically increased given that the web assets are delivered from cache. For dynamic data, many CDNs can be configured to retrieve data from the origin servers.",
+      "explanation": "Edge locations cache copies of content closer to users, enabling faster global content delivery.",
       "multiple": false
     },
     {
@@ -1392,7 +1392,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "Using AWS Config to track and audit resource changes supports the Security pillar by ensuring traceability and compliance.",
       "multiple": false
     }
   ]

@@ -1,7 +1,7 @@
 import json
 
 # Load original exam
-with open("exam19.json", "r", encoding="utf-8") as f:
+with open("exam23.json", "r", encoding="utf-8") as f:
     exam = json.load(f)
 
 # Load explanations
@@ -18,7 +18,7 @@ for question in exam["questions"]:
         question["explanation"] = explanation_map[qid]
 
 # Save merged file
-with open("exam19_with_explanations.json", "w", encoding="utf-8") as f:
+with open("exam23_with_explanations.json", "w", encoding="utf-8") as f:
     json.dump(exam, f, indent=2, ensure_ascii=False)
 
-print("✅ exam19_with_explanations.json created successfully")
+print("✅ exam23_with_explanations.json created successfully")

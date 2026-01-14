@@ -25,7 +25,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "Amazon DynamoDB is a fully managed NoSQL database service. AWS manages the infrastructure, scaling, patching, and availability, allowing the user to deploy a non-relational database without managing servers or database software.",
       "multiple": false
     },
     {
@@ -52,7 +52,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "AWS Regions are geographically separate locations. Replicating data between Regions provides protection against regional outages and supports disaster recovery strategies.",
       "multiple": false
     },
     {
@@ -84,7 +84,7 @@
         "D",
         "E"
       ],
-      "explanation": "",
+      "explanation": "AWS Organizations allows multiple AWS accounts to be managed together. It provides consolidated billing and lets administrators enforce governance through Service Control Policies (SCPs).",
       "multiple": false
     },
     {
@@ -111,7 +111,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "AWS OpsWorks provides managed Chef and Puppet services that help automate configuration management, application deployment, and server setup.",
       "multiple": false
     },
     {
@@ -138,7 +138,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "Consolidated billing allows multiple AWS accounts to be linked under one payer account so their costs are combined and volume discounts can be applied.",
       "multiple": false
     },
     {
@@ -165,7 +165,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "The TCO Calculator compares the cost of running workloads on AWS with running them on-premises, helping estimate potential savings.",
       "multiple": false
     },
     {
@@ -197,7 +197,7 @@
         "B",
         "D"
       ],
-      "explanation": "",
+      "explanation": "AWS Direct Connect provides a dedicated private connection from on-premises to AWS, and AWS VPN provides encrypted connectivity over the internet. Both enable hybrid network connectivity.",
       "multiple": false
     },
     {
@@ -229,7 +229,7 @@
         "A",
         "C"
       ],
-      "explanation": "",
+      "explanation": "Customers are responsible for securing their data and configuring network controls. This includes enabling S3 encryption and configuring security groups and firewalls. AWS manages the physical infrastructure.",
       "multiple": false
     },
     {
@@ -256,7 +256,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "The Business Support plan is the lowest tier that includes access to the AWS Support API. Developer and Basic plans do not provide API access.",
       "multiple": false
     },
     {
@@ -283,7 +283,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "AWS Systems Manager can automate patching across EC2 instances according to schedules, making it the most efficient way to apply security patches.",
       "multiple": false
     },
     {
@@ -310,7 +310,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "Deploying instances across multiple Availability Zones within a Region protects against the failure of a single data center and provides high availability and fault tolerance.",
       "multiple": false
     },
     {
@@ -337,7 +337,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "Placing resources closer to users reduces network latency. Provisioning resources in the South America (São Paulo) Region brings the application closer to Brazilian users.",
       "multiple": false
     },
     {
@@ -364,7 +364,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "On-Demand Instances are ideal when workloads run only when needed and must not be interrupted, because they have no long-term commitment and no interruption risk.",
       "multiple": false
     },
     {
@@ -391,7 +391,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "The AWS Personal Health Dashboard provides personalized alerts and guidance about AWS events that may affect a user’s specific resources.",
       "multiple": false
     },
     {
@@ -418,7 +418,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "AWS Storage Gateway connects on-premises environments with AWS storage services, allowing applications to use AWS cloud storage as if it were local.",
       "multiple": false
     },
     {
@@ -445,7 +445,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "Security groups act as virtual firewalls for EC2 instances, controlling inbound and outbound traffic at the instance level.",
       "multiple": false
     },
     {
@@ -472,7 +472,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "AWS Transit Gateway allows scalable and centralized connectivity between on-premises networks and multiple VPCs across Regions.",
       "multiple": false
     },
     {
@@ -499,7 +499,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "The Enterprise Support plan includes 24/7 access to senior support engineers plus architectural and operational guidance.",
       "multiple": false
     },
     {
@@ -526,7 +526,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "AWS Organizations allows administrators to use Service Control Policies (SCPs) to restrict which AWS services and actions accounts can use.",
       "multiple": false
     },
     {
@@ -553,7 +553,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "AWS Artifact provides access to AWS compliance reports, certifications, and legal documents needed for audits and regulatory requirements.",
       "multiple": false
     },
     {
@@ -580,7 +580,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "S3 One Zone-Infrequent Access stores data in a single Availability Zone, making it cheaper while still providing fast access, which is ideal for secondary or duplicate backups.",
       "multiple": false
     },
     {
@@ -607,7 +607,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "An Availability Zone consists of one or more physically separate data centers within a Region, designed to provide high availability and fault tolerance.",
       "multiple": false
     },
     {
@@ -639,7 +639,7 @@
         "A",
         "D"
       ],
-      "explanation": "",
+      "explanation": "AWS CloudFormation and AWS OpsWorks are infrastructure-as-code and configuration management services used to automate infrastructure provisioning and management.",
       "multiple": false
     },
     {
@@ -666,7 +666,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "AWS CloudFormation can be used to replicate and deploy the same infrastructure across multiple Regions using templates.",
       "multiple": false
     },
     {
@@ -693,7 +693,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "AWS Key Management Service (KMS) manages encryption keys and is used by CloudTrail to encrypt logs stored in Amazon S3.",
       "multiple": false
     },
     {
@@ -720,7 +720,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "Elasticity allows AWS resources to scale up or down automatically based on demand, removing the need to predict or estimate future capacity requirements.",
       "multiple": false
     },
     {
@@ -752,7 +752,7 @@
         "A",
         "C"
       ],
-      "explanation": "",
+      "explanation": "Programmatic access to AWS requires an access key ID and a secret access key, which are used by applications and CLI tools to authenticate API requests.",
       "multiple": false
     },
     {
@@ -784,7 +784,7 @@
         "A",
         "D"
       ],
-      "explanation": "",
+      "explanation": "Amazon Lightsail and AWS Batch both provide compute capacity. Lightsail offers simplified virtual servers, while AWS Batch runs batch computing workloads.",
       "multiple": false
     },
     {
@@ -811,7 +811,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "Creating a separate AWS account for each department allows clear cost separation and detailed billing per department without mixing usage.",
       "multiple": false
     },
     {
@@ -838,7 +838,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "With consolidated billing, AWS combines usage across multiple accounts so they qualify for volume discounts, reducing overall cost.",
       "multiple": false
     },
     {
@@ -865,7 +865,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "AWS Budgets allows users to define cost and usage thresholds and sends alerts when those limits are exceeded.",
       "multiple": false
     },
     {
@@ -892,7 +892,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "Amazon Macie uses machine learning to detect sensitive data such as PII and credentials stored in Amazon S3 and helps prevent data leaks.",
       "multiple": false
     },
     {
@@ -919,7 +919,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "AWS Trusted Advisor checks service limits and warns when resources approach or exceed AWS quotas.",
       "multiple": false
     },
     {
@@ -946,7 +946,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "A hybrid cloud architecture combines on-premises infrastructure with cloud resources, allowing workloads to run in both environments.",
       "multiple": false
     },
     {
@@ -973,7 +973,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "The principle of least privilege means granting users only the permissions they need to perform their job, which improves security.",
       "multiple": false
     },
     {
@@ -1000,7 +1000,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "Control Tower automates the process of setting up a new baseline multi-account AWS environment that is secure, well-architected, and ready to use. Control Tower incorporates the knowledge that AWS Professional Service has gained over the course of thousands of successful customer engagements.",
+      "explanation": "AWS Control Tower automates the creation and governance of secure, multi-account AWS environments following best practices.",
       "multiple": false
     },
     {
@@ -1027,7 +1027,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "AWS Transit Gateway provides a hub-and-spoke model that scales easily to connect thousands of VPCs and on-premises networks.",
       "multiple": false
     },
     {
@@ -1054,7 +1054,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "AWS Shield Advanced provides enhanced DDoS protection and access to AWS experts who assist during active attacks.",
       "multiple": false
     },
     {
@@ -1081,7 +1081,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "Spot Instances use spare EC2 capacity at a lower price and are ideal for workloads that can tolerate interruptions, making them the most cost-effective option.",
       "multiple": false
     },
     {
@@ -1113,7 +1113,7 @@
         "D",
         "E"
       ],
-      "explanation": "",
+      "explanation": "Customers are responsible for protecting their data, including encrypting data in transit and ensuring data integrity, while AWS handles physical infrastructure security.",
       "multiple": false
     },
     {
@@ -1140,7 +1140,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "Spot Instances are best for infrequent and interruptible workloads because they are significantly cheaper than On-Demand or Reserved Instances.",
       "multiple": false
     },
     {
@@ -1167,7 +1167,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "Amazon ECS manages the cluster infrastructure needed to run containers, including scheduling and scaling, without users needing to manage the control plane.",
       "multiple": false
     },
     {
@@ -1194,7 +1194,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "An IAM role allows an EC2 instance to securely access AWS services like S3 without embedding long-term credentials in the application.",
       "multiple": false
     },
     {
@@ -1221,7 +1221,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "With a Developer Support plan, users can open support cases with AWS Support for technical assistance.",
       "multiple": false
     },
     {
@@ -1248,7 +1248,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "An internet gateway allows resources inside a VPC to communicate with the public internet and allows inbound and outbound internet traffic.",
       "multiple": false
     },
     {
@@ -1275,7 +1275,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "Amazon RDS Multi-AZ deployments automatically fail over to a standby instance in another Availability Zone while keeping the same database endpoint.",
       "multiple": false
     },
     {
@@ -1302,7 +1302,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "Elastic Load Balancing automatically distributes incoming application traffic across multiple EC2 instances to improve availability and fault tolerance.",
       "multiple": false
     },
     {
@@ -1334,7 +1334,7 @@
         "A",
         "D"
       ],
-      "explanation": "",
+      "explanation": "AWS Trusted Advisor provides recommendations to improve cost efficiency and system performance by analyzing how resources are used.",
       "multiple": false
     },
     {
@@ -1366,7 +1366,7 @@
         "A",
         "C"
       ],
-      "explanation": "",
+      "explanation": "Only the AWS account root user can close an AWS account or change the AWS Support plan. These actions are restricted for security reasons.",
       "multiple": false
     },
     {
@@ -1393,7 +1393,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "Fault tolerance means an application can continue operating even when individual components fail, thanks to built-in redundancy.",
       "multiple": false
     }
   ]

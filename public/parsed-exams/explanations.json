@@ -1,202 +1,202 @@
 [
   {
     "id": 1,
-    "explanation": "AWS Marketplace is a digital catalog that lets customers find, purchase, and deploy third-party software that runs on AWS. Solutions can be launched directly into an AWS account without manual installation."
+    "explanation": "Under the AWS shared responsibility model, AWS is responsible for the physical security of data centers, including physical and environmental controls. The customer remains responsible for the guest operating system and applications."
   },
   {
     "id": 2,
-    "explanation": "Amazon VPC lets you create an isolated virtual network inside AWS where you can define IP ranges, subnets, route tables, and gateways."
+    "explanation": "AWS Elastic Beanstalk and AWS OpsWorks are used to deploy applications. AWS Config manages configurations, Application Discovery Service analyzes existing environments, and Amazon Kinesis is used for data streaming."
   },
   {
     "id": 3,
-    "explanation": "Under the shared responsibility model, AWS is responsible for the security of the cloud, including physical data centers, hardware, and networking equipment."
+    "explanation": "Amazon Connect is a fully managed cloud-based contact center service that allows companies to quickly set up and operate call centers."
   },
   {
     "id": 4,
-    "explanation": "CloudFront uses edge locations, which are geographically distributed endpoints that cache and deliver content closer to users for lower latency."
+    "explanation": "AWS Pricing Calculator allows customers to estimate costs for most AWS services without needing an AWS account."
   },
   {
     "id": 5,
-    "explanation": "Multi-Factor Authentication (MFA) adds an extra security layer by requiring users to provide a second form of authentication in addition to their password."
+    "explanation": "An internet gateway is required to allow inbound and outbound internet traffic between a VPC and the public internet."
   },
   {
     "id": 6,
-    "explanation": "AWS CloudTrail records all API calls and identifies which user or role performed an action, such as terminating an EC2 instance."
+    "explanation": "Partial Upfront Reserved Instances provide the greatest savings for stable workloads that must run continuously for one year."
   },
   {
     "id": 7,
-    "explanation": "Amazon SNS is used to send notifications and alerts triggered by CloudWatch alarms via email, SMS, or other endpoints."
+    "explanation": "Amazon RDS with Multi-AZ provides high availability by automatically replicating data to a standby instance in another Availability Zone and performing automatic failover."
   },
   {
     "id": 8,
-    "explanation": "The AWS Acceptable Use Policy defines prohibited activities such as abuse, illegal usage, and security violations."
+    "explanation": "An IAM account password policy defines password complexity requirements such as minimum length, character types, and expiration."
   },
   {
     "id": 9,
-    "explanation": "AWS replaces large upfront capital expenses with pay-as-you-go pricing, allowing customers to pay only for what they use."
+    "explanation": "Customers are responsible for patching the guest operating system and applications running on AWS infrastructure."
   },
   {
     "id": 10,
-    "explanation": "Auto Scaling and multiple Availability Zones improve fault tolerance by automatically replacing failed instances and distributing workloads across isolated data centers."
+    "explanation": "To meet PCI compliance requirements, customers must use AWS services that are in scope for PCI and apply PCI controls at the application layer."
   },
   {
     "id": 11,
-    "explanation": "Distributing compute load across multiple resources improves resilience, scalability, and performance, which aligns with AWS best practices."
+    "explanation": "Amazon SQS enables sending, storing, and receiving messages between application components and supports FIFO queues to preserve message order."
   },
   {
     "id": 12,
-    "explanation": "IAM best practices include enforcing password rotation and preventing password reuse to reduce the risk of compromised credentials."
+    "explanation": "AWS Organizations allows consolidated billing by sending an invitation from the management account to another AWS account."
   },
   {
     "id": 13,
-    "explanation": "AWS Professional Services and AWS Partner Network (APN) partners provide expert, hands-on help for planning and executing cloud migrations."
+    "explanation": "AWS Budgets allows customers to create alerts based on actual or forecasted costs when thresholds are exceeded."
   },
   {
     "id": 14,
-    "explanation": "The Concierge team assists AWS Enterprise Support customers with billing, account, and invoicing issues."
+    "explanation": "AWS Elastic Beanstalk allows users to quickly deploy applications without deep infrastructure knowledge by automatically handling scaling and availability."
   },
   {
     "id": 15,
-    "explanation": "An application running across multiple Availability Zones is considered highly available because it can survive failures in a single data center."
+    "explanation": "AWS Trusted Advisor core checks are available to all AWS customers, even without a paid support plan."
   },
   {
     "id": 16,
-    "explanation": "Availability Zones are separate data centers within the same Region, allowing high availability while meeting geographic or regulatory constraints."
+    "explanation": "AWS Shield protects against DDoS attacks, and Amazon CloudFront helps absorb and mitigate malicious traffic using edge locations."
   },
   {
     "id": 17,
-    "explanation": "The AWS Pricing Calculator estimates the cost of running workloads on AWS and allows comparisons with on-premises environments."
+    "explanation": "AWS Artifact provides on-demand access to AWS compliance reports and certifications."
   },
   {
     "id": 18,
-    "explanation": "Disabling Reserved Instance sharing ensures that the Reserved Instance discount applies only to the account that purchased it."
+    "explanation": "Programmatic access is achieved by creating an IAM user with access keys and attaching a policy that grants limited Amazon RDS permissions."
   },
   {
     "id": 19,
-    "explanation": "The AWS Abuse team handles reports of malicious or illegal activity, such as intrusion attempts originating from AWS resources."
+    "explanation": "AWS Config records configuration changes, evaluates compliance, and can trigger remediation actions."
   },
   {
     "id": 20,
-    "explanation": "AWS Global Accelerator and Amazon CloudFront route users to the closest AWS edge locations, providing low latency and fast content delivery worldwide."
+    "explanation": "Deploying instances across multiple Availability Zones eliminates single points of failure and increases application availability."
   },
   {
     "id": 21,
-    "explanation": "AWS Lambda is serverless because AWS manages all servers and infrastructure while users only upload and run code."
+    "explanation": "Reserved Instances offer the lowest cost for predictable, long-term workloads that run continuously."
   },
   {
     "id": 22,
-    "explanation": "Subnets and Internet Gateways are core VPC components that define network segmentation and internet connectivity."
+    "explanation": "AWS Personal Health Dashboard provides alerts about scheduled changes and issues that may affect specific AWS resources."
   },
   {
     "id": 23,
-    "explanation": "AWS Budgets allow customers to define spending limits and receive alerts to prevent overspending."
+    "explanation": "Customers control access to Amazon RDS using security groups, while AWS manages the operating system and backups."
   },
   {
     "id": 24,
-    "explanation": "MFA and password policies strengthen login security by requiring additional authentication factors and strong passwords."
+    "explanation": "When using AWS Lambda, customers are responsible for application logic and management, while AWS manages the underlying infrastructure."
   },
   {
     "id": 25,
-    "explanation": "Trusted Advisor provides security checks such as public S3 bucket permissions and whether the root user has MFA enabled."
+    "explanation": "AWS Budgets notifies customers when costs or usage exceed defined thresholds."
   },
   {
     "id": 26,
-    "explanation": "AWS KMS is used to create, manage, and control cryptographic keys for encrypting and decrypting data."
+    "explanation": "Amazon DynamoDB is a fully managed NoSQL database service designed for high scalability and low latency."
   },
   {
     "id": 27,
-    "explanation": "Trusted Advisor identifies cost-saving opportunities and security risks based on how AWS resources are configured."
+    "explanation": "Spot Instances allow customers to purchase unused EC2 capacity at a significantly reduced price."
   },
   {
     "id": 28,
-    "explanation": "AWS manages the physical infrastructure and server capacity planning, removing these responsibilities from customers."
+    "explanation": "AWS Direct Connect requires an internet service provider and a colocation facility to establish a dedicated private connection."
   },
   {
     "id": 29,
-    "explanation": "Using Multi-AZ deployments increases fault tolerance, which is part of the Reliability pillar of the Well-Architected Framework."
+    "explanation": "Amazon EC2 and AWS Lambda provide compute capacity, while Amazon S3 and Amazon EBS are storage services."
   },
   {
     "id": 30,
-    "explanation": "AWS VPN and Direct Connect provide secure network connections between on-premises environments and AWS."
+    "explanation": "AWS CodeCommit is a fully managed source control service that securely hosts private Git repositories."
   },
   {
     "id": 31,
-    "explanation": "AWS Billing and Cost Management lets users view invoices, track usage, and manage budgets."
+    "explanation": "AWS Trusted Advisor helps identify security vulnerabilities and deviations from best practices within an AWS account."
   },
   {
     "id": 32,
-    "explanation": "Availability Zones are independent data centers with redundant power, networking, and connectivity within a Region."
+    "explanation": "Replicating resources across multiple Availability Zones protects applications from single data center failures."
   },
   {
     "id": 33,
-    "explanation": "VPC Flow Logs capture network traffic information for troubleshooting, security analysis, and auditing."
+    "explanation": "Amazon SNS allows distributed applications to send both email and SMS notifications."
   },
   {
     "id": 34,
-    "explanation": "Auto Scaling automatically adjusts capacity based on demand, removing the need for manual capacity planning."
+    "explanation": "Testing recovery procedures and enabling automatic recovery from failures are key principles for improving reliability."
   },
   {
     "id": 35,
-    "explanation": "The Concierge team is only available to Enterprise Support customers and provides billing and account assistance."
+    "explanation": "AWS Global Accelerator and Amazon CloudFront enable global content delivery with low latency and high transfer speeds."
   },
   {
     "id": 36,
-    "explanation": "Amazon RDS is a managed database service that automates patching, backups, and maintenance."
+    "explanation": "AWS Direct Connect provides a private, low-latency, and highly reliable network connection to AWS."
   },
   {
     "id": 37,
-    "explanation": "To use a new AWS Region, customers simply deploy resources there; no contract or setup is required."
+    "explanation": "AWS Artifact allows customers to retrieve compliance reports and regulatory documents on demand."
   },
   {
     "id": 38,
-    "explanation": "Dedicated Hosts provide physical servers allocated to a single customer, meeting compliance and licensing requirements."
+    "explanation": "AWS WAF protects web applications from common attacks such as SQL injection and cross-site scripting."
   },
   {
     "id": 39,
-    "explanation": "AWS KMS and AWS CloudHSM both generate and manage encryption keys used to protect sensitive data."
+    "explanation": "Deploying multiple instances across multiple Availability Zones ensures high availability and fault tolerance."
   },
   {
     "id": 40,
-    "explanation": "The AWS TCO Calculator estimates the cost difference between on-premises infrastructure and AWS after migration."
+    "explanation": "Reserved Instances provide the greatest cost savings for steady-state databases running over multiple years."
   },
   {
     "id": 41,
-    "explanation": "AWS Professional Services and APN partners help assess, plan, and execute cloud migrations."
+    "explanation": "The IAM credential report provides a complete view of IAM users, passwords, and access key status."
   },
   {
     "id": 42,
-    "explanation": "AWS CloudHSM provides dedicated hardware security modules for customers with strict compliance requirements."
+    "explanation": "Consolidated billing provides a single bill for multiple accounts and enables volume discounts."
   },
   {
     "id": 43,
-    "explanation": "Customers are responsible for securing EC2 operating systems and configuring network security controls such as security groups and ACLs."
+    "explanation": "On-Demand Instances are ideal for short-term traffic spikes when interruptions are not acceptable."
   },
   {
     "id": 44,
-    "explanation": "AWS Lambda runs code in response to events, making it ideal for event-driven architectures."
+    "explanation": "AWS Config rules allow organizations to monitor and evaluate resource configuration changes for compliance."
   },
   {
     "id": 45,
-    "explanation": "AWS allows customers to use services without long-term contracts, enabling flexible, pay-as-you-go pricing."
+    "explanation": "Amazon CloudFront delivers content from locations close to users, reducing latency and improving performance."
   },
   {
     "id": 46,
-    "explanation": "S3 cross-region replication supports buckets owned by the same or different AWS accounts."
+    "explanation": "The principle of least privilege means IAM policies should be applied only to users who require those permissions."
   },
   {
     "id": 47,
-    "explanation": "Under the shared responsibility model, customers are responsible for managing their application software."
+    "explanation": "Economies of scale allow AWS to offer lower variable costs due to large-scale purchasing."
   },
   {
     "id": 48,
-    "explanation": "Agility allows companies to quickly experiment, deploy, and iterate new features without long provisioning cycles."
+    "explanation": "AWS Transit Gateway simplifies connectivity across thousands of VPCs and reduces operational complexity."
   },
   {
     "id": 49,
-    "explanation": "Cost and Usage Reports and billing alerts help customers monitor spending and detect unexpected charges."
+    "explanation": "Automatic scaling allows AWS customers to control costs as application demand changes unpredictably."
   },
   {
     "id": 50,
-    "explanation": "Amazon Route 53 allows customers to register and manage DNS domain names and route internet traffic."
+    "explanation": "AWS WAF inspects and filters web requests to block attacks such as SQL injection."
   }
 ]

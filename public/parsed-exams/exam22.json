@@ -25,7 +25,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "Using multiple AWS accounts allows each environment (development, testing, production) to receive a separate invoice and clearly isolates costs, security, and resources.",
       "multiple": false
     },
     {
@@ -52,7 +52,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "AWS CodePipeline is a continuous integration and continuous delivery (CI/CD) service used to automate application build, test, and deployment processes.",
       "multiple": false
     },
     {
@@ -84,8 +84,8 @@
         "A",
         "D"
       ],
-      "explanation": "",
-      "multiple": false
+      "explanation": "Spot Instances provide significant cost savings for flexible workloads, and Reserved Instances reduce costs for long-term, steady-state EC2 usage.",
+      "multiple": true
     },
     {
       "id": 4,
@@ -111,7 +111,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "AWS Artifact provides on-demand access to AWS compliance reports and agreements, including PCI, SOC, and ISO reports.",
       "multiple": false
     },
     {
@@ -138,7 +138,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "Amazon Route 53 is a DNS service that routes traffic across AWS Regions, enabling cross-region traffic management.",
       "multiple": false
     },
     {
@@ -165,7 +165,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "AWS CloudTrail records all API calls made in an AWS account and can be used to detect unauthorized or unexpected API activity.",
       "multiple": false
     },
     {
@@ -192,7 +192,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "AWS Config continuously tracks resource configurations, evaluates compliance, and notifies users when changes occur.",
       "multiple": false
     },
     {
@@ -219,7 +219,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "Launching EC2 instances across multiple Availability Zones increases availability by protecting against AZ-level failures.",
       "multiple": false
     },
     {
@@ -246,7 +246,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "Amazon S3 Cross-Region Replication automatically copies objects to a bucket in another AWS Region, providing regional backup.",
       "multiple": false
     },
     {
@@ -273,7 +273,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "AWS Budgets allows customers to define custom cost thresholds and receive alerts when spending exceeds those limits.",
       "multiple": false
     },
     {
@@ -300,7 +300,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "AWS requires customers to submit the Penetration Testing Request Form to request authorization for penetration testing activities.",
       "multiple": false
     },
     {
@@ -327,7 +327,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "Amazon Macie automatically discovers, classifies, and protects sensitive data stored in Amazon S3 using machine learning.",
       "multiple": false
     },
     {
@@ -359,8 +359,8 @@
         "C",
         "E"
       ],
-      "explanation": "",
-      "multiple": false
+      "explanation": "A site-to-site VPN requires a customer gateway on the on-premises side and a virtual private gateway on the AWS side.",
+      "multiple": true
     },
     {
       "id": 14,
@@ -386,7 +386,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "On-Demand Instances are ideal for short-term or unpredictable workloads that cannot be interrupted and require immediate availability.",
       "multiple": false
     },
     {
@@ -413,7 +413,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "Loose coupling minimizes dependencies between system components, allowing them to evolve independently and improve resilience.",
       "multiple": false
     },
     {
@@ -440,7 +440,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "AWS Security Bulletins provide the most direct and up-to-date information about AWS security announcements and vulnerabilities.",
       "multiple": false
     },
     {
@@ -467,7 +467,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "Amazon EBS provides persistent block storage that remains available even after an EC2 instance is stopped or restarted.",
       "multiple": false
     },
     {
@@ -494,7 +494,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "Resource tagging allows costs to be categorized and allocated by department, project, or team for billing analysis.",
       "multiple": false
     },
     {
@@ -521,7 +521,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "AWS Artifact allows customers to download security and compliance reports about AWS infrastructure on demand.",
       "multiple": false
     },
     {
@@ -553,8 +553,8 @@
         "A",
         "D"
       ],
-      "explanation": "",
-      "multiple": false
+      "explanation": "AWS Lambda and Amazon DynamoDB are serverless services, meaning AWS manages the underlying infrastructure automatically.",
+      "multiple": true
     },
     {
       "id": 21,
@@ -585,8 +585,8 @@
         "A",
         "C"
       ],
-      "explanation": "",
-      "multiple": false
+      "explanation": "AWS VPN and AWS Direct Connect extend on-premises networks into AWS, enabling hybrid cloud connectivity.",
+      "multiple": true
     },
     {
       "id": 22,
@@ -612,7 +612,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "Before being removed from AWS Organizations, a member account must meet all requirements of a standalone AWS account.",
       "multiple": false
     },
     {
@@ -639,7 +639,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "Scalability refers to an application's ability to scale resources up or down to meet variable demand.",
       "multiple": false
     },
     {
@@ -666,7 +666,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "AWS Artifact is the correct service to obtain AWS compliance documents such as SOC reports during audits.",
       "multiple": false
     },
     {
@@ -694,8 +694,8 @@
         "B",
         "D"
       ],
-      "explanation": "",
-      "multiple": false
+      "explanation": "Using multiple Availability Zones for high availability and a separate AWS Region for disaster recovery protects against regional failures.",
+      "multiple": true
     },
     {
       "id": 26,
@@ -721,7 +721,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "AWS Snowball is the most cost-effective solution for transferring very large datasets, such as hundreds of terabytes, into AWS.",
       "multiple": false
     },
     {
@@ -748,7 +748,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "Amazon RDS provides a fully managed PostgreSQL database optimized for OLTP workloads.",
       "multiple": false
     },
     {
@@ -780,8 +780,8 @@
         "A",
         "B"
       ],
-      "explanation": "",
-      "multiple": false
+      "explanation": "Using resource tags and separate AWS accounts allows organizations to clearly identify and track costs by department.",
+      "multiple": true
     },
     {
       "id": 29,
@@ -807,7 +807,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "The Principal element in an S3 bucket policy defines who is allowed or denied access to the bucket.",
       "multiple": false
     },
     {
@@ -834,7 +834,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "AWS Organizations enables centralized cost management and consolidated billing across multiple AWS accounts.",
       "multiple": false
     },
     {
@@ -861,7 +861,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "On-Demand Instances are best for short-term workloads because they require no long-term commitment.",
       "multiple": false
     },
     {
@@ -888,7 +888,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "AWS Cost Explorer automatically forecasts future AWS spending based on historical usage patterns.",
       "multiple": false
     },
     {
@@ -915,7 +915,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "Under the shared responsibility model, AWS is responsible for maintaining and patching the underlying hypervisor.",
       "multiple": false
     },
     {
@@ -942,7 +942,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "AWS Organizations allows a master payer account to view and manage consolidated billing reports.",
       "multiple": false
     },
     {
@@ -969,7 +969,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "Performing operations as code is a core principle of the Operational Excellence pillar of the AWS Well-Architected Framework.",
       "multiple": false
     },
     {
@@ -996,7 +996,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "Testing recovery procedures is a key reliability principle that ensures systems can recover from failures.",
       "multiple": false
     },
     {
@@ -1023,7 +1023,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "Convertible Reserved Instances can be exchanged for other Convertible RIs with equal or higher value, providing flexibility.",
       "multiple": false
     },
     {
@@ -1050,7 +1050,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "Customers are responsible for implementing application-level controls such as routing and traffic management.",
       "multiple": false
     },
     {
@@ -1077,7 +1077,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "The AWS Simple Monthly Calculator is designed to estimate the monthly cost of AWS architectures.",
       "multiple": false
     },
     {
@@ -1109,8 +1109,8 @@
         "A",
         "D"
       ],
-      "explanation": "",
-      "multiple": false
+      "explanation": "Amazon RDS automates backups and software patching, reducing operational overhead compared to managing databases on EC2.",
+      "multiple": true
     },
     {
       "id": 41,
@@ -1136,7 +1136,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "S3 Intelligent-Tiering automatically moves objects between access tiers to reduce costs based on usage patterns.",
       "multiple": false
     },
     {
@@ -1163,7 +1163,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "Amazon Redshift is a fully managed data warehouse service designed for large-scale data analytics.",
       "multiple": false
     },
     {
@@ -1190,7 +1190,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "AWS Config tracks configuration changes and evaluates resources for compliance.",
       "multiple": false
     },
     {
@@ -1217,7 +1217,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "Elasticity allows customers to match resource usage with demand, reducing waste from underutilized infrastructure.",
       "multiple": false
     },
     {
@@ -1244,7 +1244,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "Reserved Instances provide the greatest cost savings for long-term, predictable workloads running on EC2.",
       "multiple": false
     },
     {
@@ -1271,7 +1271,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "On-Demand Instances are the best choice for short-term workloads that must run without interruption.",
       "multiple": false
     },
     {
@@ -1303,8 +1303,8 @@
         "C",
         "D"
       ],
-      "explanation": "",
-      "multiple": false
+      "explanation": "AWS Trusted Advisor helps identify underutilized resources and improves security by monitoring best practices.",
+      "multiple": true
     },
     {
       "id": 48,
@@ -1332,10 +1332,11 @@
         }
       ],
       "correctAnswers": [
-        "AE"
+        "A",
+        "E"
       ],
-      "explanation": "",
-      "multiple": false
+      "explanation": "Granting least-privilege access and enforcing strong password policies are core AWS security best practices.",
+      "multiple": true
     },
     {
       "id": 49,
@@ -1361,7 +1362,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "AWS Snowball is specifically designed to move petabytes of data into and out of AWS securely.",
       "multiple": false
     },
     {
@@ -1388,7 +1389,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "Amazon Redshift is AWS’s fully managed data warehousing service for analytical workloads.",
       "multiple": false
     }
   ]

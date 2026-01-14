@@ -25,7 +25,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "Under the AWS shared responsibility model, AWS is responsible for the physical security of data centers, including physical and environmental controls. The customer remains responsible for the guest operating system and applications.",
       "multiple": false
     },
     {
@@ -57,8 +57,8 @@
         "A",
         "C"
       ],
-      "explanation": "",
-      "multiple": false
+      "explanation": "AWS Elastic Beanstalk and AWS OpsWorks are used to deploy applications. AWS Config manages configurations, Application Discovery Service analyzes existing environments, and Amazon Kinesis is used for data streaming.",
+      "multiple": true
     },
     {
       "id": 3,
@@ -84,7 +84,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "Amazon Connect is a fully managed cloud-based contact center service that allows companies to quickly set up and operate call centers.",
       "multiple": false
     },
     {
@@ -111,7 +111,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "AWS Pricing Calculator allows customers to estimate costs for most AWS services without needing an AWS account.",
       "multiple": false
     },
     {
@@ -138,7 +138,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "An internet gateway is required to allow inbound and outbound internet traffic between a VPC and the public internet.",
       "multiple": false
     },
     {
@@ -165,7 +165,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "Partial Upfront Reserved Instances provide the greatest savings for stable workloads that must run continuously for one year.",
       "multiple": false
     },
     {
@@ -192,7 +192,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "Amazon RDS with Multi-AZ provides high availability by automatically replicating data to a standby instance in another Availability Zone and performing automatic failover.",
       "multiple": false
     },
     {
@@ -219,7 +219,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "An IAM account password policy defines password complexity requirements such as minimum length, character types, and expiration.",
       "multiple": false
     },
     {
@@ -246,7 +246,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "Customers are responsible for patching the guest operating system and applications running on AWS infrastructure.",
       "multiple": false
     },
     {
@@ -273,7 +273,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "To meet PCI compliance requirements, customers must use AWS services that are in scope for PCI and apply PCI controls at the application layer.",
       "multiple": false
     },
     {
@@ -300,7 +300,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "Amazon SQS enables sending, storing, and receiving messages between application components and supports FIFO queues to preserve message order.",
       "multiple": false
     },
     {
@@ -327,7 +327,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "AWS Organizations allows consolidated billing by sending an invitation from the management account to another AWS account.",
       "multiple": false
     },
     {
@@ -354,7 +354,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "AWS Budgets allows customers to create alerts based on actual or forecasted costs when thresholds are exceeded.",
       "multiple": false
     },
     {
@@ -381,7 +381,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "AWS Elastic Beanstalk allows users to quickly deploy applications without deep infrastructure knowledge by automatically handling scaling and availability.",
       "multiple": false
     },
     {
@@ -408,7 +408,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "AWS Trusted Advisor core checks are available to all AWS customers, even without a paid support plan.",
       "multiple": false
     },
     {
@@ -440,8 +440,8 @@
         "A",
         "C"
       ],
-      "explanation": "",
-      "multiple": false
+      "explanation": "AWS Shield protects against DDoS attacks, and Amazon CloudFront helps absorb and mitigate malicious traffic using edge locations.",
+      "multiple": true
     },
     {
       "id": 17,
@@ -467,7 +467,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "AWS Artifact provides on-demand access to AWS compliance reports and certifications.",
       "multiple": false
     },
     {
@@ -499,8 +499,8 @@
         "B",
         "E"
       ],
-      "explanation": "",
-      "multiple": false
+      "explanation": "Programmatic access is achieved by creating an IAM user with access keys and attaching a policy that grants limited Amazon RDS permissions.",
+      "multiple": true
     },
     {
       "id": 19,
@@ -526,7 +526,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "AWS Config records configuration changes, evaluates compliance, and can trigger remediation actions.",
       "multiple": false
     },
     {
@@ -558,8 +558,8 @@
         "A",
         "D"
       ],
-      "explanation": "",
-      "multiple": false
+      "explanation": "Deploying instances across multiple Availability Zones eliminates single points of failure and increases application availability.",
+      "multiple": true
     },
     {
       "id": 21,
@@ -585,7 +585,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "Reserved Instances offer the lowest cost for predictable, long-term workloads that run continuously.",
       "multiple": false
     },
     {
@@ -612,7 +612,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "AWS Personal Health Dashboard provides alerts about scheduled changes and issues that may affect specific AWS resources.",
       "multiple": false
     },
     {
@@ -639,7 +639,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "Customers control access to Amazon RDS using security groups, while AWS manages the operating system and backups.",
       "multiple": false
     },
     {
@@ -666,7 +666,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "When using AWS Lambda, customers are responsible for application logic and management, while AWS manages the underlying infrastructure.",
       "multiple": false
     },
     {
@@ -693,7 +693,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "AWS Budgets notifies customers when costs or usage exceed defined thresholds.",
       "multiple": false
     },
     {
@@ -720,7 +720,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "Amazon DynamoDB is a fully managed NoSQL database service designed for high scalability and low latency.",
       "multiple": false
     },
     {
@@ -747,7 +747,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "Spot Instances allow customers to purchase unused EC2 capacity at a significantly reduced price.",
       "multiple": false
     },
     {
@@ -774,7 +774,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "AWS Direct Connect requires an internet service provider and a colocation facility to establish a dedicated private connection.",
       "multiple": false
     },
     {
@@ -803,10 +803,11 @@
         }
       ],
       "correctAnswers": [
-        "AE"
+        "A",
+        "E"
       ],
-      "explanation": "",
-      "multiple": false
+      "explanation": "Amazon EC2 and AWS Lambda provide compute capacity, while Amazon S3 and Amazon EBS are storage services.",
+      "multiple": true
     },
     {
       "id": 30,
@@ -832,7 +833,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "AWS CodeCommit is a fully managed source control service that securely hosts private Git repositories.",
       "multiple": false
     },
     {
@@ -859,7 +860,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "AWS Trusted Advisor helps identify security vulnerabilities and deviations from best practices within an AWS account.",
       "multiple": false
     },
     {
@@ -886,7 +887,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "Replicating resources across multiple Availability Zones protects applications from single data center failures.",
       "multiple": false
     },
     {
@@ -913,7 +914,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "Amazon SNS allows distributed applications to send both email and SMS notifications.",
       "multiple": false
     },
     {
@@ -945,8 +946,8 @@
         "C",
         "E"
       ],
-      "explanation": "",
-      "multiple": false
+      "explanation": "Testing recovery procedures and enabling automatic recovery from failures are key principles for improving reliability.",
+      "multiple": true
     },
     {
       "id": 35,
@@ -977,8 +978,8 @@
         "B",
         "D"
       ],
-      "explanation": "",
-      "multiple": false
+      "explanation": "AWS Global Accelerator and Amazon CloudFront enable global content delivery with low latency and high transfer speeds.",
+      "multiple": true
     },
     {
       "id": 36,
@@ -1004,7 +1005,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "AWS Direct Connect provides a private, low-latency, and highly reliable network connection to AWS.",
       "multiple": false
     },
     {
@@ -1031,7 +1032,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "AWS Artifact allows customers to retrieve compliance reports and regulatory documents on demand.",
       "multiple": false
     },
     {
@@ -1058,7 +1059,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "AWS WAF protects web applications from common attacks such as SQL injection and cross-site scripting.",
       "multiple": false
     },
     {
@@ -1085,7 +1086,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "Deploying multiple instances across multiple Availability Zones ensures high availability and fault tolerance.",
       "multiple": false
     },
     {
@@ -1112,7 +1113,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "Reserved Instances provide the greatest cost savings for steady-state databases running over multiple years.",
       "multiple": false
     },
     {
@@ -1139,7 +1140,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "The IAM credential report provides a complete view of IAM users, passwords, and access key status.",
       "multiple": false
     },
     {
@@ -1171,8 +1172,8 @@
         "A",
         "C"
       ],
-      "explanation": "",
-      "multiple": false
+      "explanation": "Consolidated billing provides a single bill for multiple accounts and enables volume discounts.",
+      "multiple": true
     },
     {
       "id": 43,
@@ -1198,7 +1199,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "On-Demand Instances are ideal for short-term traffic spikes when interruptions are not acceptable.",
       "multiple": false
     },
     {
@@ -1225,7 +1226,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "AWS Config rules allow organizations to monitor and evaluate resource configuration changes for compliance.",
       "multiple": false
     },
     {
@@ -1252,7 +1253,7 @@
       "correctAnswers": [
         "A"
       ],
-      "explanation": "",
+      "explanation": "Amazon CloudFront delivers content from locations close to users, reducing latency and improving performance.",
       "multiple": false
     },
     {
@@ -1279,7 +1280,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "The principle of least privilege means IAM policies should be applied only to users who require those permissions.",
       "multiple": false
     },
     {
@@ -1306,7 +1307,7 @@
       "correctAnswers": [
         "D"
       ],
-      "explanation": "",
+      "explanation": "Economies of scale allow AWS to offer lower variable costs due to large-scale purchasing.",
       "multiple": false
     },
     {
@@ -1333,7 +1334,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "",
+      "explanation": "AWS Transit Gateway simplifies connectivity across thousands of VPCs and reduces operational complexity.",
       "multiple": false
     },
     {
@@ -1360,7 +1361,7 @@
       "correctAnswers": [
         "B"
       ],
-      "explanation": "",
+      "explanation": "Automatic scaling allows AWS customers to control costs as application demand changes unpredictably.",
       "multiple": false
     },
     {
@@ -1387,7 +1388,7 @@
       "correctAnswers": [
         "C"
       ],
-      "explanation": "<https://docs.aws.amazon.com/waf/latest/developerguide/classic-web-acl-sql-conditions.html>",
+      "explanation": "AWS WAF inspects and filters web requests to block attacks such as SQL injection.",
       "multiple": false
     }
   ]
