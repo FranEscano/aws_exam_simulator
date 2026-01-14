@@ -23,6 +23,23 @@ export default function Question({ q, mode }: QuestionProps) {
 
   const isChecked = (letter: string) => exam?.answers[q.id]?.includes(letter);
 
+  const getOptionStyle = (letter: string) => {
+    if (mode !== "study" || !exam?.answers[q.id]) return {};
+
+    const isCorrect = q.correctAnswers.includes(letter);
+    const isSelected = exam.answers[q.id].includes(letter);
+
+    if(isCorrect) return {
+      backgroundColor: "#e8f5e9",
+      borderRadius: "8px"
+    };
+    if(isSelected && !isCorrect) return {
+      backgroundColor: "#ffebee",
+      borderRadius: "8px"
+    };
+    return {};
+  };
+
   return (
     <Box
       sx={{
@@ -46,6 +63,7 @@ export default function Question({ q, mode }: QuestionProps) {
           {q.options.map(opt => (
             <FormControlLabel
               key={opt.letter}
+              sx={{ ...getOptionStyle(opt.letter), width: "100%", margin: 0, pr: 2 }}
               control={
                 <Checkbox
                   checked={isChecked(opt.letter)}
@@ -66,6 +84,7 @@ export default function Question({ q, mode }: QuestionProps) {
           {q.options.map(opt => (
             <FormControlLabel
               key={opt.letter}
+              sx={{ ...getOptionStyle(opt.letter), width: "100%", margin: 0, pr: 2 }}
               value={opt.letter}
               control={<Radio sx={{ transform: { xs: "scale(1.3)", sm: "scale(1.2)" } }} />}
               label={<Typography sx={{ fontSize: { xs: "0.95rem", sm: "1rem" } }}>{`${opt.letter}. ${opt.text}`}</Typography>}
