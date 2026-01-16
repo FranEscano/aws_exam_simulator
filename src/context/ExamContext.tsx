@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useState } from "react";
+import React, { createContext, useContext, useEffect, useState } from "react";
 
 export interface Question {
   id: number;
@@ -27,7 +27,16 @@ interface ExamContextType {
 const ExamContext = createContext<ExamContextType | null>(null);
 
 export const ExamProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
-  const [exam, setExam] = useState<ExamState | null>(null);
+  const [exam, setExam] = useState<ExamState | null>(() => {
+    const savedExam = localStorage.getItem("aws_exam_current");
+    return savedExam ? JSON.parse(savedExam) : null;
+  });
+
+  useEffect(() => {
+    if(exam) {
+    localStorage.setItem("aws_exam_current", JSON.stringify(exam));
+    }
+  }, [exam]);
 
   const loadExam = async (file: string, mode: "test" | "study") => {
     const res = await fetch(`${import.meta.env.BASE_URL}parsed-exams/${file}`);
@@ -49,6 +58,7 @@ export const ExamProvider: React.FC<{ children: React.ReactNode }> = ({ children
       q.correctAnswers.every(ans => exam.answers[q.id]?.includes(ans)) &&
       exam.answers[q.id]?.length === q.correctAnswers.length
     ).length;
+    localStorage.removeItem("aws_exam_current");
     return { score: Math.round((correct / exam.questions.length) * 100), total: exam.questions.length };
   };
 
