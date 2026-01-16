@@ -10,7 +10,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <BrowserRouter basename="/aws_exam_simulator">
+      <BrowserRouter basename={import.meta.env.BASE_URL}>
         <ExamProvider>
           <App />
         </ExamProvider>
