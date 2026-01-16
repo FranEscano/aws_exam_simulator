@@ -28,7 +28,7 @@ files.forEach(file => {
         data.questions.forEach((q, index) => {
             const cleanQ = {};
             Object.keys(q).forEach(key => {
-                const cleanKey = key.replace(/[^\w]/g, '');
+                const cleanKey = key.trim();
                 cleanQ[cleanKey] = q[key];
             });
 
@@ -39,9 +39,10 @@ files.forEach(file => {
             // }
 
             const missing = [];
-            if(!q.question) missing.push("question");
-            if(!q.options) missing.push("options");
-            if(!q.correctAnswers) missing.push("correctAnswers");
+            if(!cleanQ.question) missing.push("question");
+            if(!cleanQ.options) missing.push("options");
+            if(!cleanQ.correctAnswers) missing.push("correctAnswers");
+            if(!cleanQ.explanation) missing.push("explanation");
 
             if(missing.length > 0) {
                 throw new Error(`Question ID ${qId}: Missing fields: ${missing.join(", ")}`);
