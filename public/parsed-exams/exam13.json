@@ -453,7 +453,7 @@
       ],
       "correctAnswers": [
         "B",
-        "CD"
+        "C"
       ],
       "explanation": "Cost allocation tags, the AWS Simple Monthly Calculator, and the AWS TCO Calculator help estimate and forecast AWS costs.",
       "multiple": false

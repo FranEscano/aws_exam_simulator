@@ -5,6 +5,7 @@
   "homepage": "https://FranBejarano.github.io/aws_exam_simulator",
   "type": "module",
   "scripts": {
+    "test:exams": "node scripts/validate-exams.js",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",

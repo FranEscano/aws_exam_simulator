@@ -722,7 +722,8 @@
         }
       ],
       "correctAnswers": [
-        "AE"
+        "A",
+        "E"
       ],
       "explanation": "AWS WAF blocks malicious or unwanted web requests, while Network ACLs control traffic at the subnet level, enhancing network security.",
       "multiple": false

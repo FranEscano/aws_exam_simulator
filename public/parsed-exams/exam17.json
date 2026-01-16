@@ -388,7 +388,8 @@
         }
       ],
       "correctAnswers": [
-        "AE"
+        "A",
+        "E"
       ],
       "explanation": "When an AWS account is suspected to be compromised, the customer should rotate all credentials to prevent further unauthorized access and contact AWS Support for immediate assistance.",
       "multiple": false
