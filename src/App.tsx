@@ -32,6 +32,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<ExamList />} />
           <Route path="/exam/:file/:mode" element={<ExamView />} />
+          <Route path="*" element={<ExamList />} />
         </Routes>
       </Container>
     </>
