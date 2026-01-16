@@ -528,7 +528,8 @@
         }
       ],
       "correctAnswers": [
-        "AE"
+        "A",
+        "E"
       ],
       "explanation": "Reserved Instances provide discounted pricing compared to On-Demand and allow customers to reserve capacity in a specific Availability Zone, ensuring capacity is available when needed.",
       "multiple": false
