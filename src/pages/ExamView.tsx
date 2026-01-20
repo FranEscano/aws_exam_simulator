@@ -18,14 +18,15 @@ export default function ExamView() {
 
   const handleFinish = () => setFinished(true);
 
-  const result = finished ? finishExam() : { score: 0, total: exam.questions.length };
-  const { score, total } = result!;
+  const result = finished ? finishExam() : { score: 0, correctCount: 0, total: 0 };
+  const { score, correctCount, total } = result;
+  const passed = score >= 70;
 
   return (
     <Box
       sx={{
         p: { xs: 2, sm: 3, md: 4 },
-        maxWidth: "1200px",
+        maxWidth: "800px",
         margin: "0 auto",
       }}
     >
@@ -65,56 +66,65 @@ export default function ExamView() {
         </>
       ) : (
         <>
-          <Typography
-            variant="h4"
-            sx={{
-              mb: 3,
-              fontSize: { xs: "1.5rem", sm: "1.8rem", md: "2rem" },
-              textAlign: "center",
-            }}
-          >
-            Resultado: {score}% ({score} de {total})
-          </Typography>
+          <Box sx={{
+            textAlign: 'center',
+            p: 4,
+            mb: 4,
+            borderRadius: 3,
+            bgcolor: passed ? 'success.light' : 'error.light',
+            color: passed ? 'success.contrastText' : 'error.contrast.Text'
+          }}>
+            <Typography variant="h3" fontWeight="bold">Resultado: {score}%</Typography>
+            <Typography variant="h5">{passed ? "PASSED EXAM!" : "NOT PASSED EXAM"}</Typography>
+            <Typography sx={{ mt: 1 }}>You got {correctCount} right answers out of {total} questions</Typography>
+          </Box>
+
+          <Typography variant="h6" sx={{ mb: 2 }}>Questions review:</Typography>
 
           <Box
             sx={{
               display: "flex",
               flexDirection: "column",
               gap: 2,
-            }}
-          >
+            }}>
             {exam.questions.map(q => {
               const studentAnswers = exam.answers[q.id] || [];
-              const correctAnswers = q.correctAnswers;
               const isCorrect =
-                studentAnswers.length === correctAnswers.length &&
-                correctAnswers.every(ans => studentAnswers.includes(ans));
+                studentAnswers.length === studentAnswers.length && q.correctAnswers.every(ans => studentAnswers.includes(ans));
 
               return (
                 <Box
                   key={q.id}
                   sx={{
-                    border: "1px solid",
+                    border: "2px solid",
                     borderColor: isCorrect ? "success.main" : "error.main",
                     borderRadius: 2,
-                    p: { xs: 2, sm: 3 },
-                  }}
-                >
+                    p: 3,
+                    bgcolor: "background.paper"
+                  }}>
                   <Typography
-                    variant="h6"
-                    sx={{ fontSize: { xs: "1rem", sm: "1.1rem" } }}
-                  >
-                    {q.id}. {q.question}
+                    fontWeight="bold"
+                    sx={{ mb: 1 }}>
+                      {isCorrect ? "✅ " : "❌ "} Question {q.id}
                   </Typography>
 
-                  <Typography sx={{ mt: 1 }}>
-                    <strong>Tus respuestas:</strong>{" "}
-                    {studentAnswers.length > 0 ? studentAnswers.join(", ") : "Ninguna"}
-                  </Typography>
+                  <Typography>{q.question}</Typography>
 
-                  {!isCorrect && (
-                    <Typography sx={{ mt: 1 }} color="success.main">
-                      <strong>Respuesta correcta:</strong> {correctAnswers.join(", ")}
+                  <Box sx={{ mt: 2, p: 1, bgcolor: '#f5f5f5', borderRadius: 1 }}>
+                    <Typography variant="body2">
+                      <strong>Your answers:</strong>
+                      {studentAnswers.join(", ") || "No answered"}
+                    </Typography>
+                    <Typography variant="body2" color="success.main" fontWeight="bold">
+                      <strong>Correct:</strong>
+                      {q.correctAnswers.join(", ")}
+                    </Typography>
+                  </Box>
+
+                  {q.explanation && (
+                    <Typography variant="body2" sx={{ mt: 1, fontStyle: 'italic', color: 'text.secondary' }}>
+                      <strong>Explanation:</strong>
+                      {q.explanation}
                     </Typography>
                   )}
                 </Box>
@@ -123,12 +133,13 @@ export default function ExamView() {
           </Box>
 
           <Button
-            sx={{ mt: 3, width: "100%", maxWidth: "400px", alignSelf: "center" }}
-            variant="outlined"
+            fullWidth
+            variant="contained"
             size="large"
             onClick={() => navigate("/")}
+            sx={{ mt: 4, mb: 10 }}
           >
-            Volver
+            Back
           </Button>
         </>
       )}

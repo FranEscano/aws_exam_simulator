@@ -21,7 +21,7 @@ interface ExamContextType {
   exam: ExamState | null;
   loadExam: (file: string, mode: "test" | "study") => Promise<void>;
   answerQuestion: (id: number, selected: string[]) => void;
-  finishExam: () => { score: number; total: number };
+  finishExam: () => { score: number; correctCount: number; total: number };
 }
 
 const ExamContext = createContext<ExamContextType | null>(null);
@@ -53,13 +53,22 @@ export const ExamProvider: React.FC<{ children: React.ReactNode }> = ({ children
   };
 
   const finishExam = () => {
-    if (!exam) return { score: 0, total: 0 };
-    const correct = exam.questions.filter(q =>
-      q.correctAnswers.every(ans => exam.answers[q.id]?.includes(ans)) &&
-      exam.answers[q.id]?.length === q.correctAnswers.length
-    ).length;
-    localStorage.removeItem("aws_exam_current");
-    return { score: Math.round((correct / exam.questions.length) * 100), total: exam.questions.length };
+    if (!exam) return { score: 0, correctCount: 0, total: 0 };
+    const correctCount = exam.questions.filter(q => {
+      const studentAnswers = exam.answers[q.id] || [];
+      return (
+        q.correctAnswers.length === studentAnswers.length && q.correctAnswers.every(ans =>
+          studentAnswers.includes(ans))
+        );
+      }).length;
+
+      const total = exam.questions.length;
+
+      const score = Math.round((correctCount / total) * 100);
+
+      localStorage.removeItem("aws_exam_current");
+
+      return { score, correctCount, total };
   };
 
   return (
