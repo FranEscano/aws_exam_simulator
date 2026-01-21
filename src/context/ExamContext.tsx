@@ -15,6 +15,7 @@ interface ExamState {
   answers: Record<number, string[]>;
   mode: "test" | "study";
   startTime: number | null;
+  timeLeft: number;
 }
 
 interface ExamContextType {
@@ -22,6 +23,7 @@ interface ExamContextType {
   loadExam: (file: string, mode: "test" | "study") => Promise<void>;
   answerQuestion: (id: number, selected: string[]) => void;
   finishExam: () => { score: number; correctCount: number; total: number };
+  setTimeLeft: (time: number) => void;
 }
 
 const ExamContext = createContext<ExamContextType | null>(null);
@@ -41,7 +43,11 @@ export const ExamProvider: React.FC<{ children: React.ReactNode }> = ({ children
   const loadExam = async (file: string, mode: "test" | "study") => {
     const res = await fetch(`${import.meta.env.BASE_URL}parsed-exams/${file}`);
     const data = await res.json();
-    setExam({ ...data, answers: {}, mode, startTime: Date.now() });
+    setExam({ ...data, answers: {}, mode, startTime: Date.now(), timeLeft: 3600 });
+  };
+
+  const setTimeLeft = (time: number) => {
+    setExam(prev => prev ? { ...prev, timeLeft: time } : null);
   };
 
   const answerQuestion = (id: number, selected: string[]) => {
@@ -72,7 +78,7 @@ export const ExamProvider: React.FC<{ children: React.ReactNode }> = ({ children
   };
 
   return (
-    <ExamContext.Provider value={{ exam, loadExam, answerQuestion, finishExam }}>
+    <ExamContext.Provider value={{ exam, loadExam, answerQuestion, finishExam, setTimeLeft }}>
       {children}
     </ExamContext.Provider>
   );
