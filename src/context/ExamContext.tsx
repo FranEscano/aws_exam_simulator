@@ -28,6 +28,15 @@ interface ExamContextType {
 
 const ExamContext = createContext<ExamContextType | null>(null);
 
+const shuffleArray = <T,>(array: T[]): T[] => {
+  const shuffled = [...array];
+  for(let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+};
+
 export const ExamProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [exam, setExam] = useState<ExamState | null>(() => {
     const savedExam = localStorage.getItem("aws_exam_current");
@@ -43,7 +52,17 @@ export const ExamProvider: React.FC<{ children: React.ReactNode }> = ({ children
   const loadExam = async (file: string, mode: "test" | "study") => {
     const res = await fetch(`${import.meta.env.BASE_URL}parsed-exams/${file}`);
     const data = await res.json();
-    setExam({ ...data, answers: {}, mode, startTime: Date.now(), timeLeft: 3600 });
+
+    let questions = data.questions;
+
+    if(mode === "test") {
+      questions = shuffleArray<Question>(questions).map((q: Question) => ({
+        ...q,
+        options: shuffleArray(q.options)
+      }));
+    }
+
+    setExam({ ...data, questions, answers: {}, mode, startTime: Date.now(), timeLeft: 3600 });
   };
 
   const setTimeLeft = (time: number) => {
