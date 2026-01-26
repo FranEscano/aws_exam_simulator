@@ -40,6 +40,8 @@ export default function Question({ q, mode }: QuestionProps) {
     return {};
   };
 
+  const hasFinishedAnswering = exam?.answers[q.id]?.length === q.correctAnswers.length;
+
   return (
     <Box
       sx={{
@@ -93,7 +95,7 @@ export default function Question({ q, mode }: QuestionProps) {
         </RadioGroup>
       )}
 
-      {mode === "study" && exam?.answers[q.id] && (
+      {mode === "study" && hasFinishedAnswering && (
         <Typography
           sx={{ mt: 1, fontSize: { xs: "0.9rem", sm: "1rem" } }}
           color={
