@@ -9,6 +9,15 @@ export interface Question {
   explanation?: string;
 }
 
+export interface ExamAttempt {
+  id: string; // A unique identifier
+  title: string; // Exam title
+  date: string; // Date in a reading format
+  score: number; // Score of the exam taken
+  correct: number; // Number of correct answers
+  total: number; // Total number of questions
+}
+
 interface ExamState {
   title: string;
   questions: Question[];
@@ -24,6 +33,7 @@ interface ExamContextType {
   answerQuestion: (id: number, selected: string[]) => void;
   finishExam: () => { score: number; correctCount: number; total: number };
   setTimeLeft: (time: number) => void;
+  getHistory: () => ExamAttempt[];
 }
 
 const ExamContext = createContext<ExamContextType | null>(null);
@@ -79,6 +89,7 @@ export const ExamProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
   const finishExam = () => {
     if (!exam) return { score: 0, correctCount: 0, total: 0 };
+
     const correctCount = exam.questions.filter(q => {
       const studentAnswers = exam.answers[q.id] || [];
       return (
@@ -88,16 +99,36 @@ export const ExamProvider: React.FC<{ children: React.ReactNode }> = ({ children
       }).length;
 
       const total = exam.questions.length;
-
       const score = Math.round((correctCount / total) * 100);
+
+      // ----- Save record in LocalStorage ----
+      const newAttempt: ExamAttempt = {
+        id: Date.now().toString(),
+        title: exam.title,
+        date: new Date().toLocaleString(),
+        score: score,
+        correct: correctCount,
+        total: total
+      };
+
+      // Recover previous historic, add the new one and save
+      const historyRaw = localStorage.getItem("aws_exam_history");
+      const history: ExamAttempt[] = historyRaw ? JSON.parse(historyRaw) : [];
+      localStorage.setItem("aws_exam_history", JSON.stringify([newAttempt, ...history]));
+      // --------------------------------------------
 
       localStorage.removeItem("aws_exam_current");
 
       return { score, correctCount, total };
   };
 
+  const getHistory = (): ExamAttempt[] => {
+    const historyRaw = localStorage.getItem("aws_exam_history");
+    return historyRaw ? JSON.parse(historyRaw) : [];
+  }
+
   return (
-    <ExamContext.Provider value={{ exam, loadExam, answerQuestion, finishExam, setTimeLeft }}>
+    <ExamContext.Provider value={{ exam, loadExam, answerQuestion, finishExam, setTimeLeft, getHistory }}>
       {children}
     </ExamContext.Provider>
   );

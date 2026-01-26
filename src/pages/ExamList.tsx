@@ -1,10 +1,18 @@
 import { useEffect, useState } from "react";
-import { Button, Typography, Box, Paper } from "@mui/material";
+import { Button, Typography, Box, Paper, Table, TableBody, TableCell, TableContainer,
+  TableHead, TableRow, Divider } from "@mui/material";
 import { useNavigate } from "react-router-dom";
+import { useExam, type ExamAttempt } from "../context/ExamContext";
 
 export default function ExamList() {
   const [files, setFiles] = useState<string[]>([]);
   const navigate = useNavigate();
+  const { getHistory } = useExam();
+  const history: ExamAttempt[] = getHistory();
+  const [limit, setLimit] = useState(10);
+
+  const visibleHistory = history.slice(0, limit);
+  const hasMore = history.length > limit;
 
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}parsed-exams/exams.json`)
@@ -14,28 +22,24 @@ export default function ExamList() {
   }, []);
 
   return (
-    <Box sx={{ p: { xs: 2, sm: 3, md: 4 }, minHeight: "100vh", bgcolor: "background.default" }}>
+    <Box sx={{ p: 3, maxWidth: "800px", margin: "0 auto" }}>
       <Typography
         variant="h4"
         gutterBottom
         sx={{
-          textAlign: "center",
-          fontSize: { xs: "1.5rem", sm: "2rem", md: "2.2rem" },
-          mb: 4,
-        }}
+          mb: 3 }}
       >
         Selecciona un examen
       </Typography>
 
-      {/* Grid adaptativo */}
       <Box
         sx={{
           display: "grid",
           gap: 3,
           gridTemplateColumns: {
-            xs: "1fr",        // móvil: 1 columna
-            sm: "1fr 1fr",    // tablet: 2 columnas
-            md: "1fr 1fr 1fr" // desktop: 3 columnas
+            xs: "1fr",        
+            sm: "1fr 1fr",    
+            md: "1fr 1fr 1fr" 
           },
         }}
       >
@@ -92,6 +96,50 @@ export default function ExamList() {
           </Paper>
         ))}
       </Box>
+
+      {history.length > 0 && (
+        <>
+          <Divider sx={{ my: 5 }} />
+          <Typography variant="h5" sx={{ mb: 2}}>
+            Your Exam History
+          </Typography>
+          
+          <TableContainer component={Paper} sx={{ borderRadius: 2, boxShadow: 3 }}>
+            <Table size="small">
+              <TableHead sx={{ bgcolor: "grey.100 "}}>
+                <TableRow>
+                  <TableCell><strong>Exam</strong></TableCell>
+                  <TableCell align="center"><strong>Date</strong></TableCell>
+                  <TableCell align="center"><strong>Score</strong></TableCell>
+                  <TableCell align="center"><strong>Result</strong></TableCell>
+                </TableRow>
+              </TableHead>
+              <TableBody>
+                {visibleHistory.map((attempt) => (
+                  <TableRow key={attempt.id}>
+                    <TableCell>{attempt.title}</TableCell>
+                    <TableCell align="center">{attempt.date.split(',')[0]}</TableCell>
+                    <TableCell align="center">{attempt.score}%</TableCell>
+                    <TableCell align="center">
+                      <Typography variant="body2" sx={{ fontWeight: 'bold', color: attempt.score >= 70 ?
+                        'success.main': 'error.main' }}>
+                          {attempt.score >= 70 ? "PASS" : "NO PASS"}
+                        </Typography>
+                    </TableCell>
+                  </TableRow>
+                ))}
+              </TableBody>
+            </Table>
+          </TableContainer>
+          {hasMore && (
+            <Box sx={{ display: 'flex', justifyContent: 'center', mt: 2 }}>
+              <Button variant="text" onClick={() => setLimit(prev => prev + 10)} sx={{ textTransform: 'none'}}>
+                Show more exams (+10)
+              </Button>
+            </Box>
+          )}
+        </>
+      )}
     </Box>
   );
 }
