@@ -2,6 +2,7 @@ import { Routes, Route, Link } from "react-router-dom";
 import { Container, AppBar, Toolbar, Typography, Button, useMediaQuery } from "@mui/material";
 import ExamList from "./pages/ExamList";
 import ExamView from "./pages/ExamView";
+import ReviewView from "./components/ReviewView";
 
 export default function App() {
   const isTablet = useMediaQuery("(max-width:1024px)");
@@ -33,6 +34,7 @@ export default function App() {
           <Route path="/" element={<ExamList />} />
           <Route path="/exam/:file/:mode" element={<ExamView />} />
           <Route path="*" element={<ExamList />} />
+          <Route path="/review/:attemptId" element={<ReviewView />} />
         </Routes>
       </Container>
     </>

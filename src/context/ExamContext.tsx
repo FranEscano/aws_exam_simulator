@@ -16,6 +16,8 @@ export interface ExamAttempt {
   score: number; // Score of the exam taken
   correct: number; // Number of correct answers
   total: number; // Total number of questions
+  userAnswers: Record<number, string[]>;
+  questionSnapshot: Question[];
 }
 
 interface ExamState {
@@ -108,7 +110,9 @@ export const ExamProvider: React.FC<{ children: React.ReactNode }> = ({ children
         date: new Date().toLocaleString(),
         score: score,
         correct: correctCount,
-        total: total
+        total: total,
+        userAnswers: { ...exam.answers },
+        questionSnapshot: [...exam.questions]
       };
 
       // Recover previous historic, add the new one and save
@@ -118,7 +122,6 @@ export const ExamProvider: React.FC<{ children: React.ReactNode }> = ({ children
       // --------------------------------------------
 
       localStorage.removeItem("aws_exam_current");
-
       return { score, correctCount, total };
   };
 

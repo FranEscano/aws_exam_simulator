@@ -102,6 +102,7 @@ export default function ExamList() {
                   <TableCell align="center"><strong>Date</strong></TableCell>
                   <TableCell align="center"><strong>Score</strong></TableCell>
                   <TableCell align="center"><strong>Result</strong></TableCell>
+                  <TableCell align="center"><strong>Action</strong></TableCell>
                 </TableRow>
               </TableHead>
               <TableBody>
@@ -112,12 +113,17 @@ export default function ExamList() {
                     <TableCell align="center">{attempt.score}%</TableCell>
                     <TableCell align="center">
                       <Chip 
-                        label={attempt.score >= 70 ? "PASS" : "NO PASS"}
+                        label={attempt.score >= 70 ? "PASS" : "FAIL"}
                         color={attempt.score >= 70 ? "success" : "error"}
                         variant="filled"
                         size="small"
                         sx={{ fontWeight: 'bold', width: '90px' }}
                       />
+                    </TableCell>
+                    <TableCell align="center">
+                      <Button size="small" variant="outlined" onClick={() => navigate(`/review/${attempt.id}`)}>
+                        Review Failures
+                      </Button>
                     </TableCell>
                   </TableRow>
                 ))}
