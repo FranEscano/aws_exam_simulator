@@ -1,12 +1,7 @@
 import { useEffect, useState } from "react";
-import { Box, Typography, FormControl, InputLabel, Select, 
-  MenuItem, Button, Divider, Paper, Stack, CircularProgress, 
-  TableContainer,
-  Table,
-  TableHead,
-  TableRow,
-  TableCell,
-  TableBody} from "@mui/material";
+import { Box, Typography, FormControl, InputLabel, Select, MenuItem, Button, Divider, Paper, Stack, 
+  CircularProgress, TableContainer, Table, TableHead, TableRow, TableCell, TableBody,
+  Chip } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 import { useExam, type ExamAttempt } from "../context/ExamContext";
 
@@ -78,7 +73,7 @@ export default function ExamList() {
               onClick={() => handleStart("test")}
               sx={{ py: 1.5, fontWeight: 'bold' }}
             >
-              Exam Mode
+              Test Mode
             </Button>
             <Button 
               fullWidth 
@@ -97,16 +92,16 @@ export default function ExamList() {
       {history.length > 0 && (
         <>
           <Divider sx={{ my: 5 }} />
-          <Typography variant="h5" sx={{ mb: 2 }}>Tu Historial de Intentos</Typography>
+          <Typography variant="h5" sx={{ mb: 2 }}>Your Exam Historic</Typography>
           
           <TableContainer component={Paper} sx={{ borderRadius: 2, boxShadow: 3 }}>
             <Table size="small">
               <TableHead sx={{ bgcolor: "grey.100" }}>
                 <TableRow>
-                  <TableCell><strong>Examen</strong></TableCell>
-                  <TableCell align="center"><strong>Fecha</strong></TableCell>
-                  <TableCell align="center"><strong>Nota</strong></TableCell>
-                  <TableCell align="center"><strong>Resultado</strong></TableCell>
+                  <TableCell><strong>Test</strong></TableCell>
+                  <TableCell align="center"><strong>Date</strong></TableCell>
+                  <TableCell align="center"><strong>Score</strong></TableCell>
+                  <TableCell align="center"><strong>Result</strong></TableCell>
                 </TableRow>
               </TableHead>
               <TableBody>
@@ -116,15 +111,13 @@ export default function ExamList() {
                     <TableCell align="center">{attempt.date.split(',')[0]}</TableCell>
                     <TableCell align="center">{attempt.score}%</TableCell>
                     <TableCell align="center">
-                      <Typography 
-                        variant="body2" 
-                        sx={{ 
-                          fontWeight: 'bold',
-                          color: attempt.score >= 70 ? 'success.main' : 'error.main' 
-                        }}
-                      >
-                        {attempt.score >= 70 ? "APTO" : "NO APTO"}
-                      </Typography>
+                      <Chip 
+                        label={attempt.score >= 70 ? "PASS" : "NO PASS"}
+                        color={attempt.score >= 70 ? "success" : "error"}
+                        variant="filled"
+                        size="small"
+                        sx={{ fontWeight: 'bold', width: '90px' }}
+                      />
                     </TableCell>
                   </TableRow>
                 ))}
@@ -132,7 +125,6 @@ export default function ExamList() {
             </Table>
           </TableContainer>
 
-          {/* 4. Botón "Mostrar más" condicional */}
           {hasMore && (
             <Box sx={{ display: 'flex', justifyContent: 'center', mt: 2 }}>
               <Button 
@@ -140,7 +132,7 @@ export default function ExamList() {
                 onClick={() => setLimit(prev => prev + 10)}
                 sx={{ textTransform: 'none' }}
               >
-                Mostrar más resultados (+10)
+                Show More Exams (+10)
               </Button>
             </Box>
           )}

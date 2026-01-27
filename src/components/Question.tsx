@@ -26,16 +26,22 @@ export default function Question({ q, mode }: QuestionProps) {
   const getOptionStyle = (letter: string) => {
     if (mode !== "study" || !exam?.answers[q.id]) return {};
 
+    const hasFinishedAnswering = exam.answers[q.id].length === q.correctAnswers.length;
+    if(!hasFinishedAnswering) return {};
+
     const isCorrect = q.correctAnswers.includes(letter);
     const isSelected = exam.answers[q.id].includes(letter);
 
     if(isCorrect) return {
       backgroundColor: "#e8f5e9",
-      borderRadius: "8px"
+      borderRadius: "8px",
+      transition: "background-color 0.3s ease"
     };
+
     if(isSelected && !isCorrect) return {
       backgroundColor: "#ffebee",
-      borderRadius: "8px"
+      borderRadius: "8px",
+      transition: "background-color 0.3s ease"
     };
     return {};
   };
@@ -107,8 +113,8 @@ export default function Question({ q, mode }: QuestionProps) {
         >
           {q.correctAnswers.every(a => exam.answers[q.id].includes(a)) &&
            exam.answers[q.id].length === q.correctAnswers.length
-            ? `✔ Correcto. ${q.explanation}`
-            : `✖ Incorrecto. ${q.explanation}`}
+            ? `✔ Correct. ${q.explanation}`
+            : `✖ Wrong. ${q.explanation}`}
         </Typography>
       )}
     </Box>
