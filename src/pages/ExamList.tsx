@@ -1,18 +1,20 @@
 import { useEffect, useState } from "react";
 import { Box, Typography, FormControl, InputLabel, Select, MenuItem, Button, Divider, Paper, Stack, 
   CircularProgress, TableContainer, Table, TableHead, TableRow, TableCell, TableBody,
-  Chip } from "@mui/material";
+  Chip, Backdrop } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 import { useExam, type ExamAttempt } from "../context/ExamContext";
 
 export default function ExamList() {
   const navigate = useNavigate();
   const { getHistory } = useExam();
+  const { loadRandomMock } = useExam();
 
   const [examFiles, setExamFiles] = useState<string[]>([]);
   const [selectedFile, setSelectedFile] = useState("");
   const [loading, setLoading] = useState(true);
   const [limit, setLimit] = useState(10);
+  const [isGenerating, setIsGenerating] = useState(false);
 
   const history: ExamAttempt[] = getHistory();
   const visibleHistory = history.slice(0, limit);
@@ -33,6 +35,21 @@ export default function ExamList() {
       navigate(`/exam/${selectedFile}/${mode}`);
     }
   };
+
+  const handleRandomSim = async () => {
+    setIsGenerating(true);
+
+    await new Promise(resolve => setTimeout(resolve, 800));
+
+    const success = await loadRandomMock(examFiles, 65);
+
+    if(success) {
+      navigate("/exam/random/test");
+    } else {
+      setIsGenerating(false);
+      alert("Error Generating the Mock Exam");
+    }
+  }; 
 
   if(loading) return <Box sx={{ display: 'flex', justifyContent: 'center', mt: 5 }}><CircularProgress /></Box>
 
@@ -89,6 +106,17 @@ export default function ExamList() {
         </Stack>
       </Paper>
 
+      <Button
+        fullWidth
+        variant="contained"
+        color="secondary"
+        size="large"
+        onClick={handleRandomSim}
+        sx={{ mb: 4, py: 2, fontWeight: 'bold', fontSize: '1.1rem', boxShadow: 4 }}
+      >
+        🚀 GENERATE RANDOM MOCK EXAM (65 Questions)
+      </Button>
+
       {history.length > 0 && (
         <>
           <Divider sx={{ my: 5 }} />
@@ -144,6 +172,11 @@ export default function ExamList() {
           )}
         </>
       )}
+      <Backdrop sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1, flexDirection: 'column', gap: 2}} open={isGenerating}>
+        <CircularProgress color="inherit" />
+        <Typography variant="h6">Mixing AWS Questions...</Typography>
+        <Typography variant="body2">Getting Ready your Certificate Exam</Typography>
+      </Backdrop>
     </Box>
   );
 }

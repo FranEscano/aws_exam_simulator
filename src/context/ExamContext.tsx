@@ -36,6 +36,7 @@ interface ExamContextType {
   finishExam: () => { score: number; correctCount: number; total: number };
   setTimeLeft: (time: number) => void;
   getHistory: () => ExamAttempt[];
+  loadRandomMock: (allFiles: string[], totalQuestions: number) => Promise<boolean>;
 }
 
 const ExamContext = createContext<ExamContextType | null>(null);
@@ -75,6 +76,42 @@ export const ExamProvider: React.FC<{ children: React.ReactNode }> = ({ children
     }
 
     setExam({ ...data, questions, answers: {}, mode, startTime: Date.now(), timeLeft: 3600 });
+  };
+
+  const loadRandomMock = async (allFiles: string[], totalQuestions: number = 65) => {
+    try{
+      const selectedFiles = allFiles.sort(() => 0.5 - Math.random()).slice(0, 10);
+
+      const allQuestionsPromise = selectedFiles.map(async (file) => {
+        const res = await fetch(`${import.meta.env.BASE_URL}parsed-exams/${file}`);
+        const data = await res.json();
+        return data.questions as Question[];
+      });
+
+      const results = await Promise.all(allQuestionsPromise);
+      const poolOfQuestions = results.flat();
+
+      const shuffledQuestions = shuffleArray<Question>(poolOfQuestions)
+        .slice(0, totalQuestions)
+        .map(q => ({
+          ...q,
+          options: shuffleArray(q.options)
+        }));
+
+        setExam({
+          title: `MOCK - ${new Date().toLocaleString()}`,
+          questions: shuffledQuestions,
+          answers: {},
+          mode: "test",
+          startTime: Date.now(),
+          timeLeft: 5400
+        });
+
+        return true;
+    } catch (error) {
+      console.error("Error generating mock exam:", error);
+      return false;
+    }
   };
 
   const setTimeLeft = (time: number) => {
@@ -131,7 +168,7 @@ export const ExamProvider: React.FC<{ children: React.ReactNode }> = ({ children
   }
 
   return (
-    <ExamContext.Provider value={{ exam, loadExam, answerQuestion, finishExam, setTimeLeft, getHistory }}>
+    <ExamContext.Provider value={{ exam, loadExam, answerQuestion, finishExam, setTimeLeft, getHistory, loadRandomMock }}>
       {children}
     </ExamContext.Provider>
   );
