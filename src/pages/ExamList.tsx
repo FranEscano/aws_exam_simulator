@@ -4,6 +4,7 @@ import { Box, Typography, FormControl, InputLabel, Select, MenuItem, Button, Div
   Chip, Backdrop } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 import { useExam, type ExamAttempt } from "../context/ExamContext";
+import ProgressChart from "../components/ProgressChart";
 
 export default function ExamList() {
   const navigate = useNavigate();
@@ -118,9 +119,16 @@ export default function ExamList() {
       </Button>
 
       {history.length > 0 && (
-        <>
-          <Divider sx={{ my: 5 }} />
-          <Typography variant="h5" sx={{ mb: 2 }}>Your Exam Historic</Typography>
+        <Box sx={{ mt: 8 }}>
+          <Divider sx={{ mb: 4 }}>
+            <Typography variant="overline" sx={{ letterSpacing: 2, fontWeight: 'bold' }}>
+              PROGRESS ANALYSIS
+            </Typography>
+          </Divider>
+
+          <ProgressChart history={history} />
+
+          <Typography variant="h6" sx={{ mb: 2 }}>Your Exam Historic</Typography>
           
           <TableContainer component={Paper} sx={{ borderRadius: 2, boxShadow: 3 }}>
             <Table size="small">
@@ -170,7 +178,7 @@ export default function ExamList() {
               </Button>
             </Box>
           )}
-        </>
+        </Box>
       )}
       <Backdrop sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1, flexDirection: 'column', gap: 2}} open={isGenerating}>
         <CircularProgress color="inherit" />
