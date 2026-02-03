@@ -1,69 +1,68 @@
-# React + TypeScript + Vite
+# AWS Certification Simulator 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A professional, high-performance web application designed to help students master AWS Certification exams (Cloud Practitioner, Solutions Architect, etc.) through interactive simulation and data-driven insights.
 
-Currently, two official plugins are available:
+## ✨ Key Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* **Dual Learning Modes**:
+    * **Study Mode**: Instant feedback with detailed explanations for every question.
+    * **Test Mode**: Realistic exam simulation with a countdown timer and final scoring.
+* **Dynamic Mock Exams**: Generates a full 65-question simulation by randomly sampling from a massive pool of 23+ exam sets.
+* **⚡ Quick Tests**: 10-question rapid-fire sessions designed for efficient "micro-learning" on the go.
+* **Performance Analytics**: Interactive trend charts using **Recharts** to visualize your progress and readiness for the official exam.
+* **Attempt History & Review**: A "Smart Review" system that saves every attempt, allowing you to revisit past mistakes and study explanations.
+* **Dark Mode Support**: Fully integrated dark theme for reduced eye strain during long study sessions.
+* **Fully Responsive**: Mobile-first design optimized for study on any device (Desktop, Tablet, or Smartphone).
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+* **Core**: React 18 (TypeScript)
+* **Build Tool**: Vite
+* **Styling & UI**: Material UI (MUI)
+* **State Management**: React Context API
+* **Data Visualization**: Recharts
+* **Navigation**: React Router Dom
+* **Deployment**: AWS Amplify
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🚀 Installation & Setup
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+1. **Clone the repository**
+   ```bash
+   git clone [https://github.com/your-username/aws-quiz-simulator.git](https://github.com/your-username/aws-quiz-simulator.git)
+   cd aws-quiz-simulator
+   ```
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+2. **Install dependencies**
+  ```bash 
+  npm install
+  ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+3. **Launch development server**
+  ```bash
+  npm run dev
+  ```
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+4. **Build for production**
+  ```bash
+  npm run build
+  ```
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 📊 Roadmap
+[ ] Category Analytics: Track performance by AWS domain (Storage, Compute, Security).
+
+[ ] Study Streak: Gamification system to track consecutive days of practice. 🔥
+
+[ ] Bookmark System: Save difficult questions to a "Favorites" list for focused review.
+
+[ ] Global Leaderboard: Compare scores with other students (requires Backend integration).
+
+## 📁 Project Architecture
+ - src/context: Global state management for exam logic, timers, and history.
+ - src/components: Reusable UI elements (Charts, Question cards, Header).
+ - src/views: Main page layouts (Dashboard, Exam Engine, Review View).
+ - public/parsed-exams: The question bank stored in optimized JSON structures.
+
+## 📝 License
+Distributed under the MIT License. See LICENSE for more information.
+
+Disclaimer: This tool is a study aid and is not officially affiliated with Amazon Web Services (AWS).
