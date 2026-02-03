@@ -50,7 +50,18 @@ export default function ExamList() {
       setIsGenerating(false);
       alert("Error Generating the Mock Exam");
     }
-  }; 
+  };
+  
+  const handleQuickTest = async () => {
+    setIsGenerating(true);
+    const success = await loadRandomMock(examFiles, 10);
+    if (success) {
+      navigate("/exam/randome/test");
+    } else {
+      setIsGenerating(false);
+      alert("Error Generating Quick Test");
+    }
+  };
 
   if(loading) return <Box sx={{ display: 'flex', justifyContent: 'center', mt: 5 }}><CircularProgress /></Box>
 
@@ -106,6 +117,19 @@ export default function ExamList() {
           </Stack>
         </Stack>
       </Paper>
+
+      <Button
+        fullWidth
+        variant="contained"
+        color="success"
+        size="large"
+        onClick={handleQuickTest}
+        disabled={isGenerating}
+        startIcon={<span>⚡</span>}
+        sx={{ py: 2, fontWeight: 'bold' }}
+      >
+        QUICK TEST (10 Questions)
+      </Button>
 
       <Button
         fullWidth

@@ -98,13 +98,15 @@ export const ExamProvider: React.FC<{ children: React.ReactNode }> = ({ children
           options: shuffleArray(q.options)
         }));
 
+        const timeForQuestion = totalQuestions <= 15 ? 900 : 5400
+
         setExam({
-          title: `MOCK - ${new Date().toLocaleString()}`,
+          title: totalQuestions <= 15 ? "Quick Test ⚡" : `Mock Exam 🚀`,
           questions: shuffledQuestions,
           answers: {},
-          mode: "test",
+          mode: totalQuestions <= 15 ? "study" : "test",
           startTime: Date.now(),
-          timeLeft: 5400
+          timeLeft: timeForQuestion
         });
 
         return true;
