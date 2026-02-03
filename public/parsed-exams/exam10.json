@@ -1108,7 +1108,7 @@
         "B"
       ],
       "explanation": "Microsoft SQL Server can run either on EC2 (self-managed) or using Amazon RDS for SQL Server (managed).",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 40,

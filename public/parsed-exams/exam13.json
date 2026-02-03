@@ -166,7 +166,7 @@
         "B"
       ],
       "explanation": "Amazon EC2 allows you to install and manage SQL Server directly, and Amazon RDS for SQL Server provides a managed SQL Server database. Aurora and Redshift do not support SQL Server.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 7,
