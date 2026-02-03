@@ -27,9 +27,9 @@ A professional, high-performance web application designed to help students maste
 ## 🚀 Installation & Setup
 
 1. **Clone the repository**
-   ```bash
-   git clone [https://github.com/your-username/aws-quiz-simulator.git](https://github.com/your-username/aws-quiz-simulator.git)
-   cd aws-quiz-simulator
+  ```bash
+  git clone [https://github.com/your-username/aws-quiz-simulator.git](https://github.com/your-username/aws-quiz-simulator.git)
+  cd aws-quiz-simulator
    ```
 
 2. **Install dependencies**
@@ -48,21 +48,21 @@ A professional, high-performance web application designed to help students maste
   ```
 
 ## 📊 Roadmap
-[ ] Category Analytics: Track performance by AWS domain (Storage, Compute, Security).
+* [ ] Category Analytics: Track performance by AWS domain (Storage, Compute, Security).
 
-[ ] Study Streak: Gamification system to track consecutive days of practice. 🔥
+* [ ] Study Streak: Gamification system to track consecutive days of practice. 🔥
 
-[ ] Bookmark System: Save difficult questions to a "Favorites" list for focused review.
+* [ ] Bookmark System: Save difficult questions to a "Favorites" list for focused review.
 
-[ ] Global Leaderboard: Compare scores with other students (requires Backend integration).
+* [ ] Global Leaderboard: Compare scores with other students (requires Backend integration).
 
 ## 📁 Project Architecture
- - src/context: Global state management for exam logic, timers, and history.
- - src/components: Reusable UI elements (Charts, Question cards, Header).
- - src/views: Main page layouts (Dashboard, Exam Engine, Review View).
- - public/parsed-exams: The question bank stored in optimized JSON structures.
+ * src/context: Global state management for exam logic, timers, and history.
+ * src/components: Reusable UI elements (Charts, Question cards, Header).
+ * src/views: Main page layouts (Dashboard, Exam Engine, Review View).
+ * public/parsed-exams: The question bank stored in optimized JSON structures.
 
 ## 📝 License
 Distributed under the MIT License. See LICENSE for more information.
 
-Disclaimer: This tool is a study aid and is not officially affiliated with Amazon Web Services (AWS).
+*Disclaimer: This tool is a study aid and is not officially affiliated with Amazon Web Services (AWS).*
