@@ -11,7 +11,7 @@
 
     Explanation: <https://aws.amazon.com/guardduty/>
 
-2. A company wants to try a third-party ecommerce solution before deciding to use it long term. <br/> Which AWS service or tool will support this effort?
+2. A company wants to try a third-party ecommerce solution before deciding to use it long term.  Which AWS service or tool will support this effort?
     - A. AWS Marketplace
     - B. AWS Partner Network (APN)
     - C. AWS Managed Services
@@ -41,7 +41,7 @@
 
     Explanation: <https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/monitor_estimated_charges_with_cloudwatch.html>
 
-5. A company is hosting a web application in a Docker container on Amazon EC2. <br/> AWS is responsible for which of the following tasks?
+5. A company is hosting a web application in a Docker container on Amazon EC2.  AWS is responsible for which of the following tasks?
     - A. Scaling the web application and services developed with Docker
     - B. Provisioning or scheduling containers to run on clusters and maintain their availability
     - C. Performing hardware maintenance in the AWS facilities that run the AWS Cloud
@@ -51,7 +51,7 @@
 
     Explanation: <https://aws.amazon.com/getting-started/tutorials/deploy-docker-containers/>
 
-6. Users are reporting latency when connecting to a website with a global customer base. <br/> Which AWS service will improve the customer experience by reducing latency?
+6. Users are reporting latency when connecting to a website with a global customer base.  Which AWS service will improve the customer experience by reducing latency?
     - A. Amazon CloudFront
     - B. AWS Direct Connect
     - C. Amazon EC2 Auto Scaling
@@ -83,7 +83,7 @@
     Explanation:
     <https://docs.aws.amazon.com/vpc/latest/userguide/flow-logs.html>
 
-9. A company wants to use an AWS service to monitor the health of application endpoints, with the ability to route traffic to healthy regional endpoints to improve application availability. <br/> Which service will support these requirements?
+9. A company wants to use an AWS service to monitor the health of application endpoints, with the ability to route traffic to healthy regional endpoints to improve application availability.  Which service will support these requirements?
     - A. Amazon Inspector
     - B. Amazon CloudWatch
     - C. AWS Global Accelerator
@@ -137,7 +137,7 @@
 
     Explanation: <https://aws.amazon.com/snowball/>
 
-14. A batch workload takes 5 hours to finish on an Amazon EC2 instance. The amount of data to be processed doubles monthly and the processing time is proportional. <br/> What is the best cloud architecture to address this consistently growing demand?
+14. A batch workload takes 5 hours to finish on an Amazon EC2 instance. The amount of data to be processed doubles monthly and the processing time is proportional.  What is the best cloud architecture to address this consistently growing demand?
     - A. Run the application on a bigger EC2 instance size.
     - B. Switch to an EC2 instance family that better matches batch requirements.
     - C. Distribute the application across multiple EC2 instances and run the workload in parallel.
@@ -145,7 +145,7 @@
 
     Correct Answer: C
 
-15. Each department within a company has its own independent AWS account and its own payment method. New company leadership wants to centralize departmental governance and consolidate payments. <br/> How can this be achieved using AWS services or features?
+15. Each department within a company has its own independent AWS account and its own payment method. New company leadership wants to centralize departmental governance and consolidate payments.  How can this be achieved using AWS services or features?
     - A. Forward monthly invoices for each account. Then create IAM roles to allow cross-account access.
     - B. Create a new AWS account. Then configure AWS Organizations and invite all existing accounts to join.
     - C. Configure AWS Organizations in each of the existing accounts. Then link all accounts together.
@@ -163,7 +163,7 @@
 
     Correct Answer: B
 
-17. An ecommerce company anticipates a huge increase in web traffic for two very popular upcoming shopping holidays. <br/> Which AWS service or feature can be configured to dynamically adjust resources to meet this change in demand?
+17. An ecommerce company anticipates a huge increase in web traffic for two very popular upcoming shopping holidays.  Which AWS service or feature can be configured to dynamically adjust resources to meet this change in demand?
     - A. AWS CloudTrail
     - B. Amazon EC2 Auto Scaling
     - C. Amazon Forecast
@@ -193,7 +193,7 @@
 
     Explanation: <https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/ce-forecast.html>
 
-20. A company is running an ecommerce application hosted in Europe. To decrease latency for users who access the website from other parts of the world, the company would like to cache frequently accessed static content closer to the users. <br/> Which AWS service will support these requirements?
+20. A company is running an ecommerce application hosted in Europe. To decrease latency for users who access the website from other parts of the world, the company would like to cache frequently accessed static content closer to the users.  Which AWS service will support these requirements?
     - A. Amazon ElastiCache
     - B. Amazon CloudFront
     - C. Amazon Elastic File System (Amazon EFS)
@@ -250,7 +250,7 @@
 
     Explanation: <https://cloudacademy.com/blog/aws-shared-responsibility-model-security/>
 
-25. IT systems should be designed to reduce interdependencies, so that a change or failure in one component does not cascade to other components. <br/> This is an example of which principle of cloud architecture design?
+25. IT systems should be designed to reduce interdependencies, so that a change or failure in one component does not cascade to other components.  This is an example of which principle of cloud architecture design?
     - A. Scalability
     - B. Loose coupling
     - C. Automation
@@ -273,7 +273,7 @@
     - <https://aws.amazon.com/waf/>
     - <https://docs.aws.amazon.com/vpc/latest/userguide/vpc-network-acls.html>
 
-27. An application runs on multiple Amazon EC2 instances that access a shared file system simultaneously. <br/> Which AWS storage service should be used?
+27. An application runs on multiple Amazon EC2 instances that access a shared file system simultaneously.  Which AWS storage service should be used?
     - A. Amazon EBS
     - B. Amazon EFS
     - C. Amazon S3
@@ -283,7 +283,7 @@
 
     Explanation: <https://aws.amazon.com/efs/>
 
-28. A web application is hosted on AWS using an Elastic Load Balancer, multiple Amazon EC2 instances, and Amazon RDS. <br/> Which security measures fall under the responsibility of AWS? (Choose two.)
+28. A web application is hosted on AWS using an Elastic Load Balancer, multiple Amazon EC2 instances, and Amazon RDS.  Which security measures fall under the responsibility of AWS? (Choose two.)
     - A. Running a virus scan on EC2 instances
     - B. Protecting against IP spoofing and packet sniffing
     - C. Installing the latest security patches on the RDS instance
@@ -310,7 +310,7 @@
 
     Correct Answer: C
 
-31. A company needs an Amazon S3 bucket that cannot have any public objects due to compliance requirements. <br/> How can this be accomplished?
+31. A company needs an Amazon S3 bucket that cannot have any public objects due to compliance requirements.  How can this be accomplished?
     - A. Enable S3 Block Public Access from the AWS Management Console.
     - B. Hold a team meeting to discuss the importance if only uploading private S3 objects.
     - C. Require all S3 objects to be manually approved before uploading.
@@ -320,7 +320,7 @@
 
     Explanation: <https://docs.aws.amazon.com/AmazonS3/latest/dev/access-control-block-public-access.html>
 
-32. A Cloud Practitioner identifies a billing issue after examining the AWS Cost and Usage report in the AWS Management Console. <br/> Which action can be taken to resolve this?
+32. A Cloud Practitioner identifies a billing issue after examining the AWS Cost and Usage report in the AWS Management Console.  Which action can be taken to resolve this?
     - A. Open a detailed case related to billing and submit it to AWS Support for help.
     - B. Upload data describing the issue to a new object in a private Amazon S3 bucket.
     - C. Create a pricing application and deploy it to a right-sized Amazon EC2 instance for more information.
@@ -475,7 +475,7 @@
     Correct Answer: B
 
 47. A user needs to generate a report that outlines the status of key security checks in an AWS account. The report must include:
-    <br/> (The status of Amazon S3 bucket permissions, Whether multi-factor authentication is enabled for the AWS account root user, If any security groups are configured to allow unrestricted access.) <br/> Where can all this information be found in one location?
+     (The status of Amazon S3 bucket permissions, Whether multi-factor authentication is enabled for the AWS account root user, If any security groups are configured to allow unrestricted access.)  Where can all this information be found in one location?
     - A. Amazon QuickSight dashboard
     - B. AWS CloudTrail trails
     - C. AWS Trusted Advisor report

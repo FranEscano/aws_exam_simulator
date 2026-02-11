@@ -3,7 +3,7 @@
   "questions": [
     {
       "id": 1,
-      "question": "A user needs to quickly deploy a non-relational database on AWS. The user does not want to manage the underlying hardware or the database software. <br/> Which AWS service can be used to accomplish this?",
+      "question": "A user needs to quickly deploy a non-relational database on AWS. The user does not want to manage the underlying hardware or the database software.  Which AWS service can be used to accomplish this?",
       "options": [
         {
           "letter": "A",
@@ -30,7 +30,7 @@
     },
     {
       "id": 2,
-      "question": "A Cloud Practitioner is developing a disaster recovery plan and intends to replicate data between multiple geographic areas.<br/> Which of the following meets these requirements?",
+      "question": "A Cloud Practitioner is developing a disaster recovery plan and intends to replicate data between multiple geographic areas. Which of the following meets these requirements?",
       "options": [
         {
           "letter": "A",
@@ -261,7 +261,7 @@
     },
     {
       "id": 10,
-      "question": "A company has deployed several relational databases on Amazon EC2 instances. Every month, the database software vendor releases new security patches that need to be applied to the databases. <br/> What is the MOST efficient way to apply the security patches?",
+      "question": "A company has deployed several relational databases on Amazon EC2 instances. Every month, the database software vendor releases new security patches that need to be applied to the databases.  What is the MOST efficient way to apply the security patches?",
       "options": [
         {
           "letter": "A",
@@ -288,7 +288,7 @@
     },
     {
       "id": 11,
-      "question": "A company wants to use Amazon Elastic Compute Cloud (Amazon EC2) to deploy a global commercial application. The deployment solution should be built with the highest redundancy and fault tolerance. <br/> Based on this situation, the Amazon EC2 instances should be deployed:",
+      "question": "A company wants to use Amazon Elastic Compute Cloud (Amazon EC2) to deploy a global commercial application. The deployment solution should be built with the highest redundancy and fault tolerance.  Based on this situation, the Amazon EC2 instances should be deployed:",
       "options": [
         {
           "letter": "A",
@@ -315,7 +315,7 @@
     },
     {
       "id": 12,
-      "question": "A company has an application with users in both Australia and Brazil. All the company infrastructure is currently provisioned in the Asia Pacific (Sydney) Region in Australia, and Brazilian users are experiencing high latency. <br/> What should the company do to reduce latency?",
+      "question": "A company has an application with users in both Australia and Brazil. All the company infrastructure is currently provisioned in the Asia Pacific (Sydney) Region in Australia, and Brazilian users are experiencing high latency.  What should the company do to reduce latency?",
       "options": [
         {
           "letter": "A",
@@ -342,7 +342,7 @@
     },
     {
       "id": 13,
-      "question": "An Amazon EC2 instance runs only when needed yet must remain active for the duration of the process. <br/> What is the most appropriate purchasing option?",
+      "question": "An Amazon EC2 instance runs only when needed yet must remain active for the duration of the process.  What is the most appropriate purchasing option?",
       "options": [
         {
           "letter": "A",
@@ -671,7 +671,7 @@
     },
     {
       "id": 25,
-      "question": "A user would like to encrypt data that is received, stored, and managed by AWS CloudTrail. <br/> Which AWS service will provide this capability?",
+      "question": "A user would like to encrypt data that is received, stored, and managed by AWS CloudTrail.  Which AWS service will provide this capability?",
       "options": [
         {
           "letter": "A",
@@ -924,7 +924,7 @@
     },
     {
       "id": 34,
-      "question": "A company has distributed its workload on both the AWS Cloud and some on-premises servers. <br/> What type of architecture is this?",
+      "question": "A company has distributed its workload on both the AWS Cloud and some on-premises servers.  What type of architecture is this?",
       "options": [
         {
           "letter": "A",
@@ -1032,7 +1032,7 @@
     },
     {
       "id": 38,
-      "question": "A company needs protection from expanded distributed denial of service (DDoS) attacks on its website and assistance from AWS experts during such events. <br/> Which AWS managed service will meet these requirements?",
+      "question": "A company needs protection from expanded distributed denial of service (DDoS) attacks on its website and assistance from AWS experts during such events.  Which AWS managed service will meet these requirements?",
       "options": [
         {
           "letter": "A",
@@ -1059,7 +1059,7 @@
     },
     {
       "id": 39,
-      "question": "A company's application has flexible start and end times. <br/> Which Amazon EC2 pricing model will be the MOST cost-effective?",
+      "question": "A company's application has flexible start and end times.  Which Amazon EC2 pricing model will be the MOST cost-effective?",
       "options": [
         {
           "letter": "A",
@@ -1199,7 +1199,7 @@
     },
     {
       "id": 44,
-      "question": "A company with a Developer-level AWS Support plan provisioned an Amazon RDS database and cannot connect to it. <br/> Who should the developer contact for this level of support?",
+      "question": "A company with a Developer-level AWS Support plan provisioned an Amazon RDS database and cannot connect to it.  Who should the developer contact for this level of support?",
       "options": [
         {
           "letter": "A",
@@ -1253,7 +1253,7 @@
     },
     {
       "id": 46,
-      "question": "A company must ensure that its endpoint for a database instance remains the same after a single Availability Zone service interruption. The application needs to resume database operations without the need for manual administrative intervention. <br/> How can these requirements be met?",
+      "question": "A company must ensure that its endpoint for a database instance remains the same after a single Availability Zone service interruption. The application needs to resume database operations without the need for manual administrative intervention.  How can these requirements be met?",
       "options": [
         {
           "letter": "A",

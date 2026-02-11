@@ -369,7 +369,7 @@
     },
     {
       "id": 14,
-      "question": "An administrator needs to rapidly deploy a popular IT solution and start using it immediately. <br/> Where can the administrator find assistance?",
+      "question": "An administrator needs to rapidly deploy a popular IT solution and start using it immediately.  Where can the administrator find assistance?",
       "options": [
         {
           "letter": "A",
@@ -654,7 +654,7 @@
     },
     {
       "id": 24,
-      "question": "A company is migrating an application that is running non-interruptible workloads for a three-year time frame. <br/> Which pricing construct would provide the MOST cost-effective solution?",
+      "question": "A company is migrating an application that is running non-interruptible workloads for a three-year time frame.  Which pricing construct would provide the MOST cost-effective solution?",
       "options": [
         {
           "letter": "A",
@@ -768,7 +768,7 @@
     },
     {
       "id": 28,
-      "question": "A company wants to reduce the physical compute footprint that developers use to run code. <br/> Which service would meet that need by enabling serverless architectures?",
+      "question": "A company wants to reduce the physical compute footprint that developers use to run code.  Which service would meet that need by enabling serverless architectures?",
       "options": [
         {
           "letter": "A",
@@ -877,7 +877,7 @@
     },
     {
       "id": 32,
-      "question": "A company will be moving from an on-premises data center to the AWS Cloud. <br/> What would be one financial difference after the move?",
+      "question": "A company will be moving from an on-premises data center to the AWS Cloud.  What would be one financial difference after the move?",
       "options": [
         {
           "letter": "A",

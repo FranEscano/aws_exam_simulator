@@ -52,7 +52,7 @@
 
     Explanation: <https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html>
 
-6. A Cloud Practitioner is asked how to estimate the cost of using a new application on AWS. <br/> What is the MOST appropriate response?
+6. A Cloud Practitioner is asked how to estimate the cost of using a new application on AWS.  What is the MOST appropriate response?
     - A. Inform the user that AWS pricing allows for on-demand pricing.
     - B. Direct the user to the AWS Simple Monthly Calculator for an estimate.
     - C. Use Amazon QuickSight to analyze current spending on-premises.
@@ -62,7 +62,7 @@
 
     Explanation: <https://aws.amazon.com/premiumsupport/knowledge-center/estimating-aws-resource-costs/>
 
-7. A company wants to migrate its applications to a VPC on AWS. These applications will need to access on-premises resources. <br/> What combination of actions will enable the company to accomplish this goal? (Choose two.)
+7. A company wants to migrate its applications to a VPC on AWS. These applications will need to access on-premises resources.  What combination of actions will enable the company to accomplish this goal? (Choose two.)
     - A. Use the AWS Service Catalog to identify a list of on-premises resources that can be migrated.
     - B. Build a VPN connection between an on-premises device and a virtual private gateway in the new VPC.
     - C. Use Amazon Athena to query data from the on-premises database servers.
@@ -73,7 +73,7 @@
 
     Explanation: <https://aws.amazon.com/blogs/apn/amazon-vpc-for-on-premises-network-engineers-part-one/>
 
-8. A web application running on AWS has been spammed with malicious requests from a recurring set of IP addresses. <br/> Which AWS service can help secure the application and block the malicious traffic?
+8. A web application running on AWS has been spammed with malicious requests from a recurring set of IP addresses.  Which AWS service can help secure the application and block the malicious traffic?
     - A. AWS IAM
     - B. Amazon GuardDuty
     - C. Amazon Simple Notification Service (Amazon SNS)
@@ -98,7 +98,7 @@
 
     Explanation: <https://asperbrothers.com/blog/infrastructure-as-code-aws/>
 
-10. A company requires a dedicated network connection between its on-premises servers and the AWS Cloud. <br/> Which AWS service should be used?
+10. A company requires a dedicated network connection between its on-premises servers and the AWS Cloud.  Which AWS service should be used?
     - A. AWS VPN
     - B. AWS Direct Connect
     - C. Amazon API Gateway
@@ -150,7 +150,7 @@
 
     Explanation: <https://www.sisense.com/glossary/redshift-database/>
 
-14. A Cloud Practitioner must determine if any security groups in an AWS account have been provisioned to allow unrestricted access for specific ports. <br/> What is the SIMPLEST way to do this?
+14. A Cloud Practitioner must determine if any security groups in an AWS account have been provisioned to allow unrestricted access for specific ports.  What is the SIMPLEST way to do this?
     - A. Review the inbound rules for each security group in the Amazon EC2 management console to check for port 0.0.0.0/0.
     - B. Run AWS Trusted Advisor and review the findings.
     - C. Open the AWS IAM console and check the inbound rule filters for open access.
@@ -169,7 +169,7 @@
 
     Correct answer: C, D
 
-16. A user needs an automated security assessment report that will identify unintended network access to Amazon EC2 instances and vulnerabilities on those instances. <br/> Which AWS service will provide this assessment report?
+16. A user needs an automated security assessment report that will identify unintended network access to Amazon EC2 instances and vulnerabilities on those instances.  Which AWS service will provide this assessment report?
     - A. EC2 security groups
     - B. AWS Config
     - C. Amazon Macie
@@ -209,7 +209,7 @@
 
     Reference: <https://aws.amazon.com/servicecatalog/partners/>
 
-19. A Cloud Practitioner needs to store data for 7 years to meet regulatory requirements. <br/> Which AWS service will meet this requirement at the LOWEST cost?
+19. A Cloud Practitioner needs to store data for 7 years to meet regulatory requirements.  Which AWS service will meet this requirement at the LOWEST cost?
     - A. Amazon S3
     - B. AWS Snowball
     - C. Amazon Redshift
@@ -275,7 +275,7 @@
 
     Explanation: <https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html>
 
-24. A system in the AWS Cloud is designed to withstand the failure of one or more components. <br/> What is this an example of?
+24. A system in the AWS Cloud is designed to withstand the failure of one or more components.  What is this an example of?
     - A. Elasticity
     - B. High Availability
     - C. Scalability
@@ -285,7 +285,7 @@
 
     Explanation: <https://wa.aws.amazon.com/wat.question.REL_7.en.html>
 
-25. A Cloud Practitioner needs a consistent and dedicated connection between AWS resources and an on-premises system. <br/> Which AWS service can fulfill this requirement?
+25. A Cloud Practitioner needs a consistent and dedicated connection between AWS resources and an on-premises system.  Which AWS service can fulfill this requirement?
     - A. AWS Direct Connect
     - B. AWS VPN
     - C. Amazon Connect
@@ -364,7 +364,7 @@
 
     Reference: <https://aws.amazon.com/shield/pricing/>
 
-32. A company wants to build its new application workloads in the AWS Cloud instead of using on-premises resources. <br/> What expense can be reduced using the AWS Cloud?
+32. A company wants to build its new application workloads in the AWS Cloud instead of using on-premises resources.  What expense can be reduced using the AWS Cloud?
     - A. The cost of writing custom-built Java or Node .js code
     - B. Penetration testing for security
     - C. hardware required to support new applications

@@ -1,7 +1,7 @@
 
 # Practice Exam 21
 
-1. A user needs to quickly deploy a non-relational database on AWS. The user does not want to manage the underlying hardware or the database software. <br/> Which AWS service can be used to accomplish this?
+1. A user needs to quickly deploy a non-relational database on AWS. The user does not want to manage the underlying hardware or the database software.  Which AWS service can be used to accomplish this?
     - A. Amazon RDS
     - B. Amazon DynamoDB
     - C. Amazon Aurora
@@ -11,7 +11,7 @@
 
     Explanation: <https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/SQLtoNoSQL.html>
 
-2. A Cloud Practitioner is developing a disaster recovery plan and intends to replicate data between multiple geographic areas.<br/> Which of the following meets these requirements?
+2. A Cloud Practitioner is developing a disaster recovery plan and intends to replicate data between multiple geographic areas. Which of the following meets these requirements?
     - A. AWS Accounts
     - B. AWS Regions
     - C. Availability Zones
@@ -94,7 +94,7 @@
 
     Explanation: <https://aws.amazon.com/premiumsupport/plans/>
 
-10. A company has deployed several relational databases on Amazon EC2 instances. Every month, the database software vendor releases new security patches that need to be applied to the databases. <br/> What is the MOST efficient way to apply the security patches?
+10. A company has deployed several relational databases on Amazon EC2 instances. Every month, the database software vendor releases new security patches that need to be applied to the databases.  What is the MOST efficient way to apply the security patches?
     - A. Connect to each database instance on a monthly basis, and download and apply the necessary security patches from the vendor.
     - B. Enable automatic patching for the instances using the Amazon RDS console.
     - C. In AWS Config, configure a rule for the instances and the required patch level.
@@ -104,7 +104,7 @@
 
     Explanation: <https://aws.amazon.com/rds/faqs/>
 
-11. A company wants to use Amazon Elastic Compute Cloud (Amazon EC2) to deploy a global commercial application. The deployment solution should be built with the highest redundancy and fault tolerance. <br/> Based on this situation, the Amazon EC2 instances should be deployed:
+11. A company wants to use Amazon Elastic Compute Cloud (Amazon EC2) to deploy a global commercial application. The deployment solution should be built with the highest redundancy and fault tolerance.  Based on this situation, the Amazon EC2 instances should be deployed:
     - A. in a single Availability Zone in one AWS Region
     - B. with multiple Elastic Network Interfaces belonging to different subnets
     - C. across multiple Availability Zones in one AWS Region
@@ -114,7 +114,7 @@
 
     Explanation: <https://jayendrapatil.com/aws-high-availability-fault-tolerance-architecture-certification/>
 
-12. A company has an application with users in both Australia and Brazil. All the company infrastructure is currently provisioned in the Asia Pacific (Sydney) Region in Australia, and Brazilian users are experiencing high latency. <br/> What should the company do to reduce latency?
+12. A company has an application with users in both Australia and Brazil. All the company infrastructure is currently provisioned in the Asia Pacific (Sydney) Region in Australia, and Brazilian users are experiencing high latency.  What should the company do to reduce latency?
     - A. Implement AWS Direct Connect for users in Brazil
     - B. Provision resources in the South America (São Paulo) Region in Brazil.
     - C. Use AWS Transit Gateway to quickly route users from Brazil to the application
@@ -124,7 +124,7 @@
 
     Explanation: <https://aws.amazon.com/transit-gateway/>
 
-13. An Amazon EC2 instance runs only when needed yet must remain active for the duration of the process. <br/> What is the most appropriate purchasing option?
+13. An Amazon EC2 instance runs only when needed yet must remain active for the duration of the process.  What is the most appropriate purchasing option?
     - A. Dedicated Instances
     - B. Spot Instances
     - C. On-Demand Instances
@@ -243,7 +243,7 @@
 
     Explanation: <https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-concepts.html>
 
-25. A user would like to encrypt data that is received, stored, and managed by AWS CloudTrail. <br/> Which AWS service will provide this capability?
+25. A user would like to encrypt data that is received, stored, and managed by AWS CloudTrail.  Which AWS service will provide this capability?
     - A. AWS Secrets Manager
     - B. AWS Systems Manager
     - C. AWS Key Management Service (AWS KMS)
@@ -331,7 +331,7 @@
 
     Explanation: <https://aws.amazon.com/blogs/mt/monitoring-service-limits-with-trusted-advisor-and-amazon-cloudwatch/>
 
-34. A company has distributed its workload on both the AWS Cloud and some on-premises servers. <br/> What type of architecture is this?
+34. A company has distributed its workload on both the AWS Cloud and some on-premises servers.  What type of architecture is this?
     - A. Virtual private network
     - B. Virtual private cloud
     - C. Hybrid cloud
@@ -375,7 +375,7 @@
 
     Explanation: <https://aws.amazon.com/blogs/training-and-certification/explore-the-aws-transit-gateway-networking-and-scaling-digital-course/>
 
-38. A company needs protection from expanded distributed denial of service (DDoS) attacks on its website and assistance from AWS experts during such events. <br/> Which AWS managed service will meet these requirements?
+38. A company needs protection from expanded distributed denial of service (DDoS) attacks on its website and assistance from AWS experts during such events.  Which AWS managed service will meet these requirements?
     - A. AWS Shield Advanced
     - B. AWS Firewall Manager
     - C. AWS WAF
@@ -385,7 +385,7 @@
 
     Explanation: <https://docs.aws.amazon.com/waf/latest/developerguide/ddos-overview.html>
 
-39. A company's application has flexible start and end times. <br/> Which Amazon EC2 pricing model will be the MOST cost-effective?
+39. A company's application has flexible start and end times.  Which Amazon EC2 pricing model will be the MOST cost-effective?
     - A. On-Demand Instances
     - B. Spot Instances
     - C. Reserved Instances
@@ -430,7 +430,7 @@
 
     Correct Answer: C
 
-44. A company with a Developer-level AWS Support plan provisioned an Amazon RDS database and cannot connect to it. <br/> Who should the developer contact for this level of support?
+44. A company with a Developer-level AWS Support plan provisioned an Amazon RDS database and cannot connect to it.  Who should the developer contact for this level of support?
     - A. AWS Support using a support case
     - B. AWS Professional Services
     - C. AWS technical account manager
@@ -446,7 +446,7 @@
 
     Correct Answer: B
 
-46. A company must ensure that its endpoint for a database instance remains the same after a single Availability Zone service interruption. The application needs to resume database operations without the need for manual administrative intervention. <br/> How can these requirements be met?
+46. A company must ensure that its endpoint for a database instance remains the same after a single Availability Zone service interruption. The application needs to resume database operations without the need for manual administrative intervention.  How can these requirements be met?
     - A. Use multiple Amazon Route 53 routes to the standby database instance endpoint hosted on AWS Storage Gateway.
     - B. Configure Amazon RDS Multi-Availability Zone deployments with automatic failover to the standby.
     - C. Add multiple Application Load Balancers and deploy the database instance with AWS Elastic Beanstalk.

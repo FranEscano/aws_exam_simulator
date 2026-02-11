@@ -305,7 +305,7 @@
     },
     {
       "id": 12,
-      "question": "A user wants guidance on possible savings when migrating from on-premises to AWS. <br/> Which tool is suitable for this scenario?",
+      "question": "A user wants guidance on possible savings when migrating from on-premises to AWS.  Which tool is suitable for this scenario?",
       "options": [
         {
           "letter": "A",
@@ -450,7 +450,7 @@
     },
     {
       "id": 17,
-      "question": "A company wants to monitor the CPU usage of its Amazon EC2 resources. <br/> Which AWS service should the company use?",
+      "question": "A company wants to monitor the CPU usage of its Amazon EC2 resources.  Which AWS service should the company use?",
       "options": [
         {
           "letter": "A",
@@ -590,7 +590,7 @@
     },
     {
       "id": 22,
-      "question": "A customer runs an On-Demand Amazon Linux EC2 instance for 3 hours, 5 minutes, and 6 seconds. <br/> For how much time will the customer be billed?",
+      "question": "A customer runs an On-Demand Amazon Linux EC2 instance for 3 hours, 5 minutes, and 6 seconds.  For how much time will the customer be billed?",
       "options": [
         {
           "letter": "A",
@@ -1047,7 +1047,7 @@
     },
     {
       "id": 38,
-      "question": "A user is running an application on AWS and notices that one or more AWS-owned IP addresses is involved in a distributed denial-of-service (DDoS) attack. <br/> Who should the user contact FIRST about this situation?",
+      "question": "A user is running an application on AWS and notices that one or more AWS-owned IP addresses is involved in a distributed denial-of-service (DDoS) attack.  Who should the user contact FIRST about this situation?",
       "options": [
         {
           "letter": "A",

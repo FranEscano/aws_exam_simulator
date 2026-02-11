@@ -111,7 +111,7 @@
     },
     {
       "id": 5,
-      "question": "A company is looking for a scalable data warehouse solution. <br/> Which of the following AWS solutions would meet the company's needs?",
+      "question": "A company is looking for a scalable data warehouse solution.  Which of the following AWS solutions would meet the company's needs?",
       "options": [
         {
           "letter": "A",
@@ -256,7 +256,7 @@
     },
     {
       "id": 10,
-      "question": "Web servers running on Amazon EC2 access a legacy application running in a corporate data center. <br/> What term would describe this model?",
+      "question": "Web servers running on Amazon EC2 access a legacy application running in a corporate data center.  What term would describe this model?",
       "options": [
         {
           "letter": "A",

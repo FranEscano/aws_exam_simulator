@@ -31,7 +31,7 @@
 
     Explanation: <https://aws.amazon.com/professional-services/>
 
-1. A customer would like to design and build a new workload on AWS Cloud but does not have the AWS-related software technical expertise in-house. <br/>Which of the following AWS programs can a customer take advantage of to achieve that outcome?
+1. A customer would like to design and build a new workload on AWS Cloud but does not have the AWS-related software technical expertise in-house. Which of the following AWS programs can a customer take advantage of to achieve that outcome?
     - A. AWS Partner Network Technology Partners
     - B. AWS Marketplace
     - C. AWS Partner Network Consulting Partners
@@ -127,7 +127,7 @@
 
     Explanation: <https://media.amazonwebservices.com/AWS_TCO_Web_Applications.pdf>
 
-1. A company is considering using AWS for a self-hosted database that requires a nightly shutdown for maintenance and cost-saving purposes. <br/> Which service should the company use?
+1. A company is considering using AWS for a self-hosted database that requires a nightly shutdown for maintenance and cost-saving purposes.  Which service should the company use?
     - A. Amazon Redshift
     - B. Amazon DynamoDB
     - C. Amazon Elastic Compute Cloud (Amazon EC2) with Amazon EC2 instance store
@@ -310,7 +310,7 @@
     - In the main RDS page though, Lower administrative burden is listed as part of the benefits.
     - <https://aws.amazon.com/rds/>
 
-1. A customer needs to run a MySQL database that easily scales.<br/>Which AWS service should they use?
+1. A customer needs to run a MySQL database that easily scales.Which AWS service should they use?
     - A. Amazon Aurora
     - B. Amazon Redshift
     - C. Amazon DynamoDB
@@ -443,7 +443,7 @@
 
     Explanation: <https://aws.amazon.com/compliance/shared-responsibility-model/>
 
-1. A customer is using multiple AWS accounts with separate billing. <br/>How can the customer take advantage of volume discounts with minimal impact to the AWS resources?
+1. A customer is using multiple AWS accounts with separate billing. How can the customer take advantage of volume discounts with minimal impact to the AWS resources?
     - A. Create one global AWS account and move all AWS resources to that account.
     - B. Sign up for three years of Reserved Instance pricing up front.
     - C. Use the consolidated billing feature from AWS Organizations.
@@ -472,7 +472,7 @@
 
     Explanation: <https://aws.amazon.com/getting-started/tutorials/get-a-domain/>
 
-1. A customer is deploying a new application and needs to choose an AWS Region. <br/>Which of the following factors could influence the customer's decision? (Select TWO.)
+1. A customer is deploying a new application and needs to choose an AWS Region. Which of the following factors could influence the customer's decision? (Select TWO.)
     - A. Reduced latency to users
     - B. The application's presentation in the local language
     - C. Data sovereignty compliance

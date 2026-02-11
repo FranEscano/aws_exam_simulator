@@ -3,7 +3,7 @@
   "questions": [
     {
       "id": 1,
-      "question": "A company operating in the AWS Cloud requires separate invoices for specific environments, such as development, testing, and production. <br/> How can this be achieved?",
+      "question": "A company operating in the AWS Cloud requires separate invoices for specific environments, such as development, testing, and production.  How can this be achieved?",
       "options": [
         {
           "letter": "A",
@@ -89,7 +89,7 @@
     },
     {
       "id": 4,
-      "question": "A company is launching an e-commerce site that will store and process credit card data. The company requires information about AWS compliance reports and AWS agreements. <br/> Which AWS service provides on-demand access to these items?",
+      "question": "A company is launching an e-commerce site that will store and process credit card data. The company requires information about AWS compliance reports and AWS agreements.  Which AWS service provides on-demand access to these items?",
       "options": [
         {
           "letter": "A",
@@ -170,7 +170,7 @@
     },
     {
       "id": 7,
-      "question": "A user needs to regularly audit and evaluate the setup of all AWS resources, identify non-compliant accounts, and be notified when a resource changes. <br/> Which AWS service can be used to meet these requirements?",
+      "question": "A user needs to regularly audit and evaluate the setup of all AWS resources, identify non-compliant accounts, and be notified when a resource changes.  Which AWS service can be used to meet these requirements?",
       "options": [
         {
           "letter": "A",
@@ -197,7 +197,7 @@
     },
     {
       "id": 8,
-      "question": "A user is planning to launch two additional Amazon EC2 instances to increase availability. <br/> Which action should the user take?",
+      "question": "A user is planning to launch two additional Amazon EC2 instances to increase availability.  Which action should the user take?",
       "options": [
         {
           "letter": "A",
@@ -224,7 +224,7 @@
     },
     {
       "id": 9,
-      "question": "A company must store critical business data in Amazon S3 with a backup to another AWS Region. <br/> How can this be achieved?",
+      "question": "A company must store critical business data in Amazon S3 with a backup to another AWS Region.  How can this be achieved?",
       "options": [
         {
           "letter": "A",
@@ -305,7 +305,7 @@
     },
     {
       "id": 12,
-      "question": "A user needs to automatically discover, classify, and protect sensitive data stored in Amazon S3. <br/> Which AWS service can meet these requirements?",
+      "question": "A user needs to automatically discover, classify, and protect sensitive data stored in Amazon S3.  Which AWS service can meet these requirements?",
       "options": [
         {
           "letter": "A",
@@ -644,7 +644,7 @@
     },
     {
       "id": 24,
-      "question": "During a compliance review, one of the auditors requires a copy of the AWS SOC 2 report. <br/> Which service should be used to submit this request?",
+      "question": "During a compliance review, one of the auditors requires a copy of the AWS SOC 2 report.  Which service should be used to submit this request?",
       "options": [
         {
           "letter": "A",
@@ -671,7 +671,7 @@
     },
     {
       "id": 25,
-      "question": "A company wants to set up a highly available workload in AWS with a disaster recovery plan that will allow the company to recover in case of a regional service interruption. <br/> Which configuration will meet these requirements?",
+      "question": "A company wants to set up a highly available workload in AWS with a disaster recovery plan that will allow the company to recover in case of a regional service interruption.  Which configuration will meet these requirements?",
       "options": [
         {
           "letter": "A",
@@ -699,7 +699,7 @@
     },
     {
       "id": 26,
-      "question": "A company has a 500 TB image repository that needs to be transported to AWS for processing. <br/> Which AWS service can import this data MOST cost-effectively?",
+      "question": "A company has a 500 TB image repository that needs to be transported to AWS for processing.  Which AWS service can import this data MOST cost-effectively?",
       "options": [
         {
           "letter": "A",
@@ -785,7 +785,7 @@
     },
     {
       "id": 29,
-      "question": "A company wants to allow full access to an Amazon S3 bucket for a particular user. <br/> Which element in the S3 bucket policy holds the user details that describe who needs access to the S3 bucket?",
+      "question": "A company wants to allow full access to an Amazon S3 bucket for a particular user.  Which element in the S3 bucket policy holds the user details that describe who needs access to the S3 bucket?",
       "options": [
         {
           "letter": "A",
@@ -839,7 +839,7 @@
     },
     {
       "id": 31,
-      "question": "A company is piloting a new customer-facing application on Amazon Elastic Compute Cloud (Amazon EC2) for one month. <br/> What pricing model is appropriate?",
+      "question": "A company is piloting a new customer-facing application on Amazon Elastic Compute Cloud (Amazon EC2) for one month.  What pricing model is appropriate?",
       "options": [
         {
           "letter": "A",
@@ -1055,7 +1055,7 @@
     },
     {
       "id": 39,
-      "question": "An architecture design includes Amazon EC2, an Elastic Load Balancer, and Amazon RDS. <br/> What is the BEST way to get a monthly cost estimation for this architecture?",
+      "question": "An architecture design includes Amazon EC2, an Elastic Load Balancer, and Amazon RDS.  What is the BEST way to get a monthly cost estimation for this architecture?",
       "options": [
         {
           "letter": "A",
@@ -1141,7 +1141,7 @@
     },
     {
       "id": 42,
-      "question": "A company has multiple data sources across the organization and wants to consolidate data into one data warehouse. <br/> Which AWS service can be used to meet this requirement?",
+      "question": "A company has multiple data sources across the organization and wants to consolidate data into one data warehouse.  Which AWS service can be used to meet this requirement?",
       "options": [
         {
           "letter": "A",
@@ -1195,7 +1195,7 @@
     },
     {
       "id": 44,
-      "question": "A user has underutilized on-premises resources. <br/> Which AWS Cloud concept can BEST address this issue?",
+      "question": "A user has underutilized on-premises resources.  Which AWS Cloud concept can BEST address this issue?",
       "options": [
         {
           "letter": "A",
@@ -1222,7 +1222,7 @@
     },
     {
       "id": 45,
-      "question": "A user has a stateful workload that will run on Amazon EC2 for the next 3 years. <br/> What is the MOST cost-effective pricing model for this workload?",
+      "question": "A user has a stateful workload that will run on Amazon EC2 for the next 3 years.  What is the MOST cost-effective pricing model for this workload?",
       "options": [
         {
           "letter": "A",
@@ -1249,7 +1249,7 @@
     },
     {
       "id": 46,
-      "question": "A cloud practitioner needs an Amazon EC2 instance to launch and run for 7 hours without interruptions. <br/> What is the most suitable and cost-effective option for this task?",
+      "question": "A cloud practitioner needs an Amazon EC2 instance to launch and run for 7 hours without interruptions.  What is the most suitable and cost-effective option for this task?",
       "options": [
         {
           "letter": "A",
@@ -1308,7 +1308,7 @@
     },
     {
       "id": 48,
-      "question": "A developer has been hired by a large company and needs AWS credentials. <br/> Which are security best practices that should be followed? (Choose two.)",
+      "question": "A developer has been hired by a large company and needs AWS credentials.  Which are security best practices that should be followed? (Choose two.)",
       "options": [
         {
           "letter": "A",

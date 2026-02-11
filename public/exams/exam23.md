@@ -1,7 +1,7 @@
 
 # Practice Exam 23
 
-1. A user is planning to migrate an application workload to the AWS Cloud. <br/> Which control becomes the responsibility of AWS once the migration is complete?
+1. A user is planning to migrate an application workload to the AWS Cloud.  Which control becomes the responsibility of AWS once the migration is complete?
     - A. Patching the guest operating system
     - B. Maintaining physical and environmental controls
     - C. Protecting communications and maintaining zone security
@@ -58,7 +58,7 @@
 
     Explanation: <https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-reserved-instances.html>
 
-7. A company has a MySQL database running on a single Amazon EC2 instance. The company now requires higher availability in the event of an outage. <br/> Which set of tasks would meet this requirement?
+7. A company has a MySQL database running on a single Amazon EC2 instance. The company now requires higher availability in the event of an outage.  Which set of tasks would meet this requirement?
     - A. Add an Application Load Balancer in front of the EC2 instance
     - B. Configure EC2 Auto Recovery to move the instance to another Availability Zone
     - C. Migrate to Amazon RDS and enable Multi-AZ
@@ -68,7 +68,7 @@
 
     Explanation: <https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Concepts.MultiAZ.html>
 
-8. A company wants to ensure that AWS Management Console users are meeting password complexity requirements. <br/> How can the company configure password complexity?
+8. A company wants to ensure that AWS Management Console users are meeting password complexity requirements.  How can the company configure password complexity?
     - A. Using an AWS IAM user policy
     - B. Using an AWS Organizations service control policy (SCP)
     - C. Using an AWS IAM account password policy
@@ -96,7 +96,7 @@
 
     Explanation: <https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-pci-controls.html>
 
-11. A company is building an application that requires the ability to send, store, and receive messages between application components. The company has another requirement to process messages in first-in, first-out (FIFO) order. <br/> Which AWS service should the company use?
+11. A company is building an application that requires the ability to send, store, and receive messages between application components. The company has another requirement to process messages in first-in, first-out (FIFO) order.  Which AWS service should the company use?
     - A. AWS Step Functions
     - B. Amazon Simple Notification Service (Amazon SNS)
     - C. Amazon Kinesis Data Streams
@@ -106,7 +106,7 @@
 
     Explanation: <https://aws.amazon.com/sqs/faqs/>
 
-12. AnyCompany recently purchased Example Corp. Both companies use AWS resources, and AnyCompany wants a single aggregated bill.  <br/> Which option allows AnyCompany to receive a single bill?
+12. AnyCompany recently purchased Example Corp. Both companies use AWS resources, and AnyCompany wants a single aggregated bill.   Which option allows AnyCompany to receive a single bill?
     - A. Example Corp. must submit a request to its AWS solutions architect or AWS technical account manager to link the accounts and consolidate billing.
     - B. AnyCompany must create a new support case in the AWS Support Center requesting that both bills be combined.
     - C. Send an invitation to join the organization from AnyCompany's AWS Organizations master account to Example Corp.
@@ -126,7 +126,7 @@
 
     Explanation: <https://aws.amazon.com/getting-started/hands-on/control-your-costs-free-tier-budgets/>
 
-14. A user has limited knowledge of AWS services, but wants to quickly deploy a scalable Node.js application in the AWS Cloud. <br/> Which service should be used to deploy the application?
+14. A user has limited knowledge of AWS services, but wants to quickly deploy a scalable Node.js application in the AWS Cloud.  Which service should be used to deploy the application?
     - A. AWS CloudFormation
     - B. AWS Elastic Beanstalk
     - C. Amazon EC2
@@ -146,7 +146,7 @@
 
     Explanation: <https://www.amazonaws.cn/en/support/trustedadvisor/faq/#checks>
 
-16. A web developer is concerned that a DDoS attack could target an application. <br/> Which AWS services or features can help protect against such an attack? (Choose two.)
+16. A web developer is concerned that a DDoS attack could target an application.  Which AWS services or features can help protect against such an attack? (Choose two.)
     - A. AWS Shield
     - B. AWS CloudTrail
     - C. Amazon CloudFront
@@ -167,7 +167,7 @@
 
     Explanation: <https://aws.amazon.com/artifact>
 
-18. A company wants to provide one of its employees with access to Amazon RDS. The company also wants to limit the interaction to only the AWS CLI and AWS software development kits (SDKs). <br/> Which combination of actions should the company take to meet these requirements while following the principles of least privilege? (Choose two.)
+18. A company wants to provide one of its employees with access to Amazon RDS. The company also wants to limit the interaction to only the AWS CLI and AWS software development kits (SDKs).  Which combination of actions should the company take to meet these requirements while following the principles of least privilege? (Choose two.)
     - A. Create an IAM user and provide AWS Management Console access only.
     - B. Create an IAM user and provide programmatic access only.
     - C. Create an IAM role and provide AWS Management Console access only.
@@ -176,7 +176,7 @@
 
     Correct answer: B, E
 
-19. A company has a compliance requirement to record and evaluate configuration changes, as well as perform remediation actions on AWS resources. <br/> Which AWS service should the company use?
+19. A company has a compliance requirement to record and evaluate configuration changes, as well as perform remediation actions on AWS resources.  Which AWS service should the company use?
     - A. AWS Config
     - B. AWS Secrets Manager
     - C. AWS CloudTrail
@@ -197,7 +197,7 @@
 
     Explanation: <https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-increase-availability.html>
 
-21. A workload on AWS will run for the foreseeable future by using a consistent number of Amazon EC2 instances. <br/> What pricing model will minimize cost while ensuring that compute resources remain available?
+21. A workload on AWS will run for the foreseeable future by using a consistent number of Amazon EC2 instances.  What pricing model will minimize cost while ensuring that compute resources remain available?
     - A. Dedicated Hosts
     - B. On-Demand Instances
     - C. Spot Instances
@@ -237,7 +237,7 @@
 
     Explanation: <https://aws.amazon.com/lambda/security-overview-of-aws-lambda/>
 
-25. A company wants to be notified when its AWS Cloud costs or usage exceed defined thresholds. <br/> Which AWS service will support these requirements?
+25. A company wants to be notified when its AWS Cloud costs or usage exceed defined thresholds.  Which AWS service will support these requirements?
     - A. AWS Budgets
     - B. Cost Explorer
     - C. AWS CloudTrail
@@ -308,7 +308,7 @@
 
     Explanation: <https://www.coalfire.com/the-coalfire-blog/march-2019/aws-trusted-advisor-for-security-compliance>
 
-32. A company wants to ensure its infrastructure is designed for fault tolerance and business continuity in the event of an environmental disruption. <br/> Which AWS infrastructure component should the company replicate across?
+32. A company wants to ensure its infrastructure is designed for fault tolerance and business continuity in the event of an environmental disruption.  Which AWS infrastructure component should the company replicate across?
     - A. Edge locations
     - B. Availability Zones
     - C. Regions
@@ -339,7 +339,7 @@
 
     Explanation: <https://wa.aws.amazon.com/wat.pillar.reliability.en.html>
 
-35. A company is planning to launch an ecommerce site in a single AWS Region to a worldwide user base. <br/> Which AWS services will allow the company to reach users and provide low latency and high transfer speeds? (Choose two.)
+35. A company is planning to launch an ecommerce site in a single AWS Region to a worldwide user base.  Which AWS services will allow the company to reach users and provide low latency and high transfer speeds? (Choose two.)
     - A. Application Load Balancer
     - B. AWS Global Accelerator
     - C. AWS Direct Connect
@@ -350,7 +350,7 @@
 
     Explanation: <https://aws.amazon.com/cloudfront/faqs/>
 
-36. A company wants to connect to AWS over a private, low-latency connection from its remote office. <br/> What is the recommended method to meet these requirements?
+36. A company wants to connect to AWS over a private, low-latency connection from its remote office.  What is the recommended method to meet these requirements?
     - A. Create a VPN tunnel
     - B. Connect across the public internet
     - C. Use VPC peering to create a connection.
@@ -370,7 +370,7 @@
 
     Explanation: <https://aws.amazon.com/artifact/>
 
-38. A company has an AWS-hosted website located behind an Application Load Balancer. The company wants to safeguard the website from SQL injection or cross-site scripting. <br/> Which AWS service should the company use?
+38. A company has an AWS-hosted website located behind an Application Load Balancer. The company wants to safeguard the website from SQL injection or cross-site scripting.  Which AWS service should the company use?
     - A. Amazon GuardDuty
     - B. AWS WAF
     - C. AWS Trusted Advisor
@@ -390,7 +390,7 @@
 
     Explanation: <https://www.betsol.com/blog/how-to-make-high-availability-web-applications-on-amazon-web-services/>
 
-40. A company is running a self-managed Oracle database directly on Amazon EC2 for its steady-state database. The company wants to reduce compute costs. <br/> Which option should the company use to maximize savings over a 3-year term?
+40. A company is running a self-managed Oracle database directly on Amazon EC2 for its steady-state database. The company wants to reduce compute costs.  Which option should the company use to maximize savings over a 3-year term?
     - A. EC2 Dedicated Instances
     - B. EC2 Spot Instances
     - C. EC2 Reserved Instances
@@ -400,7 +400,7 @@
 
     Explanation: <https://aws.amazon.com/choosing-a-cloud-platform/>
 
-41. An external auditor has requested that a company provide a list of all its IAM users, including the status of users' credentials and access keys. <br/> What it the SIMPLEST way to provide this information?
+41. An external auditor has requested that a company provide a list of all its IAM users, including the status of users' credentials and access keys.  What it the SIMPLEST way to provide this information?
     - A. Create an IAM user account for the auditor, granting the auditor administrator permissions.
     - B. Take a screenshot of each user's page in the AWS Management Console, then provide the screenshots to the auditor.
     - C. Download the IAM credential report, then provide the report to the auditor.
@@ -421,7 +421,7 @@
 
     Explanation: <https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/consolidated-billing.html>
 
-43. A company is expecting a short-term spike in internet traffic for its application. During the traffic increase, the application cannot be interrupted. The company also needs to minimize cost and maximize flexibility. <br/> Which Amazon EC2 instance type should the company use to meet these requirements?
+43. A company is expecting a short-term spike in internet traffic for its application. During the traffic increase, the application cannot be interrupted. The company also needs to minimize cost and maximize flexibility.  Which Amazon EC2 instance type should the company use to meet these requirements?
     - A. On-Demand Instances
     - B. Spot Instances
     - C. Reserved Instances
@@ -431,7 +431,7 @@
 
     Explanation: <https://aws.amazon.com/ec2/faqs/>
 
-44. A company wants to track AWS resource configuration changes for compliance reasons. <br/> Which AWS feature can be used to meet this requirement?
+44. A company wants to track AWS resource configuration changes for compliance reasons.  Which AWS feature can be used to meet this requirement?
     - A. AWS Cost and Usage Report
     - B. AWS Organizations service control policies (SCPs)
     - C. AWS Config rules
@@ -441,7 +441,7 @@
 
     Explanation: <https://aws.amazon.com/config/>
 
-45. A company is building an application that needs to deliver images and videos globally with minimal latency. <br/> Which approach can the company use to accomplish this in a cost effective manner?
+45. A company is building an application that needs to deliver images and videos globally with minimal latency.  Which approach can the company use to accomplish this in a cost effective manner?
     - A. Deliver the content through Amazon CloudFront.
     - B. Store the content on Amazon S3 and enable S3 cross-region replication.
     - C. Implement a VPN across multiple AWS Regions.
@@ -471,7 +471,7 @@
 
     Explanation: <https://innovationtactics.com/amazon-business-model-amazon-web-services/>
 
-48. A pharmaceutical company operates its infrastructure in a single AWS Region. The company has thousands of VPCs in a various AWS accounts that it wants to interconnect. <br/> Which AWS service or feature should the company use to help simplify management and reduce operational costs?
+48. A pharmaceutical company operates its infrastructure in a single AWS Region. The company has thousands of VPCs in a various AWS accounts that it wants to interconnect.  Which AWS service or feature should the company use to help simplify management and reduce operational costs?
     - A. VPC endpoint
     - B. AWS Direct Connect
     - C. AWS Transit Gateway

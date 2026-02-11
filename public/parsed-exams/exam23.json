@@ -3,7 +3,7 @@
   "questions": [
     {
       "id": 1,
-      "question": "A user is planning to migrate an application workload to the AWS Cloud. <br/> Which control becomes the responsibility of AWS once the migration is complete?",
+      "question": "A user is planning to migrate an application workload to the AWS Cloud.  Which control becomes the responsibility of AWS once the migration is complete?",
       "options": [
         {
           "letter": "A",
@@ -170,7 +170,7 @@
     },
     {
       "id": 7,
-      "question": "A company has a MySQL database running on a single Amazon EC2 instance. The company now requires higher availability in the event of an outage. <br/> Which set of tasks would meet this requirement?",
+      "question": "A company has a MySQL database running on a single Amazon EC2 instance. The company now requires higher availability in the event of an outage.  Which set of tasks would meet this requirement?",
       "options": [
         {
           "letter": "A",
@@ -197,7 +197,7 @@
     },
     {
       "id": 8,
-      "question": "A company wants to ensure that AWS Management Console users are meeting password complexity requirements. <br/> How can the company configure password complexity?",
+      "question": "A company wants to ensure that AWS Management Console users are meeting password complexity requirements.  How can the company configure password complexity?",
       "options": [
         {
           "letter": "A",
@@ -278,7 +278,7 @@
     },
     {
       "id": 11,
-      "question": "A company is building an application that requires the ability to send, store, and receive messages between application components. The company has another requirement to process messages in first-in, first-out (FIFO) order. <br/> Which AWS service should the company use?",
+      "question": "A company is building an application that requires the ability to send, store, and receive messages between application components. The company has another requirement to process messages in first-in, first-out (FIFO) order.  Which AWS service should the company use?",
       "options": [
         {
           "letter": "A",
@@ -305,7 +305,7 @@
     },
     {
       "id": 12,
-      "question": "AnyCompany recently purchased Example Corp. Both companies use AWS resources, and AnyCompany wants a single aggregated bill.  <br/> Which option allows AnyCompany to receive a single bill?",
+      "question": "AnyCompany recently purchased Example Corp. Both companies use AWS resources, and AnyCompany wants a single aggregated bill.   Which option allows AnyCompany to receive a single bill?",
       "options": [
         {
           "letter": "A",
@@ -359,7 +359,7 @@
     },
     {
       "id": 14,
-      "question": "A user has limited knowledge of AWS services, but wants to quickly deploy a scalable Node.js application in the AWS Cloud. <br/> Which service should be used to deploy the application?",
+      "question": "A user has limited knowledge of AWS services, but wants to quickly deploy a scalable Node.js application in the AWS Cloud.  Which service should be used to deploy the application?",
       "options": [
         {
           "letter": "A",
@@ -413,7 +413,7 @@
     },
     {
       "id": 16,
-      "question": "A web developer is concerned that a DDoS attack could target an application. <br/> Which AWS services or features can help protect against such an attack? (Choose two.)",
+      "question": "A web developer is concerned that a DDoS attack could target an application.  Which AWS services or features can help protect against such an attack? (Choose two.)",
       "options": [
         {
           "letter": "A",
@@ -472,7 +472,7 @@
     },
     {
       "id": 18,
-      "question": "A company wants to provide one of its employees with access to Amazon RDS. The company also wants to limit the interaction to only the AWS CLI and AWS software development kits (SDKs). <br/> Which combination of actions should the company take to meet these requirements while following the principles of least privilege? (Choose two.)",
+      "question": "A company wants to provide one of its employees with access to Amazon RDS. The company also wants to limit the interaction to only the AWS CLI and AWS software development kits (SDKs).  Which combination of actions should the company take to meet these requirements while following the principles of least privilege? (Choose two.)",
       "options": [
         {
           "letter": "A",
@@ -504,7 +504,7 @@
     },
     {
       "id": 19,
-      "question": "A company has a compliance requirement to record and evaluate configuration changes, as well as perform remediation actions on AWS resources. <br/> Which AWS service should the company use?",
+      "question": "A company has a compliance requirement to record and evaluate configuration changes, as well as perform remediation actions on AWS resources.  Which AWS service should the company use?",
       "options": [
         {
           "letter": "A",
@@ -563,7 +563,7 @@
     },
     {
       "id": 21,
-      "question": "A workload on AWS will run for the foreseeable future by using a consistent number of Amazon EC2 instances. <br/> What pricing model will minimize cost while ensuring that compute resources remain available?",
+      "question": "A workload on AWS will run for the foreseeable future by using a consistent number of Amazon EC2 instances.  What pricing model will minimize cost while ensuring that compute resources remain available?",
       "options": [
         {
           "letter": "A",
@@ -671,7 +671,7 @@
     },
     {
       "id": 25,
-      "question": "A company wants to be notified when its AWS Cloud costs or usage exceed defined thresholds. <br/> Which AWS service will support these requirements?",
+      "question": "A company wants to be notified when its AWS Cloud costs or usage exceed defined thresholds.  Which AWS service will support these requirements?",
       "options": [
         {
           "letter": "A",
@@ -865,7 +865,7 @@
     },
     {
       "id": 32,
-      "question": "A company wants to ensure its infrastructure is designed for fault tolerance and business continuity in the event of an environmental disruption. <br/> Which AWS infrastructure component should the company replicate across?",
+      "question": "A company wants to ensure its infrastructure is designed for fault tolerance and business continuity in the event of an environmental disruption.  Which AWS infrastructure component should the company replicate across?",
       "options": [
         {
           "letter": "A",
@@ -951,7 +951,7 @@
     },
     {
       "id": 35,
-      "question": "A company is planning to launch an ecommerce site in a single AWS Region to a worldwide user base. <br/> Which AWS services will allow the company to reach users and provide low latency and high transfer speeds? (Choose two.)",
+      "question": "A company is planning to launch an ecommerce site in a single AWS Region to a worldwide user base.  Which AWS services will allow the company to reach users and provide low latency and high transfer speeds? (Choose two.)",
       "options": [
         {
           "letter": "A",
@@ -983,7 +983,7 @@
     },
     {
       "id": 36,
-      "question": "A company wants to connect to AWS over a private, low-latency connection from its remote office. <br/> What is the recommended method to meet these requirements?",
+      "question": "A company wants to connect to AWS over a private, low-latency connection from its remote office.  What is the recommended method to meet these requirements?",
       "options": [
         {
           "letter": "A",
@@ -1037,7 +1037,7 @@
     },
     {
       "id": 38,
-      "question": "A company has an AWS-hosted website located behind an Application Load Balancer. The company wants to safeguard the website from SQL injection or cross-site scripting. <br/> Which AWS service should the company use?",
+      "question": "A company has an AWS-hosted website located behind an Application Load Balancer. The company wants to safeguard the website from SQL injection or cross-site scripting.  Which AWS service should the company use?",
       "options": [
         {
           "letter": "A",
@@ -1091,7 +1091,7 @@
     },
     {
       "id": 40,
-      "question": "A company is running a self-managed Oracle database directly on Amazon EC2 for its steady-state database. The company wants to reduce compute costs. <br/> Which option should the company use to maximize savings over a 3-year term?",
+      "question": "A company is running a self-managed Oracle database directly on Amazon EC2 for its steady-state database. The company wants to reduce compute costs.  Which option should the company use to maximize savings over a 3-year term?",
       "options": [
         {
           "letter": "A",
@@ -1118,7 +1118,7 @@
     },
     {
       "id": 41,
-      "question": "An external auditor has requested that a company provide a list of all its IAM users, including the status of users' credentials and access keys. <br/> What it the SIMPLEST way to provide this information?",
+      "question": "An external auditor has requested that a company provide a list of all its IAM users, including the status of users' credentials and access keys.  What it the SIMPLEST way to provide this information?",
       "options": [
         {
           "letter": "A",
@@ -1177,7 +1177,7 @@
     },
     {
       "id": 43,
-      "question": "A company is expecting a short-term spike in internet traffic for its application. During the traffic increase, the application cannot be interrupted. The company also needs to minimize cost and maximize flexibility. <br/> Which Amazon EC2 instance type should the company use to meet these requirements?",
+      "question": "A company is expecting a short-term spike in internet traffic for its application. During the traffic increase, the application cannot be interrupted. The company also needs to minimize cost and maximize flexibility.  Which Amazon EC2 instance type should the company use to meet these requirements?",
       "options": [
         {
           "letter": "A",
@@ -1204,7 +1204,7 @@
     },
     {
       "id": 44,
-      "question": "A company wants to track AWS resource configuration changes for compliance reasons. <br/> Which AWS feature can be used to meet this requirement?",
+      "question": "A company wants to track AWS resource configuration changes for compliance reasons.  Which AWS feature can be used to meet this requirement?",
       "options": [
         {
           "letter": "A",
@@ -1231,7 +1231,7 @@
     },
     {
       "id": 45,
-      "question": "A company is building an application that needs to deliver images and videos globally with minimal latency. <br/> Which approach can the company use to accomplish this in a cost effective manner?",
+      "question": "A company is building an application that needs to deliver images and videos globally with minimal latency.  Which approach can the company use to accomplish this in a cost effective manner?",
       "options": [
         {
           "letter": "A",
@@ -1312,7 +1312,7 @@
     },
     {
       "id": 48,
-      "question": "A pharmaceutical company operates its infrastructure in a single AWS Region. The company has thousands of VPCs in a various AWS accounts that it wants to interconnect. <br/> Which AWS service or feature should the company use to help simplify management and reduce operational costs?",
+      "question": "A pharmaceutical company operates its infrastructure in a single AWS Region. The company has thousands of VPCs in a various AWS accounts that it wants to interconnect.  Which AWS service or feature should the company use to help simplify management and reduce operational costs?",
       "options": [
         {
           "letter": "A",

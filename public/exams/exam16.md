@@ -31,7 +31,7 @@
 
     Reference: <https://aws.amazon.com/premiumsupport/knowledge-center/ec2-ri-consolidated-billing/>
 
-3. A company has multiple AWS accounts and wants to simplify and consolidate its billing process. <br/>Which AWS service will achieve this?
+3. A company has multiple AWS accounts and wants to simplify and consolidate its billing process. Which AWS service will achieve this?
     - A. AWS Cost and Usage Reports
     - B. AWS Organizations
     - C. AWS Cost Explorer
@@ -46,7 +46,7 @@
 
     Reference: <https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/consolidated-billing.html>
 
-4. A company is designing an application hosted in a single AWS Region serving end-users spread across the world. The company wants to provide the end-users low latency access to the application data. <br/> Which of the following services will help fulfill this requirement?
+4. A company is designing an application hosted in a single AWS Region serving end-users spread across the world. The company wants to provide the end-users low latency access to the application data.  Which of the following services will help fulfill this requirement?
     - A. Amazon CloudFront
     - B. AWS Direct Connect
     - C. Amazon Route 53 global DNS
@@ -260,7 +260,7 @@
 
     Reference: <https://www.botmetric.com/blog/aws-cloud-architecture-design-principles/>
 
-19. A director has been tasked with investigating hybrid cloud architecture. The company currently accesses AWS over the public internet.<br/>Which service will facilitate private hybrid connectivity?
+19. A director has been tasked with investigating hybrid cloud architecture. The company currently accesses AWS over the public internet.Which service will facilitate private hybrid connectivity?
     - A. Amazon Virtual Private Cloud (Amazon VPC) NAT Gateway
     - B. AWS Direct Connect
     - C. Amazon Simple Storage Service (Amazon S3) Transfer Acceleration
@@ -480,7 +480,7 @@
 
     Reference: <https://docs.aws.amazon.com/codecommit/latest/userguide/welcome.html>
 
-36. A company is considering migrating its applications to AWS. The company wants to compare the cost of running the workload on-premises to running the equivalent workload on the AWS platform. <br/>Which tool can be used to perform this comparison?
+36. A company is considering migrating its applications to AWS. The company wants to compare the cost of running the workload on-premises to running the equivalent workload on the AWS platform. Which tool can be used to perform this comparison?
     - A. AWS Simple Monthly Calculator
     - B. AWS Total Cost of Ownership (TCO) Calculator
     - C. AWS Billing and Cost Management console
@@ -634,7 +634,7 @@
 
     Reference: <https://aws.amazon.com/startups/lean/>
 
-47. A startup is working on a new application that needs to go to market quickly. The application requirements may need to be adjusted in the near future. <br/> Which of the following is a characteristic of the AWS Cloud that would meet this specific need?
+47. A startup is working on a new application that needs to go to market quickly. The application requirements may need to be adjusted in the near future.  Which of the following is a characteristic of the AWS Cloud that would meet this specific need?
     - A. Elasticity
     - B. Reliability
     - C. Performance

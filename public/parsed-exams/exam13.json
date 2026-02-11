@@ -84,7 +84,7 @@
     },
     {
       "id": 4,
-      "question": "A customer would like to design and build a new workload on AWS Cloud but does not have the AWS-related software technical expertise in-house. <br/>Which of the following AWS programs can a customer take advantage of to achieve that outcome?",
+      "question": "A customer would like to design and build a new workload on AWS Cloud but does not have the AWS-related software technical expertise in-house. Which of the following AWS programs can a customer take advantage of to achieve that outcome?",
       "options": [
         {
           "letter": "A",
@@ -374,7 +374,7 @@
     },
     {
       "id": 14,
-      "question": "A company is considering using AWS for a self-hosted database that requires a nightly shutdown for maintenance and cost-saving purposes. <br/> Which service should the company use?",
+      "question": "A company is considering using AWS for a self-hosted database that requires a nightly shutdown for maintenance and cost-saving purposes.  Which service should the company use?",
       "options": [
         {
           "letter": "A",
@@ -912,7 +912,7 @@
     },
     {
       "id": 33,
-      "question": "A customer needs to run a MySQL database that easily scales.<br/>Which AWS service should they use?",
+      "question": "A customer needs to run a MySQL database that easily scales.Which AWS service should they use?",
       "options": [
         {
           "letter": "A",
@@ -1290,7 +1290,7 @@
     },
     {
       "id": 47,
-      "question": "A customer is using multiple AWS accounts with separate billing. <br/>How can the customer take advantage of volume discounts with minimal impact to the AWS resources?",
+      "question": "A customer is using multiple AWS accounts with separate billing. How can the customer take advantage of volume discounts with minimal impact to the AWS resources?",
       "options": [
         {
           "letter": "A",
@@ -1376,7 +1376,7 @@
     },
     {
       "id": 50,
-      "question": "A customer is deploying a new application and needs to choose an AWS Region. <br/>Which of the following factors could influence the customer's decision? (Select TWO.)",
+      "question": "A customer is deploying a new application and needs to choose an AWS Region. Which of the following factors could influence the customer's decision? (Select TWO.)",
       "options": [
         {
           "letter": "A",

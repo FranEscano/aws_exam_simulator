@@ -337,7 +337,7 @@
     },
     {
       "id": 13,
-      "question": "A company is migrating from on-premises data centers to the AWS Cloud and is looking for hands-on help with the project. <br/> How can the company get this support? (Choose two.)",
+      "question": "A company is migrating from on-premises data centers to the AWS Cloud and is looking for hands-on help with the project.  How can the company get this support? (Choose two.)",
       "options": [
         {
           "letter": "A",
@@ -423,7 +423,7 @@
     },
     {
       "id": 16,
-      "question": "<br>A new service using AWS must be highly available. Yet, due to regulatory requirements, all of its Amazon EC2 instances must be located in a single geographic area. <br/> According to best practices, to meet these requirements, the EC2 instances must be placed in at least two:",
+      "question": "A new service using AWS must be highly available. Yet, due to regulatory requirements, all of its Amazon EC2 instances must be located in a single geographic area.  According to best practices, to meet these requirements, the EC2 instances must be placed in at least two:",
       "options": [
         {
           "letter": "A",
@@ -477,7 +477,7 @@
     },
     {
       "id": 18,
-      "question": "<br>A company has multiple AWS accounts within AWS Organizations and wants to apply the Amazon EC2 Reserved Instances benefit to a single account only. <br/> Which action should be taken?",
+      "question": "A company has multiple AWS accounts within AWS Organizations and wants to apply the Amazon EC2 Reserved Instances benefit to a single account only.  Which action should be taken?",
       "options": [
         {
           "letter": "A",
@@ -531,7 +531,7 @@
     },
     {
       "id": 20,
-      "question": "A company is planning to launch an ecommerce site in a single AWS Region to a worldwide user base. <br/> Which AWS services will allow the company to reach users and provide low latency and high transfer speeds? (Choose two.)",
+      "question": "A company is planning to launch an ecommerce site in a single AWS Region to a worldwide user base.  Which AWS services will allow the company to reach users and provide low latency and high transfer speeds? (Choose two.)",
       "options": [
         {
           "letter": "A",
@@ -804,7 +804,7 @@
     },
     {
       "id": 29,
-      "question": "A user deploys an Amazon RDS DB instance in multiple Availability Zones. <br/> This strategy involves which pillar of the AWS Well-Architected Framework?",
+      "question": "A user deploys an Amazon RDS DB instance in multiple Availability Zones.  This strategy involves which pillar of the AWS Well-Architected Framework?",
       "options": [
         {
           "letter": "A",
@@ -998,7 +998,7 @@
     },
     {
       "id": 36,
-      "question": "A company wants to migrate a MySQL database to AWS but does not have the budget for Database Administrators to handle routine tasks including provisioning, patching, and performing backups. <br/> Which AWS service will support this use case?",
+      "question": "A company wants to migrate a MySQL database to AWS but does not have the budget for Database Administrators to handle routine tasks including provisioning, patching, and performing backups.  Which AWS service will support this use case?",
       "options": [
         {
           "letter": "A",
@@ -1025,7 +1025,7 @@
     },
     {
       "id": 37,
-      "question": "A company wants to expand from one AWS Region into a second AWS Region. <br/> What does the company need to do to start supporting the new Region?",
+      "question": "A company wants to expand from one AWS Region into a second AWS Region.  What does the company need to do to start supporting the new Region?",
       "options": [
         {
           "letter": "A",
@@ -1052,7 +1052,7 @@
     },
     {
       "id": 38,
-      "question": "A user must meet compliance and software licensing requirements that state a workload must be hosted on a physical server. <br/> Which Amazon EC2 instance pricing option will meet these requirements?",
+      "question": "A user must meet compliance and software licensing requirements that state a workload must be hosted on a physical server.  Which Amazon EC2 instance pricing option will meet these requirements?",
       "options": [
         {
           "letter": "A",
@@ -1111,7 +1111,7 @@
     },
     {
       "id": 40,
-      "question": "A company is planning to migrate from on-premises to the AWS Cloud. <br/> Which AWS tool or service provides detailed reports on estimated cost savings after migration?",
+      "question": "A company is planning to migrate from on-premises to the AWS Cloud.  Which AWS tool or service provides detailed reports on estimated cost savings after migration?",
       "options": [
         {
           "letter": "A",
@@ -1333,7 +1333,7 @@
     },
     {
       "id": 48,
-      "question": "A company that does business online needs to quickly deliver new functionality in an iterative manner, minimizing the time to market. <br/> Which AWS Cloud feature can provide this?",
+      "question": "A company that does business online needs to quickly deliver new functionality in an iterative manner, minimizing the time to market.  Which AWS Cloud feature can provide this?",
       "options": [
         {
           "letter": "A",

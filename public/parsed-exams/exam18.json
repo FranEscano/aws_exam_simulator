@@ -143,7 +143,7 @@
     },
     {
       "id": 6,
-      "question": "A Cloud Practitioner is asked how to estimate the cost of using a new application on AWS. <br/> What is the MOST appropriate response?",
+      "question": "A Cloud Practitioner is asked how to estimate the cost of using a new application on AWS.  What is the MOST appropriate response?",
       "options": [
         {
           "letter": "A",
@@ -170,7 +170,7 @@
     },
     {
       "id": 7,
-      "question": "A company wants to migrate its applications to a VPC on AWS. These applications will need to access on-premises resources. <br/> What combination of actions will enable the company to accomplish this goal? (Choose two.)",
+      "question": "A company wants to migrate its applications to a VPC on AWS. These applications will need to access on-premises resources.  What combination of actions will enable the company to accomplish this goal? (Choose two.)",
       "options": [
         {
           "letter": "A",
@@ -202,7 +202,7 @@
     },
     {
       "id": 8,
-      "question": "A web application running on AWS has been spammed with malicious requests from a recurring set of IP addresses. <br/> Which AWS service can help secure the application and block the malicious traffic?",
+      "question": "A web application running on AWS has been spammed with malicious requests from a recurring set of IP addresses.  Which AWS service can help secure the application and block the malicious traffic?",
       "options": [
         {
           "letter": "A",
@@ -256,7 +256,7 @@
     },
     {
       "id": 10,
-      "question": "A company requires a dedicated network connection between its on-premises servers and the AWS Cloud. <br/> Which AWS service should be used?",
+      "question": "A company requires a dedicated network connection between its on-premises servers and the AWS Cloud.  Which AWS service should be used?",
       "options": [
         {
           "letter": "A",
@@ -364,7 +364,7 @@
     },
     {
       "id": 14,
-      "question": "A Cloud Practitioner must determine if any security groups in an AWS account have been provisioned to allow unrestricted access for specific ports. <br/> What is the SIMPLEST way to do this?",
+      "question": "A Cloud Practitioner must determine if any security groups in an AWS account have been provisioned to allow unrestricted access for specific ports.  What is the SIMPLEST way to do this?",
       "options": [
         {
           "letter": "A",
@@ -423,7 +423,7 @@
     },
     {
       "id": 16,
-      "question": "A user needs an automated security assessment report that will identify unintended network access to Amazon EC2 instances and vulnerabilities on those instances. <br/> Which AWS service will provide this assessment report?",
+      "question": "A user needs an automated security assessment report that will identify unintended network access to Amazon EC2 instances and vulnerabilities on those instances.  Which AWS service will provide this assessment report?",
       "options": [
         {
           "letter": "A",
@@ -504,7 +504,7 @@
     },
     {
       "id": 19,
-      "question": "A Cloud Practitioner needs to store data for 7 years to meet regulatory requirements. <br/> Which AWS service will meet this requirement at the LOWEST cost?",
+      "question": "A Cloud Practitioner needs to store data for 7 years to meet regulatory requirements.  Which AWS service will meet this requirement at the LOWEST cost?",
       "options": [
         {
           "letter": "A",
@@ -644,7 +644,7 @@
     },
     {
       "id": 24,
-      "question": "A system in the AWS Cloud is designed to withstand the failure of one or more components. <br/> What is this an example of?",
+      "question": "A system in the AWS Cloud is designed to withstand the failure of one or more components.  What is this an example of?",
       "options": [
         {
           "letter": "A",
@@ -671,7 +671,7 @@
     },
     {
       "id": 25,
-      "question": "A Cloud Practitioner needs a consistent and dedicated connection between AWS resources and an on-premises system. <br/> Which AWS service can fulfill this requirement?",
+      "question": "A Cloud Practitioner needs a consistent and dedicated connection between AWS resources and an on-premises system.  Which AWS service can fulfill this requirement?",
       "options": [
         {
           "letter": "A",
@@ -870,7 +870,7 @@
     },
     {
       "id": 32,
-      "question": "A company wants to build its new application workloads in the AWS Cloud instead of using on-premises resources. <br/> What expense can be reduced using the AWS Cloud?",
+      "question": "A company wants to build its new application workloads in the AWS Cloud instead of using on-premises resources.  What expense can be reduced using the AWS Cloud?",
       "options": [
         {
           "letter": "A",
