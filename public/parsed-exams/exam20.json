@@ -279,7 +279,7 @@
         "C"
       ],
       "explanation": "AWS Config provides an inventory and configuration history of resources, while AWS CloudTrail logs API calls, enabling traceability and reliable change management.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 11,
@@ -667,7 +667,7 @@
         "E"
       ],
       "explanation": "Customers are responsible for managing their application configurations and defining security group rules, while AWS manages the underlying infrastructure.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 25,

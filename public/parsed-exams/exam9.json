@@ -754,7 +754,7 @@
         "E"
       ],
       "explanation": "AWS Storage Gateway and AWS Direct Connect both extend on-premises environments into AWS, enabling hybrid cloud architectures.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 28,
