@@ -85,6 +85,7 @@ export default function Question({ q, mode }: QuestionProps) {
         </FormGroup>
       ) : (
         <RadioGroup
+          name={`question-${q.id}`}
           value={exam?.answers[q.id]?.[0] || ""}
           onChange={(e) => handleChange(e.target.value)}
           sx={{ gap: { xs: 1, sm: 1.5 } }}

@@ -1389,7 +1389,7 @@
         "D"
       ],
       "explanation": "When calculating cloud TCO on AWS, compute, storage, and data transfer costs must be included because these are the primary usage-based billing components.",
-      "multiple": false
+      "multiple": true
     }
   ]
 }

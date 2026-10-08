@@ -110,9 +110,16 @@ export default function ExamView() {
               </Typography>
             </Box>
 
-            <Box sx={{ display: "flex", flexDirection: "column", gap: 3, mt: 3 }}>
-              {exam.questions.map(q => (
-                <Question key={q.id} q={q} mode={exam.mode} />
+            <Box
+              key={`${file}-${mode}`} 
+              sx={{ display: "flex", flexDirection: "column", gap: 3, mt: 3 }}
+            >
+              {exam.questions.map((q, index) => (
+                <Question 
+                  key={`${mode}-${q.id}-${index}`}
+                  q={q} 
+                  mode={exam.mode} 
+                />
               ))}
             </Box>
 

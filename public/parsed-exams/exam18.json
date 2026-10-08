@@ -1065,7 +1065,7 @@
         "C"
       ],
       "explanation": "AWS allows customers to avoid guessing capacity requirements and launch resources quickly, increasing speed to market and improving efficiency.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 39,

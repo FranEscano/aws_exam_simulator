@@ -1276,7 +1276,7 @@
         "B"
       ],
       "explanation": "Elasticity is shown by scaling EC2 instances and resizing RDS databases based on changing demand.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 46,
@@ -1335,7 +1335,7 @@
         "C"
       ],
       "explanation": "Power consumption and labor costs for maintaining hardware are key factors in a TCO analysis.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 48,

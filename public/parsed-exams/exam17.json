@@ -849,7 +849,7 @@
         "B"
       ],
       "explanation": "AWS Marketplace allows customers to quickly launch third-party software with 1-Click and pay for it using flexible hourly or monthly licensing instead of managing separate vendor contracts.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 31,
@@ -1242,7 +1242,7 @@
         "C"
       ],
       "explanation": "<https://aws.amazon.com/cloudfront/>",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 45,
