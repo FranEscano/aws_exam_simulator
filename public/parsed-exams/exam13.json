@@ -252,7 +252,7 @@
         "D"
       ],
       "explanation": "Elasticity allows scaling based on demand, and pay-as-you-go pricing ensures you only pay for what you use, making AWS cost-effective for dynamic workloads.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 10,
@@ -311,7 +311,7 @@
         "E"
       ],
       "explanation": "Amazon S3 is an object storage service and is highly durable, storing data redundantly across multiple devices and facilities.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 12,
@@ -343,7 +343,7 @@
         "B"
       ],
       "explanation": "Amazon Route 53 provides DNS for hybrid environments, and a Virtual Private Gateway connects on-premises networks securely to AWS.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 13,
@@ -456,7 +456,7 @@
         "C"
       ],
       "explanation": "Cost allocation tags, the AWS Simple Monthly Calculator, and the AWS TCO Calculator help estimate and forecast AWS costs.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 17,
@@ -488,7 +488,7 @@
         "D"
       ],
       "explanation": "Consolidated billing provides one bill for multiple accounts and allows combined usage to qualify for volume discounts.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 18,
@@ -763,7 +763,7 @@
         "D"
       ],
       "explanation": "Customers are responsible for encrypting their own data and configuring network ACLs under the shared responsibility model.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 28,
@@ -849,7 +849,7 @@
         "E"
       ],
       "explanation": "AWS supports Multi-Factor Authentication (MFA) and strong password policies to secure IAM users.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 31,
@@ -881,7 +881,7 @@
         "E"
       ],
       "explanation": "Amazon RDS and Amazon EFS support frequent read/write operations for constantly changing data.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 32,
@@ -1345,7 +1345,7 @@
         "E"
       ],
       "explanation": "CloudWatch Logs supports real-time monitoring and configurable log retention.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 49,
@@ -1404,7 +1404,7 @@
         "C"
       ],
       "explanation": "Customers choose a Region based on low latency to users and data sovereignty or compliance requirements.",
-      "multiple": false
+      "multiple": true
     }
   ]
 }

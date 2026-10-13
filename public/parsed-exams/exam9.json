@@ -162,7 +162,7 @@
         "D"
       ],
       "explanation": "AWS VPN provides encrypted connections over the internet, and AWS Direct Connect provides a dedicated private connection between on-premises infrastructure and AWS.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 7,
@@ -329,7 +329,7 @@
         "C"
       ],
       "explanation": "Performance efficiency and Security are two of the core pillars of the AWS Well-Architected Framework. They guide how workloads should be built and operated in AWS.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 13,
@@ -388,7 +388,7 @@
         "E"
       ],
       "explanation": "Loose coupling allows components to fail independently, and designing for scalability ensures the system can grow as demand increases—both are key cloud design principles.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 15,
@@ -555,7 +555,7 @@
         "D"
       ],
       "explanation": "Fault tolerance and Performance are two of the categories used by AWS Trusted Advisor to analyze and optimize AWS environments.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 21,
@@ -614,7 +614,7 @@
         "D"
       ],
       "explanation": "Customers are responsible for encrypting their own data and configuring network controls such as Network ACLs, while AWS manages the physical infrastructure.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 23,
@@ -867,7 +867,7 @@
         "E"
       ],
       "explanation": "AWS WAF blocks malicious web requests, and Network ACLs control inbound and outbound traffic at the subnet level to enhance network security.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 32,
@@ -980,7 +980,7 @@
         "C"
       ],
       "explanation": "AWS reduces both total cost of ownership (TCO) and operational expenditure (OPEX) by eliminating the need for customers to manage physical infrastructure.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 36,
@@ -1039,7 +1039,7 @@
         "C"
       ],
       "explanation": "AWS Regions and CloudFront edge locations reduce latency by serving users from locations closer to them geographically.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 38,
@@ -1071,7 +1071,7 @@
         "D"
       ],
       "explanation": "Regions and Availability Zones are the primary building blocks of the AWS global infrastructure.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 39,
@@ -1211,7 +1211,7 @@
         "B"
       ],
       "explanation": "Amazon Route 53 and Virtual Private Gateway both work in hybrid cloud architectures connecting AWS and on-premises networks.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 44,
@@ -1324,7 +1324,7 @@
         "D"
       ],
       "explanation": "Amazon Route 53 and CloudFront are global services, meaning they are not tied to a specific AWS Region.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 48,

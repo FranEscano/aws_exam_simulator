@@ -1424,7 +1424,7 @@
         "D"
       ],
       "explanation": "Elasticity allows AWS to scale resources based on demand, and pay-as-you-go pricing ensures customers only pay for what they use, making AWS cost-effective for dynamic workloads.",
-      "multiple": false
+      "multiple": true
     }
   ]
 }

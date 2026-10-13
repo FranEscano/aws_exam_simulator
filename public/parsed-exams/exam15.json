@@ -58,7 +58,7 @@
         "E"
       ],
       "explanation": "AWS CloudTrail records all API activity in an AWS account, while Amazon CloudWatch collects and monitors metrics and logs, allowing visibility into account activity.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 3,
@@ -90,7 +90,7 @@
         "C"
       ],
       "explanation": "AWS managed services such as RDS automatically handle tasks like patching database software and backing up databases, freeing up IT resources.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 4,
@@ -257,7 +257,7 @@
         "D"
       ],
       "explanation": "Edge locations deliver content closer to users and cache responses to reduce load on origin servers, improving performance and reducing traffic.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 10,
@@ -505,7 +505,7 @@
         "D"
       ],
       "explanation": "Edge locations are used by CloudFront to deliver content closer to users and cache responses to reduce traffic to the origin.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 19,
@@ -564,7 +564,7 @@
         "D"
       ],
       "explanation": "Amazon Route 53 and Amazon CloudFront are global services that operate across all AWS Regions.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 21,
@@ -623,7 +623,7 @@
         "C"
       ],
       "explanation": "Customers are responsible for encrypting their data and ensuring that users are trained to use AWS services securely.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 23,
@@ -709,7 +709,7 @@
         "C"
       ],
       "explanation": "AWS reduces total cost of ownership and operational expenses by eliminating the need to purchase and maintain physical infrastructure.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 26,
@@ -764,7 +764,7 @@
         "D"
       ],
       "explanation": "AWS VPN and AWS Direct Connect both provide secure connectivity between an on-premises data center and an Amazon VPC.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 28,
@@ -850,7 +850,7 @@
         "D"
       ],
       "explanation": "AWS Trusted Advisor categories include Fault Tolerance and Performance, among others.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 31,
@@ -1040,7 +1040,7 @@
         "C"
       ],
       "explanation": "Elasticity and agility allow AWS customers to scale resources quickly and adapt to changing business needs.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 38,
@@ -1126,7 +1126,7 @@
         "B"
       ],
       "explanation": "The AWS Compliance Program ensures AWS maintains compliance documentation and frameworks for customer use.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 41,
@@ -1212,7 +1212,7 @@
         "D"
       ],
       "explanation": "When comparing TCO, storage hardware and physical servers must be included as major infrastructure costs.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 44,
@@ -1244,7 +1244,7 @@
         "C"
       ],
       "explanation": "Customers manage their own network access control lists and must encrypt their data in transit and at rest.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 45,

@@ -31,7 +31,7 @@
         "E"
       ],
       "explanation": "An Amazon RDS cluster can be launched either through the AWS Management Console (a web-based interface) or programmatically using AWS CloudFormation templates. CloudFormation allows infrastructure to be defined as code, while the console allows manual creation. AWS Concierge and S3 are not used to create RDS resources.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 2,
@@ -90,7 +90,7 @@
         "E"
       ],
       "explanation": "CloudWatch Logs supports real-time log monitoring and allows customers to configure how long logs are retained. These features make it useful for troubleshooting, auditing, and compliance.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 4,
@@ -257,7 +257,7 @@
         "E"
       ],
       "explanation": "AWS uses a pay-as-you-go pricing model and charges are variable, meaning customers only pay for what they use rather than committing to fixed long-term contracts.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 10,
@@ -289,7 +289,7 @@
         "C"
       ],
       "explanation": "Customers are responsible for encrypting their data and training their users. AWS is responsible for physical data center security and hardware disposal.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 11,
@@ -375,7 +375,7 @@
         "E"
       ],
       "explanation": "Amazon RDS and Amazon EFS are designed for frequently accessed and constantly changing data. Glacier and Snowball are for archival or data transfer, and Redshift is for analytics.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 14,
@@ -461,7 +461,7 @@
         "C"
       ],
       "explanation": "The Business Support plan provides 24/7 access to AWS support and allows unlimited support cases and contacts.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 17,
@@ -601,7 +601,7 @@
         "D"
       ],
       "explanation": "Spot Instances are ideal for fault-tolerant and non-production workloads because they are low cost but can be interrupted by AWS.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 22,
@@ -634,7 +634,7 @@
         "D"
       ],
       "explanation": "Cost allocation tags help track spending, while the AWS Simple Monthly Calculator and the TCO Calculator help estimate AWS costs.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 23,
@@ -801,7 +801,7 @@
         "E"
       ],
       "explanation": "CloudTrail records API activity and CloudWatch monitors metrics and logs, together providing insight into account activity.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 29,
@@ -833,7 +833,7 @@
         "E"
       ],
       "explanation": "Amazon S3 is an object storage service that is highly durable and designed to store massive amounts of data reliably.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 30,

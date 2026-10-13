@@ -43,9 +43,14 @@ files.forEach(file => {
             if(!cleanQ.options) missing.push("options");
             if(!cleanQ.correctAnswers) missing.push("correctAnswers");
             if(!cleanQ.explanation) missing.push("explanation");
+            if(!cleanQ.multiple) missing.push("multiple");
 
             if(missing.length > 0) {
                 throw new Error(`Question ID ${qId}: Missing fields: ${missing.join(", ")}`);
+            }
+
+            if(cleanQ.correctAnswers.length > 4) {
+                throw new Error(`Question ${qId}: This a multiple option question`)
             }
 
             if(!cleanQ.question) {

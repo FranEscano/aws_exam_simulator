@@ -193,7 +193,7 @@
         "C"
       ],
       "explanation": "Customers interact with AWS through the Command Line Interface (CLI) and Software Development Kits (SDKs) to programmatically manage AWS resources.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 8,
@@ -252,7 +252,7 @@
         "E"
       ],
       "explanation": "Amazon S3 stores the video content, and Amazon CloudFront delivers it through a global content delivery network, providing low-latency streaming to users.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 10,
@@ -392,7 +392,7 @@
         "C"
       ],
       "explanation": "AWS provides security checks through Trusted Advisor and supports data encryption to help protect customer workloads.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 15,
@@ -748,7 +748,7 @@
         "C"
       ],
       "explanation": "AWS OpsWorks and AWS CodeDeploy can both deploy applications to servers running in on-premises environments.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 28,
@@ -807,7 +807,7 @@
         "E"
       ],
       "explanation": "Loose coupling and designing for scalability allow applications to grow and handle failures more effectively.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 30,
@@ -1055,7 +1055,7 @@
         "E"
       ],
       "explanation": "Customers can launch Amazon RDS clusters using AWS CloudFormation or through the AWS Management Console.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 39,
@@ -1114,7 +1114,7 @@
         "E"
       ],
       "explanation": "Granting least-privilege access and enabling MFA help protect AWS accounts from unauthorized access.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 41,
@@ -1335,7 +1335,7 @@
         "E"
       ],
       "explanation": "AWS Online Tech Talks and AWS Classroom Training provide instructor-led education on cloud security.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 49,
@@ -1367,7 +1367,7 @@
         "D"
       ],
       "explanation": "The Amazon VPC Dashboard is used to configure networking components such as security groups and subnets.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 50,

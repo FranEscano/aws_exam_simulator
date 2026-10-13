@@ -247,7 +247,7 @@
         "D"
       ],
       "explanation": "Tags are key-value pairs that allow you to organize your AWS resources into groups. You can use tags to: Visualize information about tagged resources in one place, in conjunction with Resource Groups. View billing information using Cost Explorer and the AWS Cost and Usage report. Send notifications about spending limits using AWS Budgets. Use logical groupings of your resources that make sense for your infrastructure or business. For example, you could organize your resources by: Project Cost center Development environment Application Department",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 10,
@@ -360,7 +360,7 @@
         "E"
       ],
       "explanation": "With the basic Cloud infrastructure secured and maintained by AWS, the responsibility for what goes into the cloud falls on you. This covers both client and server side encryption and network traffic protection, security of the operating system, network, and firewall configuration, followed by application security and identity and access management. Firewall configuration remains the responsibility of the end user, which integrates at the platform and application management level. For example, RDS utilizes security groups, which you would be responsible for configuring and implementing.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 14,
@@ -581,7 +581,7 @@
         "D"
       ],
       "explanation": "Your root account should always be protected by Multi-Factor Authentication (MFA). This additional layer of security helps protect against unauthorized logins to your account by requiring two factors: something you know (a password) and something you have (for example, an MFA device). AWS supports virtual and hardware MFA devices and U2F security keys. Cognito can be used as an Identity Provider (IdP), where it stores and maintains users and credentials securely for your applications, or it can be integrated with OpenID Connect, SAML, and other popular web identity providers like Amazon.com. Using Amazon Cognito, you can generate temporary access credentials for your clients to access AWS services, eliminating the need to store long-term credentials in client applications.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 22,
@@ -1045,7 +1045,7 @@
         "E"
       ],
       "explanation": "AWS pricing is based on a pay-as-you-go model with variable costs, meaning customers pay only for what they use and can scale usage up or down.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 39,
@@ -1077,7 +1077,7 @@
         "E"
       ],
       "explanation": "Elastic Load Balancing supports the following types of load balancers: Application Load Balancers, Network Load Balancers, and Classic Load Balancers. Amazon ECS services can use either type of load balancer. Application Load Balancers are used to route HTTP/HTTPS (or Layer 7) traffic. Network Load Balancers and Classic Load Balancers are used to route TCP (or Layer 4) traffic.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 40,

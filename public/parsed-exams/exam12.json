@@ -85,7 +85,7 @@
         "D"
       ],
       "explanation": "AWS Professional Services and AWS Partner Network (APN) help organizations assess, plan, and execute cloud migrations. Trusted Advisor and Systems Manager are operational tools, not migration-assessment services.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 4,
@@ -144,7 +144,7 @@
         "C"
       ],
       "explanation": "Customers can interact with AWS using the Command Line Interface (CLI) and Software Development Kits (SDKs), which allow programmatic access to AWS services.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 6,
@@ -311,7 +311,7 @@
         "D"
       ],
       "explanation": "AWS makes it easy to build highly available architectures and to scale resources up or down automatically as application demand changes.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 12,
@@ -370,7 +370,7 @@
         "E"
       ],
       "explanation": "IAM security is strengthened by enforcing strong passwords and using Multi-Factor Authentication (MFA), which adds an extra layer of protection.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 14,
@@ -510,7 +510,7 @@
         "D"
       ],
       "explanation": "A VPN connection and AWS Direct Connect both provide secure network connectivity between on-premises environments and a VPC in AWS.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 19,
@@ -569,7 +569,7 @@
         "C"
       ],
       "explanation": "AWS provides security checks through Trusted Advisor and supports data encryption to help protect data at rest and in transit.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 21,
@@ -601,7 +601,7 @@
         "D"
       ],
       "explanation": "AWS WAF and Amazon CloudFront include built-in protection against DDoS attacks by filtering and absorbing malicious traffic.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 22,
@@ -930,7 +930,7 @@
         "E"
       ],
       "explanation": "Customers are responsible for patching their operating systems and configuring security groups under the shared responsibility model.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 34,
@@ -989,7 +989,7 @@
         "D"
       ],
       "explanation": "AWS Direct Connect and AWS Storage Gateway allow companies to extend their on-premises infrastructure into AWS.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 36,
@@ -1021,7 +1021,7 @@
         "C"
       ],
       "explanation": "AWS removes the need to guess capacity and allows faster deployment of resources, increasing speed to market.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 37,
@@ -1080,7 +1080,7 @@
         "C"
       ],
       "explanation": "AWS OpsWorks and AWS CodeDeploy can deploy applications to on-premises servers as well as to AWS environments.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 39,

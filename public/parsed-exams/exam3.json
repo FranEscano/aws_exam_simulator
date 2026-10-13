@@ -1307,7 +1307,7 @@
         "D"
       ],
       "explanation": "Reserved Instances provide significant cost savings (advantage), but require at least a one-year commitment (drawback).",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 47,

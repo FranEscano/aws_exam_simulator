@@ -58,7 +58,7 @@
         "E"
       ],
       "explanation": "AWS Online Tech Talks and AWS Classroom Training provide instructor-led learning. Blogs, forums, and Trusted Advisor are not instructor-led training resources.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 3,
@@ -90,7 +90,7 @@
         "E"
       ],
       "explanation": "Multi-Factor Authentication (MFA) adds an extra security layer to console logins, and strong password policies prevent weak or easily guessed passwords.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 4,
@@ -122,7 +122,7 @@
         "D"
       ],
       "explanation": "Security Groups and Subnets are core networking and security components that are configured directly inside Amazon VPC.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 5,
@@ -181,7 +181,7 @@
         "D"
       ],
       "explanation": "Consolidated billing provides one bill for multiple accounts and combines usage across accounts to qualify for volume-based discounts.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 7,
@@ -213,7 +213,7 @@
         "C"
       ],
       "explanation": "AWS managed database services handle database patching and automated backups, reducing operational work for customer IT teams.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 8,
@@ -434,7 +434,7 @@
         "C"
       ],
       "explanation": "Trusted Advisor provides cost optimization recommendations and highlights security risks caused by misconfigured permissions.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 16,
@@ -574,7 +574,7 @@
         "C"
       ],
       "explanation": "Programmatic access requires an access key ID and a secret access key.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 21,
@@ -741,7 +741,7 @@
         "E"
       ],
       "explanation": "Least privilege IAM access and enabling MFA are fundamental best practices for securing AWS accounts.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 27,
@@ -1043,7 +1043,7 @@
         "E"
       ],
       "explanation": "Amazon S3 stores the video files and CloudFront delivers them globally with low latency.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 38,
@@ -1075,7 +1075,7 @@
         "D"
       ],
       "explanation": "Edge locations deliver content closer to users and cache responses to reduce load and latency.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 39,
@@ -1296,7 +1296,7 @@
         "C"
       ],
       "explanation": "Customers choose Regions based on latency to users and legal or data sovereignty requirements.",
-      "multiple": false
+      "multiple": true
     },
     {
       "id": 47,
@@ -1409,7 +1409,7 @@
         "D"
       ],
       "explanation": "Using MFA and enforcing strong password policies significantly increases AWS account security.",
-      "multiple": false
+      "multiple": true
     }
   ]
 }
